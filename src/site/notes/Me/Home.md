@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/me/home/","tags":["gardenEntry"]}
+{"dg-publish":true,"dg-path":"Home.md","permalink":"/home/","tags":["gardenEntry"]}
 ---
 
 ## ¡Hola mundo!

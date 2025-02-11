@@ -5,6 +5,9 @@
 
 | File                                                                                                                             | Modificado       | Tags                                                                                         |
 | -------------------------------------------------------------------------------------------------------------------------------- | ---------------- | -------------------------------------------------------------------------------------------- |
+| [[Me/Blog/2009-11-09-descarga-de-ficheros-desde-web-coverage-service-wcs/index\|index]]                                       | 2025-02-11 21:55 | <ul><li>#mismas</li><li>#ogc</li><li>#python</li><li>#wcs</li></ul>                          |
+| [[Me/Blog/2009-02-02-shp2geojson/index\|index]]                                                                               | 2025-02-11 21:55 | <ul><li>#geojson</li><li>#ogr2ogr</li><li>#openlayers</li><li>#shapefile</li></ul>           |
+| [[Me/Blog/2009-10-03-conferenciaesri2009/index\|index]]                                                                       | 2025-02-11 21:55 | <ul><li>#conferencia</li></ul>                                                               |
 | [[Me/Blog/Posts\|Posts]]                                                                                                      | 2025-02-11 21:52 | <ul></ul>                                                                                    |
 | [[Me/Blog/2017-02-28-brackets-un-editor-agil-para-desarrollo-web/index\|index]]                                               | 2025-02-11 20:45 | <ul></ul>                                                                                    |
 | [[Me/Blog/2017-06-05-jornadas-sig-libre-girona-2017/index\|index]]                                                            | 2025-02-11 20:45 | <ul></ul>                                                                                    |
@@ -24,8 +27,5 @@
 | [[Me/Blog/2011-12-04-aplicaciones-geograficas-web-moviles/index\|index]]                                                      | 2025-02-11 20:26 | <ul><li>#geoinquietos</li><li>#jquery</li><li>#mobile</li><li>#web</li></ul>                 |
 | [[Me/Blog/2010-05-10-convertir-rasters-de-un-directorio-a-otro-formato-con-gdal/index\|index]]                                | 2025-02-11 20:26 | <ul><li>#gdal</li><li>#python</li><li>#raster</li></ul>                                      |
 | [[Me/Blog/2009-12-29-geoproceso-interactivo-geoproceso-en-batch/index\|index]]                                                | 2025-02-11 20:26 | <ul><li>#geoprocesos</li><li>#python</li></ul>                                               |
-| [[Me/Blog/2009-11-09-descarga-de-ficheros-desde-web-coverage-service-wcs/index\|index]]                                       | 2025-02-11 20:26 | <ul><li>#mismas</li><li>#ogc</li><li>#python</li><li>#wcs</li></ul>                          |
-| [[Me/Blog/2009-10-03-conferenciaesri2009/index\|index]]                                                                       | 2025-02-11 20:26 | <ul><li>#conferencia</li></ul>                                                               |
-| [[Me/Blog/2009-02-02-shp2geojson/index\|index]]                                                                               | 2025-02-11 20:26 | <ul><li>#geojson</li><li>#ogr2ogr</li><li>#openlayers</li><li>#shapefile</li></ul>           |
 
 { .block-language-dataview}

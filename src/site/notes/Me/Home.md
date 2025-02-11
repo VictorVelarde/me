@@ -1,31 +1,33 @@
 ---
-{"dg-publish":true,"dg-path":"Home.md","permalink":"/home/","tags":["gardenEntry"]}
+{"dg-publish":true,"dg-path":"Home.md","permalink":"/home/","title":"Programación & SIG desde Cantabria","tags":["gardenEntry"]}
 ---
 
-## ¡Hola mundo!
 
-### Soy Víctor Velarde, un Desarrollador Senior de software, Teach Lead & Manager, con amplia experiencia en el manejo de datos geoespaciales. Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail dot com**
+### 👋 Hola, soy Víctor.  Desarrollador Senior de software, Teach Lead & Manager, con amplia experiencia en SIG. 
+
+Me interesa la Programación y los SIG, pasar tiempo con mi familia, leer y hacer deporte siempre que puedo.
+Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail punto com**
+
+- [github](https://github.com/VictorVelarde/)
+- [linkedin](https://www.linkedin.com/in/victorvelarde/)
+- [mastodon](https://mastodon.social/@VictorVelarde)
 
 ---
-### Sobre lo que hago
-En esta
-
-- [[Me/Blog/2015-01-07-3-lenguajes-de-programacion-para-sig/3 lenguajes de programación para SIG\|3 lenguajes de programación para SIG]]: 3 lenguajes de programación para SIG: 3 lenguajes de programación para SIG
-- [[Me/Blog/2016-01-12-videos-introduccion-a-javascript/6 videos de Introducción a JavaScript\|6 videos de Introducción a JavaScript]]: 6 videos de Introducción a JavaScript: 6 videos de Introducción a JavaScript
-- [[Me/Blog/2011-12-04-aplicaciones-geograficas-web-moviles/Aplicaciones geográficas web móviles\|Aplicaciones geográficas web móviles]]: Aplicaciones geográficas web móviles: Aplicaciones geográficas web móviles
-- [[Me/Blog/2017-02-28-brackets-un-editor-agil-para-desarrollo-web/Brackets un editor ágil para desarrollo web\|Brackets un editor ágil para desarrollo web]]: Brackets un editor ágil para desarrollo web: Brackets: un editor ágil para desarrollo web
-- [[Me/Blog/2009-02-02-shp2geojson/Cómo convertir un shapefile a geojson\|Cómo convertir un shapefile a geojson]]: Cómo convertir un shapefile a geojson: Cómo convertir un shapefile a geojson
-- [[Me/Blog/2015-01-23-como-utilizar-datos-geograficos-publicos-de-la-nasa-srtm-con-un-software-libre-como-qgis/Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS\|Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS]]: Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS: Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS
-- [[Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/Cómo utilizar datos geográficos públicos de OpenStreetMap con un software libre como QGIS\|Cómo utilizar datos geográficos públicos de OpenStreetMap con un software libre como QGIS]]: Cómo utilizar datos geográficos públicos de OpenStreetMap con un software libre como QGIS: Cómo utilizar datos geográficos públicos de OpenStreetMap con un software libre como QGIS
-- [[Me/Blog/2009-10-03-conferenciaesri2009/Conferencia de usuarios ESRI España 2009\|Conferencia de usuarios ESRI España 2009]]: Conferencia de usuarios ESRI España 2009: Conferencia de usuarios ESRI España 2009
-- [[Me/Blog/2010-05-10-convertir-rasters-de-un-directorio-a-otro-formato-con-gdal/Convertir rasters de un directorio a otro formato con gdal\|Convertir rasters de un directorio a otro formato con gdal]]: Convertir rasters de un directorio a otro formato con gdal: Convertir rasters de un directorio a otro formato con gdal
-- [[Me/Blog/2009-11-09-descarga-de-ficheros-desde-web-coverage-service-wcs/Descarga de ficheros desde Web Coverage Service (WCS)\|Descarga de ficheros desde Web Coverage Service (WCS)]]: Descarga de ficheros desde Web Coverage Service (WCS): Descarga de ficheros desde Web Coverage Service (WCS)
+### Blog
+Algunos de mis posts:
+- [[Me/Blog/2018-01-29-working-effectively-with-legacy-code/Working effectively with legacy code\|Working effectively with legacy code]]: January 29, 2018
+- [[Me/Blog/2017-06-05-jornadas-sig-libre-girona-2017/Jornadas SIG Libre Girona\|Jornadas SIG Libre Girona]]: June 05, 2017
+- [[Me/Blog/2017-02-28-brackets-un-editor-agil-para-desarrollo-web/Brackets un editor ágil para desarrollo web\|Brackets un editor ágil para desarrollo web]]: February 28, 2017
+- [[Me/Blog/2016-01-20-visor-de-terremotos-del-usgs-con-openlayers/Visor de terremotos del USGS con OpenLayers\|Visor de terremotos del USGS con OpenLayers]]: January 20, 2016
+- [[Me/Blog/2016-01-12-videos-introduccion-a-javascript/6 videos de Introducción a JavaScript\|6 videos de Introducción a JavaScript]]: January 12, 2016
 
 { .block-language-dataview}
 
 ---
 ### Sobre mí
-Actualmente resido en Santander (España) y trabajo en remoto como _Core Tech Lead-Manager_ en [Tinybird](https://www.tinybird.co/). Tinybird es una plataforma de datos para analiticas en cliente en tiempo real. Admite la ingesta de datos en modo batch y _streaming_ y permite su consulta sencilla usando SQL, así como la publicación de APIs para crear de forma sencilla productos de datos.
+Actualmente vivo en Santander (España) y trabajo en remoto como _Core Tech Lead-Manager_ en [Tinybird](https://www.tinybird.co/). 
+
+Tinybird es una plataforma de datos para analiticas en cliente en tiempo real. Admite la ingesta de datos en modo batch y _streaming_ y permite su consulta sencilla usando SQL, así como la publicación de APIs para crear de forma sencilla productos de datos.
 
 Si quieres saber más sobre mi y mi experiencia laboral, echa un ojo a mi [[Me/Carrera\|Carrera]]
 

@@ -7,7 +7,7 @@
 
 ---
 
-## La carrera y el primer empleo
+## La Geografía y el primer empleo
 
 Llegué a la Universidad sin tener muy claro mi futuro profesional. Una restricción importante a la hora de elegir es que había estudiado “Letras” (porque resulta que me gustaba el Latín, el Arte, qué cosas...) y en Santander la mayor parte de las carreras eran técnicas. Finalmente me decidí por la Licenciatura en **Geografía**; pensaba algo así como _"parece una mezcla interesante y, si me esfuerzo, seguro encontraré algo bueno"_. Luego resulta que me gustó el contacto con el aire libre, la estadística, los mapas y sobre todo los **Sistemas de Información Geográfica (SIG)**. Cuando hice mi primera clase de SIG pensé: _"esto me gusta, me voy a dedicar a esto"_.
 

@@ -22,8 +22,10 @@ Algunos de mis posts:
 - [[Me/Blog/2016-01-12-videos-introduccion-a-javascript/6 videos de Introducción a JavaScript\|6 videos de Introducción a JavaScript]]
 
 { .block-language-dataview}
+
 ---
-###  Sobre mí
+
+###  🧔‍♂ Sobre mí
  Actualmente vivo en Santander (España) y trabajo en remoto como _Core Tech Lead-Manager_ en [Tinybird](https://www.tinybird.co/). Tinybird es una plataforma de datos para analíticas en cliente en tiempo real. Admite la ingesta de datos en modo batch y _streaming_ y permite su consulta sencilla usando SQL, así como la publicación de APIs para crear de forma sencilla productos de datos.
 
 Si quieres saber más sobre mi experiencia laboral, echa un ojo a mi [[Me/Carrera\|Carrera]] 

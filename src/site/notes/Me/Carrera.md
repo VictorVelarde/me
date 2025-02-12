@@ -3,7 +3,7 @@
 ---
 
 
-### Esto no es un Curriculum Vitae. Lo más parecido a eso es seguramente [mi perfil en LinkedIn](https://www.linkedin.com/in/victorvelarde/); si te interesa allí puedes ver la lista de empresas, fechas, proyectos y tecnologías. Esto de aquí son más bien algunas notas personales, incluyendo mis motivaciones en cada paso.
+Esto no es un Curriculum Vitae. Lo más parecido a eso es seguramente mi perfil en [LinkedIn](https://www.linkedin.com/in/victorvelarde/); si te interesa allí puedes ver la lista de empresas, fechas, proyectos y tecnologías. Esto de aquí son más bien algunas notas personales, incluyendo mis motivaciones en cada paso.
 
 ---
 
@@ -13,7 +13,7 @@ Llegué a la Universidad sin tener muy claro mi futuro profesional. Una restricc
 
 Terminé como el primero de mi promoción, pero no hice el doctorado porque sentía que mi forma de ser no encajaba en el ambiente del departamento... y creía en las oportunidades fuera de la Universidad y en "hacer cosas". Así que vi la bolsa de empleo de la Universidad, y al poco empecé a trabajar en Ceyplan, una empresa local pequeñita centrada en SIG aplicado a Catastro, y la verdad que me gustó ese primer contacto profesional con los SIG. Se me daba bien, pero después de un tiempo vi que lo que hacía era rutinario y quería formarme y progresar. Tenía claro que me faltaban conocimientos como los de _"el Informático"_ que trabajaba con nosotros: bases de datos, programación... Y como no tenía obligaciones, decidí volver a estudiar.
 
-## El Master en SIG y los primeros empleos en Madrid
+## El Master en SIG y los primeros trabajos en Madrid
 
 Hablé con mi padre, y me apoyó en hacer el Master en SIG presencial en Madrid de Cibernos (el único que existía por aquel entonces, junto al de la Universidad de Alcalá), a pesar de que costaba bastante pasta, así que para allá que me fui.
 
@@ -27,7 +27,7 @@ Por aquel entonces decici dejar Madrid (al menos temporalmente) para realizar un
 
 Fue una etapa bonita, y que me dejaba bastante tiempo libre, así que ahí es cuando empecé a estudiar **Ingeniería Informática** en la UOC. Por la mañana trabajaba, y por la tarde-noche volví a las matemáticas, la programación, las bases de datos... esta vez con el nivel de profundidad que me pedía el cuerpo, para realmente entender los fundamentos y luego poder aplicarlos en el día a día. Como bonus, aprendí a organizarme y a estudiar / trabajar con la disciplina del modo remoto, algo que por entonces no era habitual en absoluto y luego me fue muy útil.
 
-## Segunda etapa en Madrid
+## La segunda etapa en Madrid
 
 En programación avanzaba, pero quería más. Empecé a ver ofertas y volví a Madrid, esta vez a trabajar en Tekel, una startup que hacía una plataforma muy chula con hardware & software de localización. De nuevo compañeros muy crack, aprendiendo mucho, y donde pasé de ser ingeniero a responsable del grupo de SIG. Pero la parte del negocio no acompañó y la empresa acabó cerrando.
 
@@ -53,6 +53,5 @@ Me uní como ingeniero front y terminé haciendome cargo del equipo de Frontend 
 
 Actualmente estoy trabajando en Tinybird, y el reto es grande: construir una plataforma para desarrolladores que permita fácilmente el manejo y análisis de sus datos en tiempo real, con clientes tan relevantes como Vercel, Canva... y otros muchos. Equipo técnico super-top y sin tiempo para aburrirse.
 
-Saludos!
-
+Saludos
 [@VictorVelarde](https://github.com/VictorVelarde)

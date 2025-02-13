@@ -3,19 +3,22 @@
 ---
 
 ![Fondo.png](/img/user/Me/images/Fondo.png)
+### 👋 Hola, soy Víctor.  Desarrollador Senior de software, Teach Lead & Manager, con amplia experiencia en SIG.  
+![Avatar.png|150](/img/user/Me/images/Avatar.png)
+Me interesa la Programación y los SIG, pasar tiempo con mi familia, leer y hacer deporte siempre que puedo. Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail punto com**
 
-| ![[Avatar.png\|150]]                                                                                                                                                  | ### 👋 Hola, soy Víctor.  Desarrollador Senior de software, Teach Lead & Manager, con amplia experiencia en SIG. <br><br>Me interesa la Programación y los SIG, pasar tiempo con mi familia, leer y hacer deporte siempre que puedo. Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail punto com** |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <br>- [github](https://github.com/VictorVelarde/)<br>- [linkedin](https://www.linkedin.com/in/victorvelarde/)<br>- [mastodon](https://mastodon.social/@VictorVelarde) |                                                                                                                                                                                                                                                                                                                                    |
+- [github](https://github.com/VictorVelarde/)
+- [linkedin](https://www.linkedin.com/in/victorvelarde/)
+- [mastodon](https://mastodon.social/@VictorVelarde)
+
 
 ---
 ### ✍ Blog
 Algunos de mis posts:
 - [[Me/Blog/2018-01-29-working-effectively-with-legacy-code/Working effectively with legacy code\|Working effectively with legacy code]]
-- [[Me/Blog/2017-06-05-jornadas-sig-libre-girona-2017/Jornadas SIG Libre Girona\|Jornadas SIG Libre Girona]]
-- [[Me/Blog/2017-02-28-brackets-un-editor-agil-para-desarrollo-web/Brackets un editor ágil para desarrollo web\|Brackets un editor ágil para desarrollo web]]
-- [[Me/Blog/2016-01-20-visor-de-terremotos-del-usgs-con-openlayers/Visor de terremotos del USGS con OpenLayers\|Visor de terremotos del USGS con OpenLayers]]
-- [[Me/Blog/2016-01-12-videos-introduccion-a-javascript/6 videos de Introducción a JavaScript\|6 videos de Introducción a JavaScript]]
+- [[Me/Blog/2015-01-23-como-utilizar-datos-geograficos-publicos-de-la-nasa-srtm-con-un-software-libre-como-qgis/Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS\|Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS]]
+- [[Me/Blog/2015-01-07-3-lenguajes-de-programacion-para-sig/3 lenguajes de programación para SIG\|3 lenguajes de programación para SIG]]
+- [[Me/Blog/2012-10-13-sig-en-la-nube/Nuevas tendencias los SIG en la nube\|Nuevas tendencias los SIG en la nube]]
 
 { .block-language-dataview}
 

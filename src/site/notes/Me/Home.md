@@ -4,9 +4,8 @@
 
 ![Fondo.png](/img/user/Me/images/Fondo.png)
 ### 👋 Hola, soy Víctor.  Desarrollador Senior de software, Teach Lead & Manager, con amplia experiencia en SIG.  
-![Avatar.png|150](/img/user/Me/images/Avatar.png)
-Me interesa la Programación y los SIG, pasar tiempo con mi familia, leer y hacer deporte siempre que puedo. Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail punto com**
 
+Me interesa la Programación y los SIG, pasar tiempo con mi familia, leer y hacer deporte siempre que puedo. Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail punto com**
 - [github](https://github.com/VictorVelarde/)
 - [linkedin](https://www.linkedin.com/in/victorvelarde/)
 - [mastodon](https://mastodon.social/@VictorVelarde)

@@ -26,6 +26,4 @@ Algunos de mis posts:
 ###  🧔‍♂ Sobre mí
  Actualmente vivo en Santander (España) y trabajo en remoto como _Core Tech Lead-Manager_ en [Tinybird](https://www.tinybird.co/). Tinybird es una plataforma de datos para analíticas en cliente en tiempo real. Admite la ingesta de datos en modo batch y _streaming_ y permite su consulta sencilla usando SQL, así como la publicación de APIs para crear de forma sencilla productos de datos.
 
-Si quieres saber más sobre mi experiencia laboral, echa un ojo a mi [[Me/Carrera\|Carrera]] 
-Saludos,
-Víctor 
+Si quieres saber más sobre mi experiencia laboral, puedes echar un ojo a mis notas sobre mi [[Me/Carrera\|Carrera]] profesional. 

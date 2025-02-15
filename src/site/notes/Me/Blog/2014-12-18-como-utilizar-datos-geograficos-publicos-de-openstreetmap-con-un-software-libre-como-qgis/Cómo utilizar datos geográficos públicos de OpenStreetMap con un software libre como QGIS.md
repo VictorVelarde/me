@@ -5,7 +5,7 @@
 
 Analizar datos espaciales y generar con ellos mapas atractivos para el usuario es la gran fortaleza de los Sistemas de Información Geográfica (SIG). Y si hace unos pocos años el software SIG y los datos de calidad estaban sólo al alcance de unos pocos (grandes corporaciones, militares, universidades...), hoy cualquier profesional bien formado tiene en su mano la posibilidad de usarlos de forma rápida y gratuita. En esta entrada veremos algunas posibilidades del uso combinado de un software SIG libre como [QGIS](http://www.qgis.org/) y los datos, también libres, de [OpenStreetMap](http://www.openstreetmap.org/).
 
-**¿Cómo empezar a trabajar con QGIS y OSM?**
+## ¿Cómo empezar a trabajar con QGIS y OSM?
 
 Instalando en nuestros equipos la última versión de QGIS Desktop dispondremos de un software SIG de escritorio completo, gratuito y extensible mediante plugins (instrucciones de instalación detalladas de la v2.6, para Linux, Windows y Mac, en [http://www.qgis.org/es/site/forusers/download.html](http://www.qgis.org/es/site/forusers/download.html)).
 
@@ -17,25 +17,22 @@ En este ejemplo, utilizaremos datos de la ciudad de Santander, dentro del área 
 
 Una vez descargados los datos OSM (en un fichero _santander.osm_, de aprox. 5 MB), se pueden cargar directamente en QGIS, mediante la opción de menú `Capa - Añadir capa - Añadir capa vectorial` (y luego seleccionando _points / lines / multipolygons_).
 
-\[caption id="attachment\_408" align="alignnone" width="510"\][![OSM_Base](/img/user/Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/images/osm_base.png)](https://victorvelarde.wordpress.com/wp-content/uploads/2014/12/osm_base.png) Fig.1: Datos OSM con los estilos por defecto en QGIS\[/caption\]
+[![OSM_Base](/img/user/Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/media/osm_base.png)](https://victorvelarde.wordpress.com/wp-content/uploads/2014/12/osm_base.png) Fig.1: Datos OSM con los estilos por defecto en QGIS
 
 Una vez obtenidos los datos podemos comenzar el proceso de explotación y análisis, utilizando distintas herramientas de QGIS. A continuación mostraremos brevemente 3 ejemplos ilustrativos:
 
- 
-
-**Ejemplo 1. Usar OSM para generar un mapa**
+## Ejemplo 1. Usar OSM para generar un map
 
 Es posible tomar los datos OSM y generar con QGIS un mapa 100% personalizado, seleccionando cada entidad a mostrar, su etiquetado, su estilo... hasta obtener un mapa base o mapa temático a nuestra medida.
 
 QGIS proporciona un mecanismo para persistir reglas de visualización mediante ficheros de estilos reutilizables (_.qml_). Por ejemplo, existen algunos .qml públicos que permiten dar una apariencia 'googlemaps' a un lote de datos .OSM y si los aplicamos a nuestras capas OSM (menú de capa `Propiedades - Cargar estilo`) el resultado es un mapa base como el siguiente:
 
-\[caption id="attachment\_409" align="alignnone" width="510"\][![Fig.2: Mismos datos OSM, con los estilos osm_spatialite_googlemaps_.qml, tomados de https://github.com/anitagraser/QGIS-resources/tree/master/qgis2/osm_spatialite](/img/user/Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/images/osm_estilos.png)](https://victorvelarde.wordpress.com/wp-content/uploads/2014/12/osm_estilos.png) Fig.2: Mismos datos OSM, con los estilos osm\_spatialite\_googlemaps\_.qml, tomados de https://github.com/anitagraser/QGIS-resources/tree/master/qgis2/osm\_spatialite\[/caption\]
+[![Fig.2: Mismos datos OSM, con los estilos osm_spatialite_googlemaps_.qml, tomados de https://github.com/anitagraser/QGIS-resources/tree/master/qgis2/osm_spatialite](/img/user/Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/media/osm_estilos.png)](https://victorvelarde.wordpress.com/wp-content/uploads/2014/12/osm_estilos.png) Fig.2: Mismos datos OSM, con los estilos osm\_spatialite\_googlemaps\_.qml, tomados de https://github.com/anitagraser/QGIS-resources/tree/master/qgis2/osm\_spatialite\
 
 > Los .qml usados son ficheros para la versión 2.4 de QGIS y no se contemplan todos los tipos de objetos OSM, como p.ej. 'playas' (categoría _natural:beach_), con lo cual para un resultado óptimo deben trabajarse más los estilos.
 
- 
 
-**Ejemplo 2. Usar OSM para un análisis de redes**
+## Ejemplo 2. Usar OSM para un análisis de redes
 
 OSM incluye un subconjunto especialmente relevante de datos que es la red viaria. OSM recoge el grafo conectado de autopistas, carreteras, caminos, calles... y permite por tanto aplicar los algoritmos propios del análisis de redes: camino más corto, estimación de tiempos para recorridos, etc.
 
@@ -45,11 +42,10 @@ Aunque existen herramientas más sofisticadas, QGIS proporciona una práctica ut
 
 Si fijamos una velocidad media de 50 km/h a toda la red, podemos calcular por ejemplo la distancia y tiempo estimado del camino más corto entre la estación de tren de RENFE y los Jardines de Piquío en el Sardinero.
 
-\[caption id="attachment\_410" align="alignnone" width="510"\][![Fig.3: Los datos de la red de transporte OSM utilizados para un cálculo de camino más corto](/img/user/Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/images/osm_redes.png)](https://victorvelarde.wordpress.com/wp-content/uploads/2014/12/osm_redes.png) Fig.3: Los datos de la red de transporte OSM utilizados para un cálculo de camino más corto\[/caption\]
+[![Fig.3: Los datos de la red de transporte OSM utilizados para un cálculo de camino más corto](/img/user/Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/media/osm_redes.png)](https://victorvelarde.wordpress.com/wp-content/uploads/2014/12/osm_redes.png) Fig.3: Los datos de la red de transporte OSM utilizados para un cálculo de camino más corto
 
- 
 
-**Ejemplo 3. Usar OSM para la búsqueda de vivienda**
+## Ejemplo 3. Usar OSM para la búsqueda de vivienda
 
 Los datos OSM pueden usarse también para análisis de otra índole, encadenando sobre ellos operaciones espaciales sucesivas (área de influencia, intersección, etc.). P.ej. para la búsqueda de la mejor ubicación para alquilar una vivienda, en base a una serie de requisitos previos tales como p.ej. la proximidad a una escuela, cercanía a vías de comunicación rápidas, etc.
 
@@ -57,6 +53,6 @@ En el siguiente vídeo puede verse un análisis vectorial sobre datos OSM en est
 
 https://vimeo.com/112687753  
 
-* * *
+---
 
-Esta entrada es una colaboración en el blog iNFoRMáTICa++, perteneciente a los Estudios de Informática, Multimedia y Telecomunicación (EIMT) de la Universitat Oberta de Catalunya (UOC). Publicada originalmente en: [http://informatica.blogs.uoc.edu/2014/12/15/como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/](http://informatica.blogs.uoc.edu/2014/12/15/como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/ "http://informatica.blogs.uoc.edu/2014/12/15/como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/")
+> Esta entrada es una colaboración en el blog iNFoRMáTICa++, perteneciente a los Estudios de Informática, Multimedia y Telecomunicación (EIMT) de la Universitat Oberta de Catalunya (UOC). Publicada originalmente en: [http://informatica.blogs.uoc.edu/2014/12/15/como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/](http://informatica.blogs.uoc.edu/2014/12/15/como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/ "http://informatica.blogs.uoc.edu/2014/12/15/como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/")

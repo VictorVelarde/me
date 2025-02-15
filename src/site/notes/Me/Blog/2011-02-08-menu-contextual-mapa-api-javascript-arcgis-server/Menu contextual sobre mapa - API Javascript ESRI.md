@@ -42,6 +42,8 @@ dojo.connect(map, 'onMouseDown', this, function(evt) {
 });
 ```
 
+## d) Código completo
+
 El código completo sería algo como: 
 
 ```html

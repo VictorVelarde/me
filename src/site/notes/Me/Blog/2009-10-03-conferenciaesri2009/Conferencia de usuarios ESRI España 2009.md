@@ -6,11 +6,11 @@
 El pasado día 30 de septiembre y 1 de octubre se celebró en el IFEMA de Madrid la conferencia de usuarios de ESRI ESpaña 2009. Aunque hubo ponencias temáticas sobre aspectos variados como utilities, administración local o defensa, acudí sobre todo a ponencias técnicas. 
 
 ## Geolics
-Como resultado de los trabajos que he estado realizando con ArcGIS Server y geoprocesos en el IHCantabria, presenté el poster Geolics.
+Como resultado de los trabajos que hemos estado realizando con ArcGIS Server y geoprocesos en el IHCantabria, presenté el poster Geolics.
 
 ![presion-contaminacion-atmosferica.png](/img/user/Me/Blog/2009-10-03-conferenciaesri2009/media/presion-contaminacion-atmosferica.png)
 
-Aquí puedes verlo completo si tienes interés [[Me/Blog/2009-10-03-conferenciaesri2009/Póster aplicación web de geoprocesos Geolics\|Póster aplicación web de geoprocesos Geolics]]
+[[poster-geolics.pdf]]
 
 ## Conferencia
 En la conferencia se presentaron algunas cuestiones interesantes, sobre la versión 9.3.1 y algunos avances de la próxima v9.4 (estimada para mayo de 2010). Algunas cosas que considero interesantes:

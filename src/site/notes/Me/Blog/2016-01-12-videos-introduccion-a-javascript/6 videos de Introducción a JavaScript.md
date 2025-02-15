@@ -13,14 +13,14 @@ Espero que os sean útiles.
 
 Saludos!
 
-**Módulo I: Variables y datos** (41 min) https://www.youtube.com/watch?v=\_qFvPJHGuCw&feature=youtu.be
+- **Módulo I: Variables y datos** (41 min) https://www.youtube.com/watch?v=\_qFvPJHGuCw&feature=youtu.be
 
-**Módulo II: Funciones y Bucles** (1h) https://www.youtube.com/watch?v=UEQpIkrQv78&feature=youtu.be
+- **Módulo II: Funciones y Bucles** (1h) https://www.youtube.com/watch?v=UEQpIkrQv78&feature=youtu.be
 
-**Módulo III: Arrays y objetos** (1h 12min) https://www.youtube.com/watch?v=1kVJDyx5FK8&feature=youtu.be
+- **Módulo III: Arrays y objetos** (1h 12min) https://www.youtube.com/watch?v=1kVJDyx5FK8&feature=youtu.be
 
-**Módulo IV: DOM** (1h 3min) https://www.youtube.com/watch?v=UQXEmqSOQK8&feature=youtu.be
+- **Módulo IV: DOM** (1h 3min) https://www.youtube.com/watch?v=UQXEmqSOQK8&feature=youtu.be
 
-**Módulo V: Bibliotecas y frameworks** (43 min) https://www.youtube.com/watch?v=TW7lr0QDNd0&feature=youtu.be
+- **Módulo V: Bibliotecas y frameworks** (43 min) https://www.youtube.com/watch?v=TW7lr0QDNd0&feature=youtu.be
 
-**Módulo VI: APIs SIG de JavaScript** (1h 23min) https://www.youtube.com/watch?v=23X7GqLi5oQ&feature=youtu.be
+- **Módulo VI: APIs SIG de JavaScript** (1h 23min) https://www.youtube.com/watch?v=23X7GqLi5oQ&feature=youtu.be

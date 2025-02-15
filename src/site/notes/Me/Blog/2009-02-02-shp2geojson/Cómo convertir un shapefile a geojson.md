@@ -10,5 +10,8 @@ Openlayers acepta un elevado número de orígenes de datos (WMS, WFS, KML, GeoJS
 Solución rápida:  generar un fichero con el contenido del .shp en formato geojson y luego alojarlo directamente en el sitio web.  ¿Cómo convertirlo? Utilizando la herramienta gratuita y abierta para conversión entre formatos llamada [ogr2ogr](http://www.gdal.org/ogr2ogr.html).
 
 1. Descargamos e instalamos [FWTools](http://fwtools.maptools.org/) que incluye la citada ogr2ogr y otras utilidades.
-2. Desde línea de comandos, en la ruta donde hayamos instalado el software (o la incluimos en el PATH y tecleamos desde cualquier directorio): `ogr2ogr c:\\ficheroSalida.geojson -f “GeoJSON” C:\\ficheroOriginal.shp
+2. Desde línea de comandos, en la ruta donde hayamos instalado el software (o la incluimos en el PATH y tecleamos desde cualquier directorio): 
+	```shell
+	ogr2ogr c:\\ficheroSalida.geojson -f “GeoJSON” C:\\ficheroOriginal.shp
+	```
 3. Y con esto ya tenemos un fichero geojson apto para consumir desde OpenLayers.

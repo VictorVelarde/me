@@ -17,7 +17,8 @@ En este ejemplo, utilizaremos datos de la ciudad de Santander, dentro del área 
 
 Una vez descargados los datos OSM (en un fichero _santander.osm_, de aprox. 5 MB), se pueden cargar directamente en QGIS, mediante la opción de menú `Capa - Añadir capa - Añadir capa vectorial` (y luego seleccionando _points / lines / multipolygons_).
 
-[![OSM_Base](/img/user/Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/media/osm_base.png)](https://victorvelarde.wordpress.com/wp-content/uploads/2014/12/osm_base.png) Fig.1: Datos OSM con los estilos por defecto en QGIS
+![osm_base.png](/img/user/Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/media/osm_base.png)
+Fig.1: Datos OSM con los estilos por defecto en QGIS
 
 Una vez obtenidos los datos podemos comenzar el proceso de explotación y análisis, utilizando distintas herramientas de QGIS. A continuación mostraremos brevemente 3 ejemplos ilustrativos:
 
@@ -27,7 +28,8 @@ Es posible tomar los datos OSM y generar con QGIS un mapa 100% personalizado, se
 
 QGIS proporciona un mecanismo para persistir reglas de visualización mediante ficheros de estilos reutilizables (_.qml_). Por ejemplo, existen algunos .qml públicos que permiten dar una apariencia 'googlemaps' a un lote de datos .OSM y si los aplicamos a nuestras capas OSM (menú de capa `Propiedades - Cargar estilo`) el resultado es un mapa base como el siguiente:
 
-[![Fig.2: Mismos datos OSM, con los estilos osm_spatialite_googlemaps_.qml, tomados de https://github.com/anitagraser/QGIS-resources/tree/master/qgis2/osm_spatialite](/img/user/Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/media/osm_estilos.png)](https://victorvelarde.wordpress.com/wp-content/uploads/2014/12/osm_estilos.png) Fig.2: Mismos datos OSM, con los estilos osm\_spatialite\_googlemaps\_.qml, tomados de https://github.com/anitagraser/QGIS-resources/tree/master/qgis2/osm\_spatialite\
+![osm_estilos.png](/img/user/Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/media/osm_estilos.png)
+Fig.2: Mismos datos OSM, con los estilos osm\_spatialite\_googlemaps\_.qml, tomados de https://github.com/anitagraser/QGIS-resources/tree/master/qgis2/osm\_spatialite\
 
 > Los .qml usados son ficheros para la versión 2.4 de QGIS y no se contemplan todos los tipos de objetos OSM, como p.ej. 'playas' (categoría _natural:beach_), con lo cual para un resultado óptimo deben trabajarse más los estilos.
 
@@ -42,7 +44,8 @@ Aunque existen herramientas más sofisticadas, QGIS proporciona una práctica ut
 
 Si fijamos una velocidad media de 50 km/h a toda la red, podemos calcular por ejemplo la distancia y tiempo estimado del camino más corto entre la estación de tren de RENFE y los Jardines de Piquío en el Sardinero.
 
-[![Fig.3: Los datos de la red de transporte OSM utilizados para un cálculo de camino más corto](/img/user/Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/media/osm_redes.png)](https://victorvelarde.wordpress.com/wp-content/uploads/2014/12/osm_redes.png) Fig.3: Los datos de la red de transporte OSM utilizados para un cálculo de camino más corto
+![osm_redes.png](/img/user/Me/Blog/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/media/osm_redes.png)
+Fig.3: Los datos de la red de transporte OSM utilizados para un cálculo de camino más corto
 
 
 ## Ejemplo 3. Usar OSM para la búsqueda de vivienda
@@ -50,7 +53,6 @@ Si fijamos una velocidad media de 50 km/h a toda la red, podemos calcular por ej
 Los datos OSM pueden usarse también para análisis de otra índole, encadenando sobre ellos operaciones espaciales sucesivas (área de influencia, intersección, etc.). P.ej. para la búsqueda de la mejor ubicación para alquilar una vivienda, en base a una serie de requisitos previos tales como p.ej. la proximidad a una escuela, cercanía a vías de comunicación rápidas, etc.
 
 En el siguiente vídeo puede verse un análisis vectorial sobre datos OSM en esta línea:
-
 https://vimeo.com/112687753  
 
 ---

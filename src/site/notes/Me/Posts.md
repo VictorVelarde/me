@@ -23,5 +23,6 @@
 - [[Me/Blog/2009-11-09-descarga-de-ficheros-desde-web-coverage-service-wcs/Descarga de ficheros desde Web Coverage Service (WCS)\|Descarga de ficheros desde Web Coverage Service (WCS)]]: November 09, 2009
 - [[Me/Blog/2009-10-03-conferenciaesri2009/Conferencia de usuarios ESRI España 2009\|Conferencia de usuarios ESRI España 2009]]: October 03, 2009
 - [[Me/Blog/2009-02-02-shp2geojson/Cómo convertir un shapefile a geojson\|Cómo convertir un shapefile a geojson]]: February 02, 2009
+- [[Me/Blog/2009-10-03-conferenciaesri2009/Póster aplicación web de geoprocesos Geolics\|Póster aplicación web de geoprocesos Geolics]]: \-
 
 { .block-language-dataview}

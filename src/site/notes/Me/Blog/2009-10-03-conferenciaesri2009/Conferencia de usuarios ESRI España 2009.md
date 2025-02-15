@@ -10,7 +10,7 @@ Como resultado de los trabajos que he estado realizando con ArcGIS Server y geop
 
 ![presion-contaminacion-atmosferica.png](/img/user/Me/Blog/2009-10-03-conferenciaesri2009/media/presion-contaminacion-atmosferica.png)
 
-Aquí puedes descargártelo si tienes interés [[poster-geolics.pdf]]
+Aquí puedes verlo completo si tienes interés [[Me/Blog/2009-10-03-conferenciaesri2009/Póster aplicación web de geoprocesos Geolics\|Póster aplicación web de geoprocesos Geolics]]
 
 ## Conferencia
 En la conferencia se presentaron algunas cuestiones interesantes, sobre la versión 9.3.1 y algunos avances de la próxima v9.4 (estimada para mayo de 2010). Algunas cosas que considero interesantes:

@@ -18,6 +18,7 @@ Algunos de mis posts:
 - [[Me/Blog/2012-10-13-sig-en-la-nube/Nuevas tendencias los SIG en la nube\|Nuevas tendencias los SIG en la nube]]
 
 { .block-language-dataview}
+
 [[Me/Posts\|Posts]]
 
 ---

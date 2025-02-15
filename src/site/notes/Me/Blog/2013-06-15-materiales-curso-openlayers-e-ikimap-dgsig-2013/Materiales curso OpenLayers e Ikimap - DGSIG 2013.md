@@ -3,11 +3,11 @@
 ---
 
 
-Hola a todos,
+## Materiales desarrollo app geográficas web
 
 En este post incluyo los materiales completos de la asignatura "Desarrollo de aplicaciones geográficas web", que he estado impartiendo los últimos 3 años en el Curso de Experto en DGSIG de la Universidad de Cantabria. Son los utilizados en la última edición presencial del curso (enero de 2013) y tienen licencia [Creative Commons](http://creativecommons.org/licenses/by-sa/3.0/ "Creative Commons"). Creo que puede ser útil a personas que comienzan en este ámbito, como recurso para el aprendizaje autónomo.
 
-![DGSIG2013](/img/user/Me/Blog/2013-06-15-materiales-curso-openlayers-e-ikimap-dgsig-2013/images/dgsig2013.png)
+![DGSIG2013](/img/user/Me/Blog/2013-06-15-materiales-curso-openlayers-e-ikimap-dgsig-2013/media/portada-dgsig2013.png)
 
 Se trata de una versión mejorada respecto a la que ya se publicó [aquí](http://victorvelarde.wordpress.com/2011/01/31/material-de-introduccion-a-openlayers/ "Material de introducción a OpenLayers")  hace un tiempo, aportando una revisión general a los materiales de OpenLayers (versión 2.12), algunos nuevos contenidos sobre Ikimap y los ejercicios del curso. Se incluye:
 
@@ -16,11 +16,10 @@ Se trata de una versión mejorada respecto a la que ya se publicó [aquí](http:
 - 2 - Presentación en el aula.- soporte visual de los contenidos.
 - 3 - Ejercicios.- carpeta con los enunciados y sus soluciones.
 
-Los materiales se pueden descargar aquí: [DGSIG\_2013.zip](http://victorvelarde.wordpress.com/wp-content/uploads/2013/06/dgsig_2013-zip.odt) \[cambiar extensión .odt por .zip\]
+Los materiales se pueden descargar aquí: ![[dgsig_2013.zip]]
 
-<!--more-->
 
-\[Info. extra\]
+## Formación OpenLayers
 
 Me preguntan de forma esporádica por correo electrónico sobre **formación** en OpenLayers, generalmente por Internet. Al margen de la formación presencial, cursos en línea (en español) con contenidos de OpenLayers conozco en dos lugares (si alguien conoce más opciones, por favor que me lo diga y las incluyo):
 

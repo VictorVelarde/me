@@ -26,7 +26,7 @@ Sobre la base de estas herramientas habituales de programación web están apare
 
 Personalmente, dada la expansión de su hermana mayor jQuery, creo que la segunda es una opción que merece la pena probar.
 
-Las capacidades de su API pueden estudiarse en la página oficial y varios ejemplos reales de su uso se pueden ver en la **[jqmgallery](http://www.jqmgallery.com/)**).
+Las capacidades de su API pueden estudiarse en la página oficial y varios ejemplos reales de su uso se pueden ver en la **[jqmgallery](http://www.jqmgallery.com/)**.
 
 Además, existe una buena capacidad de integración entre jquery mobile y OpenLayers en su última versión, como puede verse p.ej. en este **[enlace](http://openlayers.org/dev/examples/mobile-jq.html#mappage)**. Esta es una gran combinación para realizar aplicaciones geográficas web móviles.
 

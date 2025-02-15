@@ -18,7 +18,7 @@ Se trata de una versión mejorada respecto a la que ya se publicó [aquí](http:
 
 Los materiales se pueden descargar aquí: ![[dgsig_2013.zip]]
 
-
+---
 ## Formación OpenLayers
 
 Me preguntan de forma esporádica por correo electrónico sobre **formación** en OpenLayers, generalmente por Internet. Al margen de la formación presencial, cursos en línea (en español) con contenidos de OpenLayers conozco en dos lugares (si alguien conoce más opciones, por favor que me lo diga y las incluyo):

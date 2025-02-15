@@ -3,17 +3,17 @@
 ---
 
 
-[![Geoprocesos ESRI](http://victorvelarde.wordpress.com/wp-content/uploads/2009/12/esrigp.gif?w=250 "Geoprocesos ESRI")](http://victorvelarde.wordpress.com/wp-content/uploads/2009/12/esrigp.gif)En ocasiones, con geoprocesos que tienen como parámetro de entrada entidades vectoriales, es interesante que podamos ejecutarlos de dos modos:
+![esrigp.gif](/img/user/Me/Blog/2009-12-29-geoproceso-interactivo-geoproceso-en-batch/media/esrigp.gif)
 
-(1) de manera interactiva (dibujando nosotros las geometrías) o (2) suministrando una capa ya existente que tenga las entidades  (p.ej. un shapefile).
+En ocasiones, con geoprocesos que tienen como parámetro de entrada entidades vectoriales, es interesante que podamos ejecutarlos de dos modos:
 
-Dentro del entorno de geoprocesos de ESRI, esto se corresponde con la definición de un parámetro de tipo **FeatureSet** (1) y un parámetro como **FeatureLayer** (2), respectivamente.
+(1) de manera interactiva (**dibujando** nosotros las geometrías) o (2) suministrando una **capa ya existente** que tenga las entidades  (p.ej. un shapefile). Dentro del entorno de geoprocesos de ESRI, esto se corresponde con la definición de un parámetro de tipo **FeatureSet** (1) y un parámetro como **FeatureLayer** (2), respectivamente.
 
 \[Esto en la versión 9.3 de ArcGIS Desktop viene incorporado 'de serie', así que no hay problema. Lo que se comenta a continuación en este post es aplicable solo para la versión **9.2**\]
 
 Una manera sencilla de que el mismo script pueda trabajar con los dos modos es como se muestra a continuación:
 
-```
+```python
 gp = arcgisscripting.create()
 gp.overwriteoutput = 1
 if gp.ScratchWorkspace is None:
@@ -36,7 +36,7 @@ registro = registros.Next()
 while registro:
     # tratamiento del registro [...]
     registro = registros.Next()
-
 ```
 
-En la línea tmp = ... también puede usarse gp.CreateScratchName. Que sea útil.
+En la línea tmp = ... también puede usarse `gp.CreateScratchName`
+Que sea útil.

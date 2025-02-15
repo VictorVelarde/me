@@ -6,9 +6,7 @@
 Este script sirve para realizar peticiones a un servicio OGC-WCS para, dado un encuadre y una 'coverage' conocida, descargar su información a local en ficheros. Está realizado con python y utiliza la librería urllib2. Los ficheros raster generados, en Geotiff o AsciiGrid, pueden luego cargarse en cualquier programa GIS o manipularse con librerías estándar como gdal.
 
 El resultado en este caso es un modelo digital del terreno como éste:
-![Me/Blog/2009-11-09-descarga-de-ficheros-desde-web-coverage-service-wcs/images/dem2d.jpg](/img/user/Me/Blog/2009-11-09-descarga-de-ficheros-desde-web-coverage-service-wcs/images/dem2d.jpg)
-
-
+![dem2d.jpg](/img/user/Me/Blog/2009-11-09-descarga-de-ficheros-desde-web-coverage-service-wcs/media/dem2d.jpg)
 
 
 **UtilidadesWCS.py**

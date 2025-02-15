@@ -7,13 +7,11 @@ En este artículo vamos a ver cómo incluir pestañas de jquery (_jqueryui tabs_
 
 ![jquerytabsenopenlayers.png](/img/user/Me/Blog/2011-04-21-openlayers-y-pestanas-de-jquery/media/jquerytabsenopenlayers.png)
 
-http://jsfiddle.net/VictorVelarde/DbCgt/
-
 ## jQuery
 
- **[jQuery](http://jquery.com/)**  se ha convertido en la librería por antonomasia para extender el javascript estándar en las páginas web modernas. Si desarrollas para la web, tienes que conocerla. Pero... _¿cómo trabajar con jQuery + OpenLayers?_
+ [jQuery](http://jquery.com/)  se ha convertido en la librería por antonomasia para extender el javascript estándar en las páginas web modernas. Si desarrollas para la web, tienes que conocerla. Pero... _¿cómo trabajar con jQuery + OpenLayers?_
 
-1. Hay algunos intentos de desarrollar un plugin para jQuery que permita trabajar con OpenLayers, como **[MapQuery**](http://blog.spaziogis.it/static/jquerymap/](http://blog.spaziogis.it/static/jquerymap/), que antes se denominaba GeoJQuery. El proyecto lleva poco tiempo, pero habrá que seguir sus pasos; quizá pronto sea una alternativa a [GeoExt](http://www.geoext.org/).
+1. Hay algunos intentos de desarrollar un plugin para jQuery que permita trabajar con OpenLayers, como [MapQuery](http://blog.spaziogis.it/static/jquerymap/), que antes se denominaba GeoJQuery. El proyecto lleva poco tiempo, pero habrá que seguir sus pasos; quizá pronto sea una alternativa a [GeoExt](http://www.geoext.org/).
 2. Mientras tanto es más frecuente que tengamos en marcha un proyecto con OpenLayers y queramos utilizar puntualmente jQuery, especialmente algún componente visual o widget de **jqueryui**, como las pestañas (_tabs_) o un acordeón ([accordion](http://jqueryui.com/demos/tabs/))
 
 Vamos a ver cómo hacer en el caso 2, con un ejemplo sencillo.
@@ -148,4 +146,4 @@ Vamos a ver cómo hacer en el caso 2, con un ejemplo sencillo.
 </html>
 ```
 
-
+http://jsfiddle.net/VictorVelarde/DbCgt/

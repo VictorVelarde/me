@@ -8,8 +8,6 @@
 Me interesa la Programación y los SIG, pasar tiempo con mi familia, leer y hacer deporte siempre que puedo. Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail punto com**
 - [github](https://github.com/VictorVelarde/)
 - [linkedin](https://www.linkedin.com/in/victorvelarde/)
-- [mastodon](https://mastodon.social/@VictorVelarde)
-
 
 ---
 ### ✍ Blog
@@ -20,6 +18,7 @@ Algunos de mis posts:
 - [[Me/Blog/2012-10-13-sig-en-la-nube/Nuevas tendencias los SIG en la nube\|Nuevas tendencias los SIG en la nube]]
 
 { .block-language-dataview}
+[[Me/Posts\|Posts]]
 
 ---
 

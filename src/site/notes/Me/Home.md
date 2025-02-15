@@ -18,10 +18,10 @@ Algunos de mis posts:
 - [[Me/Blog/2012-10-13-sig-en-la-nube/Nuevas tendencias los SIG en la nube\|Nuevas tendencias los SIG en la nube]]
 
 { .block-language-dataview}
+
 Todos los [[Me/Posts\|posts]]
 
 ---
-
 ###  🧔‍♂ Sobre mí
  Actualmente vivo en Santander (España) y trabajo en remoto como _Core Tech Lead-Manager_ en [Tinybird](https://www.tinybird.co/). Tinybird es una plataforma de datos para analíticas en cliente en tiempo real. Admite la ingesta de datos en modo batch y _streaming_ y permite su consulta sencilla usando SQL, así como la publicación de APIs para crear de forma sencilla productos de datos.
 

@@ -19,7 +19,7 @@ Algunos de mis posts:
 
 { .block-language-dataview}
 
-[[Me/Posts\|Posts]]
+Todos los [[Me/Posts\|Posts]]
 
 ---
 

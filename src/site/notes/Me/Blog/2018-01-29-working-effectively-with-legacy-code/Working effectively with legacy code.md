@@ -5,7 +5,7 @@
 
 Hace poco he terminado de leer _Working effectively with legacy code,_ de _Michael Feathers_, un libro clásico de programación y, como me ha gustado mucho, me he decidido a compartir unas notas sobre él, por si a alguien le pica el gusanillo de leerlo. Forma parte de la colección "Robert C. Martin Series", en el que existen otros libros muy interesantes.
 
-![LegacyCode](/img/user/Me/Blog/2018-01-29-working-effectively-with-legacy-code/images/legacycode1.jpg)
+![LegacyCode.jpg](/img/user/%F0%9F%A7%A0%20Memoria/_adjuntos/LegacyCode.jpg)
 
 Es un libro muy práctico, especialmente si programas con orientación a objetos, pero su título quizá es poco afortunado. En realidad, se trata de un libro que habla sobre todo de **Tests y Refactoring**, y de cómo usar ambas técnicas para trabajar con _Legacy Code ("código legado")_, algo que muchos programadores tratan de evitar siempre que pueden.
 
@@ -17,7 +17,7 @@ El libro está organizado en tres bloques:
 
 * * *
 
-**LAS MECÁNICAS DEL CAMBIO**
+## Las mecánica del cambio
 
 El libro comienza hablando de las causas principales que motivan los cambios en un software: añadir una funcionalidad, corregir un error, mejorar el diseño u optimizar el uso de un recurso.
 
@@ -41,7 +41,7 @@ El libro sugiere seguir estos pasos:
 
 * * *
 
-**CAMBIANDO EL SOFTWARE**
+## Cambiando el software
 
 Este bloque del texto sigue un modelo de "recetas", planteando consejos y técnicas de refactoring a una lista extensa de problemas. Por citar algunos de los ejemplos:
 
@@ -51,9 +51,7 @@ Este bloque del texto sigue un modelo de "recetas", planteando consejos y técni
 - ¿Cómo sé que no estoy rompiendo nada?
 - ...
 
-* * *
-
-**TÉCNICAS PARA ROMPER DEPENDENCIAS**
+## Técnicas para romper dependencias
 
 Presenta varias técnicas de forma detallada y con código de ejemplo, algunas adaptadas del libro _Refactoring_, de _Martin Fowler_. Técnicas que, una vez aplicadas, rompen dependencias y favorecen la creación de tests.
 
@@ -63,7 +61,7 @@ Algunas de ellas son por ejemplo:
 - _Parametrizar un constructor_: si una dependencia se crea dentro de un constructor, una solución sencilla es exponer ese objeto como parámetro. Esta misma técnica puede generalizarse también a métodos comunes.
 - _Crear una subclase y sobreescribir un método_: es una técnica potente, basada en usar herencia dentro de un test, para anular o modificar con una subclase la porción de comportamiento que nos interese. Personalmente me parece una técnica muy útil y que no conocía.
 
-* * *
+—-
 
 En resumen, creo que el libro merece la pena por el mensaje que trasmite: Legacy no es "un código que otro ha hecho mal hace mucho tiempo", puede ser un módulo que acabamos de escribir nosotros mismos sin crear unos tests asociados. Y es valioso también por el catálogo de recetas del segundo bloque, algo a lo que personalmente seguro que volveré buscando consejo en el futuro.
 

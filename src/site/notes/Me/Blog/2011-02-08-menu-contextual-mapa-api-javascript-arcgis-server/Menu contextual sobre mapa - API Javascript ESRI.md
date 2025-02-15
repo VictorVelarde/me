@@ -47,18 +47,111 @@ dojo.connect(map, 'onMouseDown', this, function(evt) {
 El código completo sería algo como: 
 
 ```html
- <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <title> Topographic Map</title> <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/1.6/js/dojo/dijit/themes/tundra/tundra.css"> <style> html, body { height: 100%; width: 100%; margin: 0; padding: 0; } </style> <script type="text/javascript">var djConfig = {parseOnLoad: true};</script> <script type="text/javascript" src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=1.6"></script> <script type="text/javascript"> dojo.require("dijit.layout.BorderContainer"); dojo.require("dijit.layout.ContentPane"); dojo.require("esri.map"); dojo.require("dijit.Menu");
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Topographic Map</title>
+    <link rel="stylesheet" type="text/css" 
+          href="http://serverapi.arcgisonline.com/jsapi/arcgis/1.6/js/dojo/dijit/themes/tundra/tundra.css">
+    
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 
-var map; var lastPoint;
+    <script type="text/javascript">
+        var djConfig = { parseOnLoad: true };
+    </script>
 
-function Foo(){ alert("x: " + lastPoint.x + " y: " + lastPoint.y); } function Bar(){ alert('Bar'); }
+    <script type="text/javascript" 
+            src="http://serverapi.arcgisonline.com/jsapi/arcgis/?v=1.6">
+    </script>
 
-function init() { var initExtent = new esri.geometry.Extent({"xmin":-13635568,"ymin":4541606,"xmax":-13625430,"ymax":4547310,"spatialReference":{"wkid":102100}}); map = new esri.Map("map",{extent:initExtent}); var basemap = new esri.layers.ArcGISTiledMapServiceLayer("http://services.arcgisonline.com/ArcGIS/rest/services/World\_Topo\_Map/MapServer"); map.addLayer(basemap); var resizeTimer; dojo.connect(map, 'onLoad', function(theMap) { dojo.connect(dijit.byId('map'), 'resize', function() { //resize the map if the div is resized clearTimeout(resizeTimer); resizeTimer = setTimeout( function() { map.resize(); map.reposition(); }, 500); }); });
+    <script type="text/javascript">
+        dojo.require("dijit.layout.BorderContainer");
+        dojo.require("dijit.layout.ContentPane");
+        dojo.require("esri.map");
+        dojo.require("dijit.Menu");
 
-dojo.connect(map, 'onMouseDown', this, function(evt){ if(evt.button !== 2) return; // only right button lastPoint = evt.mapPoint; }); }
+        var map;
+        var lastPoint;
 
-dojo.addOnLoad(init); </script> </head> <body class="tundra"> <div dojotype="dijit.layout.BorderContainer" design="headline" gutters="false" style="width: 100%; height: 100%; margin: 0;"> <div id="map" dojotype="dijit.layout.ContentPane" region="center" style="overflow:hidden;"></div> </div> <!-- Right-button menu --> <div dojotype="dijit.Menu" id="menu" contextmenuforwindow="false" style="display: none;" targetnodeids="map"> <div dojotype="dijit.MenuItem" onclick="Foo();">Foo</div> <div dojotype="dijit.MenuSeparator"></div> <div dojotype="dijit.MenuItem" onclick="Bar();">Bar</div> </div> </body>
+        function Foo() {
+            alert("x: " + lastPoint.x + " y: " + lastPoint.y);
+        }
 
+        function Bar() {
+            alert('Bar');
+        }
+
+        function init() {
+            var initExtent = new esri.geometry.Extent({
+                "xmin": -13635568,
+                "ymin": 4541606,
+                "xmax": -13625430,
+                "ymax": 4547310,
+                "spatialReference": { "wkid": 102100 }
+            });
+
+            map = new esri.Map("map", { extent: initExtent });
+
+            var basemap = new esri.layers.ArcGISTiledMapServiceLayer(
+                "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer"
+            );
+
+            map.addLayer(basemap);
+
+            var resizeTimer;
+
+            dojo.connect(map, 'onLoad', function (theMap) {
+                dojo.connect(dijit.byId('map'), 'resize', function () {
+                    clearTimeout(resizeTimer);
+                    resizeTimer = setTimeout(function () {
+                        map.resize();
+                        map.reposition();
+                    }, 500);
+                });
+            });
+
+            dojo.connect(map, 'onMouseDown', this, function (evt) {
+                if (evt.button !== 2) return; // Only right button
+                lastPoint = evt.mapPoint;
+            });
+        }
+
+        dojo.addOnLoad(init);
+    </script>
+</head>
+
+<body class="tundra">
+    <div dojotype="dijit.layout.BorderContainer" 
+         design="headline" 
+         gutters="false" 
+         style="width: 100%; height: 100%; margin: 0;">
+        
+        <div id="map" 
+             dojotype="dijit.layout.ContentPane" 
+             region="center" 
+             style="overflow: hidden;">
+        </div>
+    </div>
+
+    <!-- Right-button menu -->
+    <div dojotype="dijit.Menu" id="menu" 
+         contextmenuforwindow="false" 
+         style="display: none;" 
+         targetnodeids="map">
+        
+        <div dojotype="dijit.MenuItem" onclick="Foo();">Foo</div>
+        <div dojotype="dijit.MenuSeparator"></div>
+        <div dojotype="dijit.MenuItem" onclick="Bar();">Bar</div>
+    </div>
+</body>
 </html>
 ```
 

@@ -2,6 +2,7 @@
 {"dg-publish":true,"dg-path":"Posts.md","permalink":"/posts/"}
 ---
 
+- [[Me/Blog/2025-02-herramientas-gestion-conocimiento/Usa Obsidian como herramienta para tu cerebro digital\|Usa Obsidian como herramienta para tu cerebro digital]]: January 01, 2025
 - [[Me/Blog/2018-01-29-working-effectively-with-legacy-code/Working effectively with legacy code\|Working effectively with legacy code]]: January 29, 2018
 - [[Me/Blog/2017-06-05-jornadas-sig-libre-girona-2017/Jornadas SIG Libre Girona\|Jornadas SIG Libre Girona]]: June 05, 2017
 - [[Me/Blog/2017-02-28-brackets-un-editor-agil-para-desarrollo-web/Brackets un editor ágil para desarrollo web\|Brackets un editor ágil para desarrollo web]]: February 28, 2017
@@ -23,6 +24,5 @@
 - [[Me/Blog/2009-11-09-descarga-de-ficheros-desde-web-coverage-service-wcs/Descarga de ficheros desde Web Coverage Service (WCS)\|Descarga de ficheros desde Web Coverage Service (WCS)]]: November 09, 2009
 - [[Me/Blog/2009-10-03-conferenciaesri2009/Conferencia de usuarios ESRI España 2009\|Conferencia de usuarios ESRI España 2009]]: October 03, 2009
 - [[Me/Blog/2009-02-02-shp2geojson/Cómo convertir un shapefile a geojson\|Cómo convertir un shapefile a geojson]]: February 02, 2009
-- [[Me/Blog/2009-10-03-conferenciaesri2009/poster-geolics\|poster-geolics]]: \-
 
 { .block-language-dataview}

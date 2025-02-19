@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"Posts.md","permalink":"/posts/"}
 ---
 
-- [[Me/Blog/2025-02-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital\|Obsidian como herramienta para un cerebro digital]]: January 01, 2025
+- [[Me/Blog/2025-02-19-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital\|Obsidian como herramienta para un cerebro digital]]: February 19, 2025
 - [[Me/Blog/2018-01-29-working-effectively-with-legacy-code/Working effectively with legacy code\|Working effectively with legacy code]]: January 29, 2018
 - [[Me/Blog/2017-06-05-jornadas-sig-libre-girona-2017/Jornadas SIG Libre Girona\|Jornadas SIG Libre Girona]]: June 05, 2017
 - [[Me/Blog/2017-02-28-brackets-un-editor-agil-para-desarrollo-web/Brackets un editor ágil para desarrollo web\|Brackets un editor ágil para desarrollo web]]: February 28, 2017

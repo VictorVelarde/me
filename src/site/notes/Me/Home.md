@@ -12,6 +12,7 @@ Me interesa la Programación y los SIG, pasar tiempo con mi familia, leer y hace
 ---
 ### ✍ Blog
 Algunos de mis posts:
+- [[Me/Blog/2025-02-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital\|Obsidian como herramienta para un cerebro digital]]
 - [[Me/Blog/2018-01-29-working-effectively-with-legacy-code/Working effectively with legacy code\|Working effectively with legacy code]]
 - [[Me/Blog/2015-01-23-como-utilizar-datos-geograficos-publicos-de-la-nasa-srtm-con-un-software-libre-como-qgis/Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS\|Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS]]
 - [[Me/Blog/2015-01-07-3-lenguajes-de-programacion-para-sig/3 lenguajes de programación para SIG\|3 lenguajes de programación para SIG]]

@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"dg-path":"Blog/2025-02-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital.md","permalink":"/blog/2025-02-herramientas-gestion-conocimiento/obsidian-como-herramienta-para-un-cerebro-digital/","title":"Usa Obsidian como herramienta para tu cerebro digital","tags":["tag1","tag2"]}
+{"dg-publish":true,"dg-path":"Blog/2025-02-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital.md","permalink":"/blog/2025-02-herramientas-gestion-conocimiento/obsidian-como-herramienta-para-un-cerebro-digital/","title":"Usa Obsidian como herramienta para tu cerebro digital","tags":["productividad"]}
 ---
 
 
 Me gusta anotar cosas, es así. Y se podría decir que le dedico, según la temporada, un cierto esfuerzo. Tanto a hacerlo como a revisar o mejorar cómo lo hago (qué escribo, con que herramientas, cómo organizo mis notas…). 
 
 ## ¿Por qué lo hago?
-Bueno pues simplemente porque creo que pienso más y mejor cuando escribo. En general no escribo cosas muy largas, ni tampoco “literarias” (ya me gustaría… ¿a lo mejor algún día?). Se trata de notas generalmente no muy extensas, sobre algo que me interesa, proyectos/ tareas, investigaciones técnica, notas sobre un libro que me gusta… y, cada vez más, notas “reflexivas” sobre lo que pienso y que me ayudan a tomar decisiones. 
+Bueno pues simplemente porque creo que pienso más y mejor cuando escribo. En general no escribo cosas muy largas, ni tampoco “literarias” (ya me gustaría… ¿a lo mejor algún día?). Se trata de notas generalmente no muy extensas, sobre algo que me interesa, proyectos/tareas, investigaciones técnicas, notas sobre un libro que me gusta… y, cada vez más, "notas reflexivas” sobre lo que pienso y que me ayudan a tomar decisiones. 
 
 A veces tener algo escrito y a la mano me sirve para contestar o compartir algo de interés con otros, es cierto, pero la mayoría de las veces escribo para mi. Escribir me centra, a veces me desahoga y me sirve para cosas del trabajo, cosas de casa, cosas más personales… y estoy descubriendo poco a poco lo potente que es releer / reescribir / completar / borrar cierto tipo de notas… (sí, también borrar, no me seas Diógenes). 
 

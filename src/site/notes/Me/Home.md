@@ -3,7 +3,7 @@
 ---
 
 ![Fondo.png](/img/user/Me/media/Fondo.png)
-### 👋 Hola, soy Víctor.  Desarrollador Senior de software, Teach Lead & Manager, con amplia experiencia en SIG.  
+### 👋 Hola, soy Víctor.  Desarrollador senior de software, Teach Lead & Manager, con amplia experiencia en SIG.  
 
 Me interesa la Programación y los SIG, pasar tiempo con mi familia, leer y hacer deporte siempre que puedo. Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail punto com**
 - [github](https://github.com/VictorVelarde/)

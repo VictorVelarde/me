@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Home.md","permalink":"/home/","title":"Programación & SIG desde Cantabria","tags":["gardenEntry"]}
+{"dg-publish":true,"dg-path":"Home.md","permalink":"/home/","title":"El Blog de Víctor Velarde","tags":["gardenEntry"]}
 ---
 
 ![Fondo.png](/img/user/Me/media/Fondo.png)

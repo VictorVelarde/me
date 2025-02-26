@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2018-01-29-working-effectively-with-legacy-code/Working effectively with legacy code.md","permalink":"/articulos/2018-01-29-working-effectively-with-legacy-code/working-effectively-with-legacy-code/","title":"Working effectively with legacy code","tags":["refactoring","tests"]}
+{"dg-publish":true,"permalink":"/blog/articulos/2018-01-29-working-effectively-with-legacy-code/working-effectively-with-legacy-code/","title":"Working effectively with legacy code","tags":["refactoring","tests"]}
 ---
 
 

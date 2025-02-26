@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2009-12-29-geoproceso-interactivo-geoproceso-en-batch/Geoproceso interactivo vs geoproceso en batch.md","permalink":"/articulos/2009-12-29-geoproceso-interactivo-geoproceso-en-batch/geoproceso-interactivo-vs-geoproceso-en-batch/","title":"Geoproceso interactivo vs geoproceso en batch","tags":["geoprocesos","python"]}
+{"dg-publish":true,"permalink":"/blog/articulos/2009-12-29-geoproceso-interactivo-geoproceso-en-batch/geoproceso-interactivo-vs-geoproceso-en-batch/","title":"Geoproceso interactivo vs geoproceso en batch","tags":["geoprocesos","python"]}
 ---
 
 

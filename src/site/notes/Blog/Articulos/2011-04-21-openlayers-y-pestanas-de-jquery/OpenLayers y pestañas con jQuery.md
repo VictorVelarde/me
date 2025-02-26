@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2011-04-21-openlayers-y-pestanas-de-jquery/OpenLayers y pestañas con jQuery.md","permalink":"/articulos/2011-04-21-openlayers-y-pestanas-de-jquery/open-layers-y-pestanas-con-j-query/","title":"OpenLayers y pestañas con jQuery","tags":["jquery","jqueryui","openlayers","popup","tabs"]}
+{"dg-publish":true,"permalink":"/blog/articulos/2011-04-21-openlayers-y-pestanas-de-jquery/open-layers-y-pestanas-con-j-query/","title":"OpenLayers y pestañas con jQuery","tags":["jquery","jqueryui","openlayers","popup","tabs"]}
 ---
 
 

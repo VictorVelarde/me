@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"Inicio.md","permalink":"/inicio/","title":"El Blog de Víctor Velarde","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/blog/inicio/","title":"velardev","tags":["gardenEntry"]}
 ---
 
 ![Fondo.png](/img/user/Blog/Media/Fondo.png)
-### 👋 Hola, soy Víctor Velarde.  Desarrollador senior de software, Teach Lead & Manager, con amplia experiencia en SIG.  
+### 👋 Hola soy Víctor Velarde. Desarrollador de software, Teach Lead & Manager, con amplia experiencia en SIG.  
 
 Me interesa la Programación, los Sistemas de Información Geográfica (SIG), pasar tiempo con mi familia, leer y hacer deporte siempre que puedo. Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail punto com**
 - [github](https://github.com/VictorVelarde/)
@@ -12,6 +12,11 @@ Me interesa la Programación, los Sistemas de Información Geográfica (SIG), pa
 ---
 ### ✍ Blog
 Algunos de mis posts:
+- [[Blog/Articulos/2025-02-19-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital\|Obsidian como herramienta para un cerebro digital]]
+- [[Blog/Articulos/2018-01-29-working-effectively-with-legacy-code/Working effectively with legacy code\|Working effectively with legacy code]]
+- [[Blog/Articulos/2015-01-23-como-utilizar-datos-geograficos-publicos-de-la-nasa-srtm-con-un-software-libre-como-qgis/Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS\|Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS]]
+- [[Blog/Articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3 lenguajes de programación para SIG\|3 lenguajes de programación para SIG]]
+- [[Blog/Articulos/2012-10-13-sig-en-la-nube/Nuevas tendencias los SIG en la nube\|Nuevas tendencias los SIG en la nube]]
 
 { .block-language-dataview}
 

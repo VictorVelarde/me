@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2015-01-23-como-utilizar-datos-geograficos-publicos-de-la-nasa-srtm-con-un-software-libre-como-qgis/Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS.md","permalink":"/articulos/2015-01-23-como-utilizar-datos-geograficos-publicos-de-la-nasa-srtm-con-un-software-libre-como-qgis/como-utilizar-datos-geograficos-publicos-de-la-nasa-srtm-con-un-software-libre-como-qgis/","title":"Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS","tags":["qgis"]}
+{"dg-publish":true,"permalink":"/blog/articulos/2015-01-23-como-utilizar-datos-geograficos-publicos-de-la-nasa-srtm-con-un-software-libre-como-qgis/como-utilizar-datos-geograficos-publicos-de-la-nasa-srtm-con-un-software-libre-como-qgis/","title":"Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS","tags":["qgis"]}
 ---
 
 

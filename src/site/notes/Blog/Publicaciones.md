@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones.md","permalink":"/publicaciones/"}
+{"dg-publish":true,"permalink":"/blog/publicaciones/"}
 ---
 
 - [[Blog/Articulos/2025-02-19-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital\|Obsidian como herramienta para un cerebro digital]]: February 19, 2025

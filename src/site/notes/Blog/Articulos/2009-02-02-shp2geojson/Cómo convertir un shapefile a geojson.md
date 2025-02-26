@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2009-02-02-shp2geojson/Cómo convertir un shapefile a geojson.md","permalink":"/articulos/2009-02-02-shp2geojson/como-convertir-un-shapefile-a-geojson/","title":"Cómo convertir un shapefile a geojson","tags":["geojson","ogr2ogr","openlayers","shapefile"]}
+{"dg-publish":true,"permalink":"/blog/articulos/2009-02-02-shp2geojson/como-convertir-un-shapefile-a-geojson/","title":"Cómo convertir un shapefile a geojson","tags":["geojson","ogr2ogr","openlayers","shapefile"]}
 ---
 
 

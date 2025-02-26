@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2016-01-20-visor-de-terremotos-del-usgs-con-openlayers/Visor de terremotos del USGS con OpenLayers.md","permalink":"/articulos/2016-01-20-visor-de-terremotos-del-usgs-con-openlayers/visor-de-terremotos-del-usgs-con-open-layers/","title":"Visor de terremotos del USGS con OpenLayers","tags":["geojson","openlayers"]}
+{"dg-publish":true,"permalink":"/blog/articulos/2016-01-20-visor-de-terremotos-del-usgs-con-openlayers/visor-de-terremotos-del-usgs-con-open-layers/","title":"Visor de terremotos del USGS con OpenLayers","tags":["geojson","openlayers"]}
 ---
 
 

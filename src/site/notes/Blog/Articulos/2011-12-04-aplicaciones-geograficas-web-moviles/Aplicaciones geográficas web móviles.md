@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2011-12-04-aplicaciones-geograficas-web-moviles/Aplicaciones geográficas web móviles.md","permalink":"/articulos/2011-12-04-aplicaciones-geograficas-web-moviles/aplicaciones-geograficas-web-moviles/","title":"Aplicaciones geográficas web móviles","tags":["geoinquietos","jquery","mobile","web"]}
+{"dg-publish":true,"permalink":"/blog/articulos/2011-12-04-aplicaciones-geograficas-web-moviles/aplicaciones-geograficas-web-moviles/","title":"Aplicaciones geográficas web móviles","tags":["geoinquietos","jquery","mobile","web"]}
 ---
 
 

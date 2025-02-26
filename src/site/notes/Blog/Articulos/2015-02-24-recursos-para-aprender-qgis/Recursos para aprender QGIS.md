@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2015-02-24-recursos-para-aprender-qgis/Recursos para aprender QGIS.md","permalink":"/articulos/2015-02-24-recursos-para-aprender-qgis/recursos-para-aprender-qgis/","title":"Recursos para aprender QGIS","tags":["qgis"]}
+{"dg-publish":true,"permalink":"/blog/articulos/2015-02-24-recursos-para-aprender-qgis/recursos-para-aprender-qgis/","title":"Recursos para aprender QGIS","tags":["qgis"]}
 ---
 
 

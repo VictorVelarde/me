@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2011-02-08-menu-contextual-mapa-api-javascript-arcgis-server/Menu contextual sobre mapa - API Javascript ESRI.md","permalink":"/articulos/2011-02-08-menu-contextual-mapa-api-javascript-arcgis-server/menu-contextual-sobre-mapa-api-javascript-esri/","title":"Menu contextual sobre mapa - API Javascript ESRI","tags":["arcgisserver","dojo","menu","popup"]}
+{"dg-publish":true,"permalink":"/blog/articulos/2011-02-08-menu-contextual-mapa-api-javascript-arcgis-server/menu-contextual-sobre-mapa-api-javascript-esri/","title":"Menu contextual sobre mapa - API Javascript ESRI","tags":["arcgisserver","dojo","menu","popup"]}
 ---
 
 

@@ -49,7 +49,11 @@ Pero tenía ambición por seguir creciendo profesionalmente. Durante una tempora
 
 CARTO representaba todo lo que buscaba en ese momento: **producto puntero en SIG**, hecho con calidad y proyección internacional
 
-Me uní como ingeniero front y terminé haciendome cargo del equipo de Frontend durante varios años. Evolucionamos la plataforma a modo cloud-native, crecimos en equipo y ambición y aprendí a ser un auténtico Tech Lead, y a adaptarme a los cambios propios de una startup en fase scale-up. Una etapa muy bonita y de muchos retos superados, que finalmente tocó a su fin.
+Me uní como ingeniero front y terminé haciéndome cargo del equipo de Frontend durante varios años. Evolucionamos la plataforma a modo cloud-native, crecimos en equipo y ambición y aprendí a ser un auténtico Tech Lead, y a adaptarme a los cambios propios de una startup en fase scale-up. 
+
+Pasé por cosas tan diversas como trabajar en el código complejo pero muy potente de la primera etapa de *Builder*, intentar el desarrollo de una biblioteca de render como *CARTO VL* (y vivir su posterior deprecación), unirnos con éxito a *deck.gl* y su ecosistema libre, crear la nueva arquitectura front con *React & Redux*, pegarme con el tooling, hacer crecer el equipo y mantener el delivery de forma sólida…
+
+Una etapa muy bonita y de muchos retos superados, que finalmente tocó a su fin.
 
 Actualmente estoy trabajando en Tinybird, y el reto es grande: construir una plataforma para desarrolladores que permita fácilmente el manejo y análisis de sus datos en tiempo real, con clientes tan relevantes como Vercel, Canva... y otros muchos. Equipo técnico super-top y sin tiempo para aburrirse.
 

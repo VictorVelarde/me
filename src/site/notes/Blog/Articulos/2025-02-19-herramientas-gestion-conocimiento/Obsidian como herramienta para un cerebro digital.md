@@ -37,7 +37,7 @@ Hay un montón de *Community plugins*, pero los imprescindibles para mí son (la
 Esto también me gusta, porque hay varias opciones. Hay una opción de pago del propio Obsidian, para móviles, tablets… pero no la he probado. En mi caso particular estoy utilizando la sincronización que ya pagaba por otro lado de iCloud (así que me ahorro el pago a Notion); a veces es un poco lenta... pero me arreglo. Se que también hay opciones para usar Google Drive, e incluso git.
 
 ## Sistema de notas: “cerebro digital”
-Lo quieras o no, si escribes mucho acabarás necesitando algún tipo de sistema. En mi opinión no hace falta hacerse un máster, montar catedrales, ni tampoco aplicar a ciegas algo que un tipo de USA te dice que es lo mejor. Lo mejor es ir poco a poco y crear algo que te funcione a ti. Ahora bien, leer un poco al respecto no te hará mal, no eres el primer tipo en el mundo organizando notas digitales y hay mucha gente lista por ahí.
+Lo quieras o no, si escribes mucho acabarás necesitando algún tipo de sistema. En mi opinión no hace falta hacerse un máster, montar catedrales, ni tampoco aplicar a ciegas algo que un tipo de USA te dice que es lo mejor. Lo mejor es ir poco a poco y crear algo que te funcione a ti. Ahora bien, leer un poco al respecto no te hará mal, no eres la primera persona en el mundo organizando notas digitales y hay mucha gente lista por ahí.
 
 En mi caso particular, leí un libro que recomiendo bastante. Se trata de “*Aprende a tomar notas con tu Cerebro Digital: Leer es perder el tiempo si luego no puedes recuperar esa información*” de Marcos Emowe. Título un poco largo, pero libro bastante claro y con buenas ideas. 
 

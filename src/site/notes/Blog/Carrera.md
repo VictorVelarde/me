@@ -11,6 +11,8 @@ Esto no es un Curriculum Vitae. Lo más parecido a eso es seguramente mi perfil
 
 Llegué a la Universidad sin tener muy claro mi futuro profesional. Una restricción importante a la hora de elegir es que había estudiado “Letras” (porque resulta que me gustaba el Latín, el Arte, qué cosas...) y en Santander la mayor parte de las carreras eran técnicas. Finalmente me decidí por la Licenciatura en **Geografía**; pensaba algo así como _"parece una mezcla interesante y, si me esfuerzo, seguro encontraré algo bueno"_. Luego resulta que me gustó el contacto con el aire libre, la estadística, los mapas y sobre todo los **Sistemas de Información Geográfica (SIG)**. Cuando hice mi primera clase de SIG pensé: _"esto me gusta, me voy a dedicar a esto"_.
 
+Supongo que haber tenido un spectrum heredado, y haber jugado a programar con BASIC de niño me había dejado un interés genuino por la informática y ahí lo retomaba…
+
 Terminé como el primero de mi promoción, pero no hice el doctorado porque sentía que mi forma de ser no encajaba en el ambiente del departamento... y creía en las oportunidades fuera de la Universidad y en "hacer cosas". Así que vi la bolsa de empleo de la Universidad, y al poco empecé a trabajar en Ceyplan, una empresa local pequeñita centrada en SIG aplicado a Catastro, y la verdad que me gustó ese primer contacto profesional con los SIG. Se me daba bien, pero después de un tiempo vi que lo que hacía era rutinario y quería formarme y progresar. Tenía claro que me faltaban conocimientos como los de _"el Informático"_ que trabajaba con nosotros: bases de datos, programación... Y como no tenía obligaciones, decidí volver a estudiar.
 
 ## El Master en SIG y los primeros trabajos en Madrid
@@ -31,7 +33,7 @@ Fue una etapa bonita, y que me dejaba bastante tiempo libre, así que ahí es cu
 
 En programación avanzaba, pero quería más. Empecé a ver ofertas y volví a Madrid, esta vez a trabajar en Tekel, una startup que hacía una plataforma muy chula con hardware & software de localización. De nuevo compañeros muy crack, aprendiendo mucho, y donde pasé de ser ingeniero a responsable del grupo de SIG. Pero la parte del negocio no acompañó y la empresa acabó cerrando.
 
-Seguí un tiempo en una consultora, haciendo un proyecto SIG para FCC, pero hubo un momento que me dice: quiero trabajar en el que sea más puntero en SIG, en proyectos grandes. Por aquel entonces esto significaba ESRI o INDRA (que tenía un departamento de SIG más grande que la primera). Hice entrevistas con ambos, pero me convenció más la 2ª, y allí estuve algo menos de un año.
+Seguí un tiempo en una consultora, haciendo un proyecto SIG para FCC, pero hubo un momento que me dije: quiero trabajar en el que sea más puntero en SIG, en proyectos grandes. Por aquel entonces esto significaba ESRI o INDRA (que tenía un departamento de SIG más grande que la primera). Hice entrevistas con ambos, pero me convenció más la 2ª, y allí estuve algo menos de un año.
 
 Hicimos un proyecto SIG muy interesante, para la **gestión de emergencias** por parte de la UME (Unidad Militar de Emergencias). Mucha gente tiende a despreciar el trabajo técnico en las grandes consultoras (sobre todo la gente en las startups), pero yo la verdad que estuve con gente técnicamente muy sólida y fue toda una experiencia.
 

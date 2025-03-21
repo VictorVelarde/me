@@ -39,21 +39,21 @@ Hicimos un proyecto SIG muy interesante, para la **gestión de emergencias** p
 
 ## La etapa científica en el IHCantabria
 
-Siempre me ha gustado lo que hago, pero también para qué lo hago. Así que cuando surgió una oportunidad estable en un Instituto de **investigación aplicada** al ciclo del agua (IH Cantabria), con proyectos de investigación y aplicados con alta componente de información geográfica, acepté de inmediato.
+Siempre me ha gustado lo que hago, pero también valorar para qué lo hago. Así que cuando surgió una oportunidad en un **Instituto de investigación aplicada** al ciclo del agua (IH Cantabria), con proyectos de investigación y alta componente de información geográfica, acepté de inmediato.
 
 Hice muchas cosas durante esta larga época profesional: software de escritorio, geoprocesos para ArcGIS, aplicaciones web sobre adaptación al cambio climático, servicios operacionales y todo tipo de preparaciones y explotaciones de datos geográficos... pero probablemente de lo que estoy más orgulloso es de mi trabajo en Athenea, un sistema operacional para la gestión en CEPSA de derrames de hidrocarburos, y del plugin para Leaflet para la visualización en el navegador de datos de vientos y corrientes marinas.
 
-La parte científica aplicada me gustaba mucho, también poder aprender de unos compañeros de lo más variado (ingenieros de caminos, ambientales, biólogos, físicos...). Además, durante este periodo terminé mis estudios en remoto para la UOC. Y poco después participé como docente de SIG, tanto en la UOC como en varios cursos de experto universitario de la Universidad de Cantabria.
+La parte científica aplicada me gustaba mucho, pero también poder aprender de unos compañeros de lo más variado (ingenieros de caminos, ambientales, biólogos, físicos...). Además, durante este periodo terminé mis estudios en remoto para la UOC. Y poco después participé como docente de SIG, tanto en la UOC como en varios cursos de experto universitario de la Universidad de Cantabria.
 
-Pero tenía ambición por seguir creciendo profesionalmente. Durante una temporada compaginé mi trabajo principal con la realización de aplicaciones SIG Web a medida, trabajando en remoto... y al cabo de un tiempo decidí abrir una nueva etapa profesional.
+Y sin embargo tenía ambición por seguir creciendo profesionalmente. Durante una temporada compaginé mi trabajo principal con la realización de aplicaciones SIG Web a medida, trabajando en remoto como freelance... y al cabo de un tiempo decidí abrir una nueva etapa profesional.
 
 ## Las grandes startups, con proyección internacional
 
-CARTO representaba todo lo que buscaba en ese momento: **producto puntero en SIG**, hecho con calidad y proyección internacional
+CARTO representaba todo lo que buscaba en ese momento: **producto puntero en SIG**, hecho con calidad y proyección internacional.
 
-Me uní como ingeniero front y terminé haciéndome cargo del equipo de Frontend durante varios años. Evolucionamos la plataforma a modo cloud-native, crecimos en equipo y ambición y aprendí a ser un auténtico Tech Lead, y a adaptarme a los cambios propios de una startup en fase scale-up. 
+Me uní como ingeniero front y terminé haciéndome cargo del equipo de Frontend durante varios años. Evolucionamos la plataforma a modo cloud-native, crecimos en equipo y ambición y aprendí a ser un auténtico Tech Lead, y a adaptarme a los cambios propios de una startup en fase scale-up, y lo que se necesitaba en cada momento. 
 
-Pasé por cosas tan diversas como trabajar en el código complejo pero muy potente de la primera etapa de *Builder*, intentar el desarrollo de una biblioteca de render como *CARTO VL* (y vivir su posterior deprecación), unirnos con éxito a *deck.gl* y su ecosistema libre, crear la nueva arquitectura front con *React & Redux*, pegarme con el tooling, hacer crecer el equipo y mantener el delivery de forma sólida…
+Pasé por cosas tan diversas como trabajar en el código complejo pero muy potente de la primera etapa de *Builder*, intentar el desarrollo de una biblioteca de render como *CARTO VL* (y vivir su posterior deprecación), unirnos con éxito a *deck.gl* y su ecosistema libre open source, crear la nueva arquitectura front con *React & Redux*, pegarme con el tooling, hacer crecer el equipo y siempre, claro, mantener el delivery de forma sólida…
 
 Una etapa muy bonita y de muchos retos superados, que finalmente tocó a su fin.
 

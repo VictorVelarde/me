@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/carrera/"}
+{"dg-publish":true,"dg-path":"Carrera.md","permalink":"/carrera/"}
 ---
 
 

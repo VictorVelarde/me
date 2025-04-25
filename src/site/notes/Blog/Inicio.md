@@ -3,9 +3,9 @@
 ---
 
 ![Fondo.png](/img/user/Blog/Media/Fondo.png)
-### 👋 Hola soy Víctor Velarde. Desarrollador de software, Teach Lead & Manager
+### 👋 Hola soy Víctor Velarde. Desarrollador de software, Teach Lead & Engineering Manager
 
-Me interesa la programación aplicada a resolver problemas relevantes, construir herramientas para desarrolladores, los Sistemas de Información Geográfica (SIG) y en general aprender y resolver problemas complejos en equipo. En lo personal, lo que busco es pasar tiempo con mi familia, leer y hacer deporte siempre que puedo. 
+Me interesa la programación aplicada a resolver problemas relevantes, construir herramientas para usuarios y desarrolladores, los Sistemas de Información Geográfica (SIG) y en general aprender y resolver problemas complejos en equipo. En lo personal, lo que busco es pasar tiempo con mi familia, leer y hacer deporte siempre que puedo. 
 
 Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail punto com**
 - [github](https://github.com/VictorVelarde/)

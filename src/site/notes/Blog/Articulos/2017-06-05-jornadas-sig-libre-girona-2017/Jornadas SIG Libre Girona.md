@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/articulos/2017-06-05-jornadas-sig-libre-girona-2017/jornadas-sig-libre-girona/","title":"Jornadas SIG Libre Girona"}
+{"dg-publish":true,"dg-path":"Articulos/2017-06-05-jornadas-sig-libre-girona-2017/Jornadas SIG Libre Girona.md","permalink":"/articulos/2017-06-05-jornadas-sig-libre-girona-2017/jornadas-sig-libre-girona/","title":"Jornadas SIG Libre Girona"}
 ---
 
 

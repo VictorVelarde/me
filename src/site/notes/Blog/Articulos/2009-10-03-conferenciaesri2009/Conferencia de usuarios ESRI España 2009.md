@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/articulos/2009-10-03-conferenciaesri2009/conferencia-de-usuarios-esri-espana-2009/","title":"Conferencia de usuarios ESRI España 2009","tags":["conferencia"]}
+{"dg-publish":true,"dg-path":"Articulos/2009-10-03-conferenciaesri2009/Conferencia de usuarios ESRI España 2009.md","permalink":"/articulos/2009-10-03-conferenciaesri2009/conferencia-de-usuarios-esri-espana-2009/","title":"Conferencia de usuarios ESRI España 2009","tags":["conferencia"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/articulos/2013-06-15-materiales-curso-openlayers-e-ikimap-dgsig-2013/materiales-curso-open-layers-e-ikimap-dgsig-2013/","title":"Materiales curso OpenLayers e Ikimap - DGSIG 2013","tags":["curso","ikimap","openlayers"]}
+{"dg-publish":true,"dg-path":"Articulos/2013-06-15-materiales-curso-openlayers-e-ikimap-dgsig-2013/Materiales curso OpenLayers e Ikimap - DGSIG 2013.md","permalink":"/articulos/2013-06-15-materiales-curso-openlayers-e-ikimap-dgsig-2013/materiales-curso-open-layers-e-ikimap-dgsig-2013/","title":"Materiales curso OpenLayers e Ikimap - DGSIG 2013","tags":["curso","ikimap","openlayers"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/articulos/2011-01-31-material-de-introduccion-a-openlayers/material-de-introduccion-a-open-layers/","title":"Material de introducción a OpenLayers","tags":["curso","openlayers"]}
+{"dg-publish":true,"dg-path":"Articulos/2011-01-31-material-de-introduccion-a-openlayers/Material de introducción a OpenLayers.md","permalink":"/articulos/2011-01-31-material-de-introduccion-a-openlayers/material-de-introduccion-a-open-layers/","title":"Material de introducción a OpenLayers","tags":["curso","openlayers"]}
 ---
 
 

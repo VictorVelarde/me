@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/articulos/2009-11-09-descarga-de-ficheros-desde-web-coverage-service-wcs/descarga-de-ficheros-desde-web-coverage-service-wcs/","title":"Descarga de ficheros desde Web Coverage Service (WCS)","tags":["ogc","python","wcs"]}
+{"dg-publish":true,"dg-path":"Articulos/2009-11-09-descarga-de-ficheros-desde-web-coverage-service-wcs/Descarga de ficheros desde Web Coverage Service (WCS).md","permalink":"/articulos/2009-11-09-descarga-de-ficheros-desde-web-coverage-service-wcs/descarga-de-ficheros-desde-web-coverage-service-wcs/","title":"Descarga de ficheros desde Web Coverage Service (WCS)","tags":["ogc","python","wcs"]}
 ---
 
 

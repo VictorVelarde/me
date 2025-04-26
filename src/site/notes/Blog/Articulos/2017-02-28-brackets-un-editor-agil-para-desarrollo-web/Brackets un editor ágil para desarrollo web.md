@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/articulos/2017-02-28-brackets-un-editor-agil-para-desarrollo-web/brackets-un-editor-agil-para-desarrollo-web/","title":"Brackets: un editor ágil para desarrollo web"}
+{"dg-publish":true,"dg-path":"Articulos/2017-02-28-brackets-un-editor-agil-para-desarrollo-web/Brackets un editor ágil para desarrollo web.md","permalink":"/articulos/2017-02-28-brackets-un-editor-agil-para-desarrollo-web/brackets-un-editor-agil-para-desarrollo-web/","title":"Brackets: un editor ágil para desarrollo web"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/articulos/2016-01-12-videos-introduccion-a-javascript/6-videos-de-introduccion-a-java-script/","title":"6 videos de Introducción a JavaScript","tags":["formacion"]}
+{"dg-publish":true,"dg-path":"Articulos/2016-01-12-videos-introduccion-a-javascript/6 videos de Introducción a JavaScript.md","permalink":"/articulos/2016-01-12-videos-introduccion-a-javascript/6-videos-de-introduccion-a-java-script/","title":"6 videos de Introducción a JavaScript","tags":["formacion"]}
 ---
 
 

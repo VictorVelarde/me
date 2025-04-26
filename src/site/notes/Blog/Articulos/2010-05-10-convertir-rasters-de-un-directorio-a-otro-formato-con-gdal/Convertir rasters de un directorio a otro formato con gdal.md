@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/articulos/2010-05-10-convertir-rasters-de-un-directorio-a-otro-formato-con-gdal/convertir-rasters-de-un-directorio-a-otro-formato-con-gdal/","title":"Convertir rasters de un directorio a otro formato con gdal","tags":["gdal","python","raster"]}
+{"dg-publish":true,"dg-path":"Articulos/2010-05-10-convertir-rasters-de-un-directorio-a-otro-formato-con-gdal/Convertir rasters de un directorio a otro formato con gdal.md","permalink":"/articulos/2010-05-10-convertir-rasters-de-un-directorio-a-otro-formato-con-gdal/convertir-rasters-de-un-directorio-a-otro-formato-con-gdal/","title":"Convertir rasters de un directorio a otro formato con gdal","tags":["gdal","python","raster"]}
 ---
 
 

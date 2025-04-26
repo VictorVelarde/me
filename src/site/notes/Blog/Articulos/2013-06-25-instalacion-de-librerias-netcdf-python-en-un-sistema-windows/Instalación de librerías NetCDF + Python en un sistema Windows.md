@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/articulos/2013-06-25-instalacion-de-librerias-netcdf-python-en-un-sistema-windows/instalacion-de-librerias-net-cdf-python-en-un-sistema-windows/","title":"Instalación de librerías NetCDF + Python en un sistema Windows","tags":["netcdf","python"]}
+{"dg-publish":true,"dg-path":"Articulos/2013-06-25-instalacion-de-librerias-netcdf-python-en-un-sistema-windows/Instalación de librerías NetCDF + Python en un sistema Windows.md","permalink":"/articulos/2013-06-25-instalacion-de-librerias-netcdf-python-en-un-sistema-windows/instalacion-de-librerias-net-cdf-python-en-un-sistema-windows/","title":"Instalación de librerías NetCDF + Python en un sistema Windows","tags":["netcdf","python"]}
 ---
 
 

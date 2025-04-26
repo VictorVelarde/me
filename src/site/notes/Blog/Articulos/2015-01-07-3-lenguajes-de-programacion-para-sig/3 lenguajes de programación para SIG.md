@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3-lenguajes-de-programacion-para-sig/","title":"3 lenguajes de programación para SIG","tags":["formacion"]}
+{"dg-publish":true,"dg-path":"Articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3 lenguajes de programación para SIG.md","permalink":"/articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3-lenguajes-de-programacion-para-sig/","title":"3 lenguajes de programación para SIG","tags":["formacion"]}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/articulos/2012-10-13-sig-en-la-nube/nuevas-tendencias-los-sig-en-la-nube/","title":"Nuevas tendencias: los SIG en la nube","tags":["analisis","ikimap","neogeografia","nube"]}
+{"dg-publish":true,"dg-path":"Articulos/2012-10-13-sig-en-la-nube/Nuevas tendencias los SIG en la nube.md","permalink":"/articulos/2012-10-13-sig-en-la-nube/nuevas-tendencias-los-sig-en-la-nube/","title":"Nuevas tendencias: los SIG en la nube","tags":["analisis","ikimap","neogeografia","nube"]}
 ---
 
 Hoy se dispone de un abanico amplio de opciones para publicar información geográfica en Internet. Generalmente cuando un profesional se plantea esta tarea suele considerar alguna de estas **vías**

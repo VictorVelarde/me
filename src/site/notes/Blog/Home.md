@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/blog/home/"}
+{"dg-publish":true,"dg-path":"Home.md","permalink":"/home/"}
 ---
 
-> 🔄 [Read in Spanish](/)
+> 🇪‍🇸 [Read in Spanish](/)
 
 ![Fondo.png](/img/user/Blog/Media/Fondo.png)
 ### 👋 Hi, I'm Víctor Velarde. Software Developer, Tech Lead & Engineering Manager

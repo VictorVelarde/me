@@ -2,6 +2,7 @@
 {"dg-publish":true,"dg-path":"Carrera.md","permalink":"/carrera/"}
 ---
 
+> [[Blog/Career\|🇬‍🇧 EN]]
 
 Esto no es un Curriculum Vitae. Lo más parecido a eso es seguramente mi perfil en [LinkedIn](https://www.linkedin.com/in/victorvelarde/); si te interesa allí puedes ver la lista de empresas, fechas, proyectos y tecnologías. Esto de aquí son más bien algunas notas personales, incluyendo mis motivaciones en cada paso.
 
@@ -51,9 +52,9 @@ Y sin embargo tenía ambición por seguir creciendo profesionalmente. Durante un
 
 CARTO representaba todo lo que buscaba en ese momento: **producto puntero** en SIG, hecho con calidad y proyección internacional.
 
-Me uní como ingeniero front y terminé haciéndome cargo del equipo de Frontend durante varios años. Evolucionamos la plataforma a modo cloud-native, crecimos en equipo (hasta 8-9 personas) y ambición y aprendí a ser un auténtico Tech Lead, y a adaptarme a los cambios propios de una startup en fase scale-up, y lo que se necesitaba en cada momento. 
+Me uní como ingeniero front y terminé haciéndome cargo del equipo de Frontend durante varios años. Evolucionamos la plataforma a modo cloud-native, crecimos en equipo (hasta 8-9 personas) y ambición y aprendí a ser un auténtico Tech Lead y luego Engineering Manager, y a adaptarme a los cambios propios de una startup en fase scale-up, y lo que se necesitaba en cada momento. 
 
-Pasé por cosas tan diversas como trabajar en el código complejo pero muy potente de la primera etapa de *Builder*, intentar el desarrollo de una biblioteca de render como *CARTO VL*, presentarla en el congreso internacional FOSS4G en Bucarest (y vivir su posterior deprecación), unirnos con éxito a *deck.gl* y contribuir a su ecosistema libre open source en vis.gl, crear la nueva arquitectura front con *React & Redux*, pegarme con el tooling, hacer crecer el equipo (motivación, liderazgo, hiring, planificación...) y siempre, claro, mantener el delivery de forma sólida… Cuando nos reorganizamos como equipos, lideré también un equipo transversal de servicios (área de autenticación y permisos, APIs y servicios generales, Design System...)
+Pasé por cosas tan diversas como trabajar en el código complejo pero muy potente de la primera etapa de *Builder*, intentar el desarrollo de una biblioteca de render como *CARTO VL*, presentarla en el congreso internacional FOSS4G en Bucarest (y vivir su posterior deprecación), unirnos con éxito a *deck.gl* y contribuir a su ecosistema libre open source en vis.gl, crear la nueva arquitectura front con *React & Redux*, pegarme con el tooling, hacer crecer el equipo (motivación, liderazgo, hiring, planificación...) y siempre, claro, mantener el delivery de forma sólida… Cuando nos reorganizamos como equipos más autónomos, lideré también un equipo fullstack en el área de account & workspaces (incluyendo todo lo relacionado con autenticación y permisos, APIs y servicios generales, Design System y el Dashboard del frontend...)
 
 Una etapa muy bonita y de muchos retos superados, que finalmente tocó a su fin.
 

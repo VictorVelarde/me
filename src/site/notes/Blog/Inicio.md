@@ -3,7 +3,7 @@
 ---
 
   
-> 🇬‍🇧 [[Read in English\|Home]]
+> [[🇬‍🇧\|Home]]
 
 ![Fondo.png](/img/user/Blog/Media/Fondo.png)
 ### 👋 Hola soy Víctor Velarde. Desarrollador de software, Teach Lead & Engineering Manager

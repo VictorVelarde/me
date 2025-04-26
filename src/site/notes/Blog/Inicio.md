@@ -2,6 +2,9 @@
 {"dg-publish":true,"permalink":"/blog/inicio/","title":"velardev","tags":["gardenEntry"]}
 ---
 
+  
+> 🔄 [Read in English](/Home)
+
 ![Fondo.png](/img/user/Blog/Media/Fondo.png)
 ### 👋 Hola soy Víctor Velarde. Desarrollador de software, Teach Lead & Engineering Manager
 

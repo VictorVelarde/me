@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"Home.md","permalink":"/home/"}
 ---
 
-> 🇪‍🇸 [Read in Spanish](/)
+> [[Blog/Inicio\| 🇪‍🇸 ES]]
 
 ![Fondo.png](/img/user/Blog/Media/Fondo.png)
 ### 👋 Hi, I'm Víctor Velarde. Software Developer, Tech Lead & Engineering Manager

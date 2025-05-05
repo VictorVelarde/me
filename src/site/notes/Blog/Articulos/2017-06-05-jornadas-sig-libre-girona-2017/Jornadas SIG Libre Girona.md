@@ -3,7 +3,16 @@
 ---
 
 
-La semana pasada tuve la suerte de poder acudir de nuevo a las Jornadas de SIG Libre de Girona, en su edición nº 11, esta vez presentando un desarrollo técnico. Aquí está el programa completo de las Jornada, como referencia: http://www.sigte.udg.edu/jornadassiglibre/programa/ (colgarán más adelante los vídeos de las ponencias). Estaba revisando mis notas, para hacer balance y compartirlo con mis compañeros, pero he pensado que quizá sería más interesante hacerlo públicamente, así que aquí están.
+La semana pasada tuve la suerte de poder acudir de nuevo a las Jornadas de SIG Libre de Girona, en su edición nº 11, esta vez presentando un desarrollo técnico, mi plugin para Leaflet, llamado **Leaftlet.CanvasLayer.Field,** para pintar rasters y campos vectoriales.
+
+<video width="640" controls>
+  <source src="https://bibstream.udg.edu/streaming/4802.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
+Aquí está el programa completo de las Jornada, como referencia: http://www.sigte.udg.edu/jornadassiglibre/programa/ (colgarán más adelante los vídeos de las ponencias). Estaba revisando mis notas, para hacer balance y compartirlo con mis compañeros, pero he pensado que quizá sería más interesante hacerlo públicamente, así que aquí están.
 
 ![jsl11-girona2017.jpg](/img/user/Blog/Articulos/2017-06-05-jornadas-sig-libre-girona-2017/media/jsl11-girona2017.jpg)
 # Ponencias plenarias

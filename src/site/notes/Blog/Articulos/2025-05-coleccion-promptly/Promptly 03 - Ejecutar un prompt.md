@@ -52,10 +52,10 @@ La gente crea prompts y los comparte ya... y esa tendencia irá a más. ¿Cómo 
 
 **Colecciones y aprendizaje**
 Algunos pensamientos en alto:
-- (a) *series de prompts:* un prompt es muy útil, como punto de partida, pero generalmente es solo el punto de partida, lo interesante suele ser una serie más elaborada, con preguntas enlazadas. ¿Tendría sentido relacionar unos prompts con otros linealmente en colecciones pensadas para ejecutarse en orden?
+- (a) *series de prompts:* un prompt es muy útil, pero generalmente es solo el punto de partida, lo interesante suele ser una serie más elaborada, con preguntas enlazadas. ¿Tendría sentido relacionar unos prompts con otros linealmente en colecciones pensadas para ejecutarse en orden?
 - (b) *aprendizaje*: los prompts pueden servir para trabajo, para ocio... pero sin duda una de los usos principales que yo le veo es el aprendizaje (autónomo o guiado). ¿Tendría sentido hacer colecciones de prompts de aprendizajes sobre un tema?
 
-El modelo de datos podría hacerse más grande y contemplar cosas como 'colecciones ordenadas de prompts', por ejemplo. Pero de nuevo... *¿que es lo más sencillo que puede funcionar?*. Pues diría que os **tags**; ya hemos incorporado el campo al prompt y pueden servir como la formula más sencilla de agrupación de prompts, así que será el siguiente elemento en el que trabajaremos (después de la ejecución del prompt) . Además, si se quiere orden, pues puede ser tan fácil como usar un tag, por ejemplo "curso-programación" y luego usar nombres tal que "01 - Primer tema", "02 - Segundo tema", etc.
+El modelo de datos podría hacerse más grande y contemplar cosas como 'colecciones ordenadas de prompts', por ejemplo. Pero de nuevo... *¿que es lo más sencillo que puede funcionar?*. Pues diría que los **tags**; ya hemos incorporado el campo al prompt en la DB y pueden servir como la formula más sencilla de agrupación de prompts, así que será el siguiente elemento en el que trabajaremos (después de la ejecución del prompt) . Además, si se quiere orden, pues puede ser tan fácil como usar un tag, por ejemplo "curso-programación" y luego usar nombres tal que "01 - Primer tema", "02 - Segundo tema", etc.
 
 Tras esta parte de brainstorming / investigación, las tareas y su orden quedarían en algo como este **mini-roadmap**:
 
@@ -73,14 +73,14 @@ Tras esta parte de brainstorming / investigación, las tareas y su orden quedar�
 ## Acciones
 
 ### Ejecutar / copiar un prompt
-Desde la app fácilmente. Seguro se puede usar el API (pidiendo primero las credenciales al usuario y guardando su API-KEY en supabase, ofuscado), pero...*¿cuál es la opción más sencilla?*  pues abriendo una nueva ventana externa con ChatGPT con el texto del prompt. Esto es trivial, usando la url que permite pasárselo como queryParam: https://chatgpt.com/?prompt=elPrompt. Más fácil imposible 😋.
+Desde la app y fácilmente. Seguro se puede usar el API (pidiendo primero las credenciales al usuario y guardando su API-KEY en supabase, ofuscado), pero...*¿cuál es la opción más sencilla?*  pues abriendo una nueva ventana externa con ChatGPT con el texto del prompt. Esto es trivial, usando la url que permite pasárselo como queryParam: https://chatgpt.com/?prompt=elPrompt. Más fácil imposible 😋.
 
-En algunos casos, al usuario le vendrá  mejor copiarlo para ejecutar de otra forma (ej. en una app local), así que metamos un Copiar al portapapeles, que es trivial.
+En algunos casos, al usuario le vendrá  mejor copiarlo para ejecutar de otra forma (ej. en una app local), así que programemos también un *Copiar al portapapeles*, que es trivial.
 
 ## Resumen
 
 En este punto, la app es funcional y se ve así:
-![[promptly_04_run_in_chatgpt.mov]]
+![[promptly_04_run_in_chatgpt.mp4]]
 
 
 Sobre la lista de tareas, este es el estado al terminar la sesión:

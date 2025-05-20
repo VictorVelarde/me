@@ -71,7 +71,7 @@ De nuevo, nos podríamos complicar aquí, pero vamos a ir una lista cerrada de l
 
 La selección de tipo de licencia, desde la edición de prompts (modo privado) se ve tal que así:
 
-[[promptly_10_license.mov]]
+![[promptly_10_license.mp4]]
 
 ## Resumen
 

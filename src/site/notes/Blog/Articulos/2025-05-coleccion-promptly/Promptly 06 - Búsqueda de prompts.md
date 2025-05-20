@@ -79,7 +79,7 @@ Después de revisar experiencias de otros productos, he decidido adoptar un enfo
 Por otro lado, para aplicarlas, basta con hacer clic en la tag, cuando aparecen asignadas (permitiendo algo como "buscar similares"): caja de búsqueda - url irán siempre acompasadas. Para el filtro, juego un rato con la UI y me decido por un dropdown sencillo, a la derecha de la caja de búsqueda.
 
 La experiencia de este bloque se ve algo como:
-[[promptly_08_tags_search.mov]]
+[[promptly_08_tags_search.mp4]]
 
 ### Compartir prompt
 Una vez la búsqueda está resuelta bien, la página clave, con la unidad principal de info, es la *vista pública del prompt*. Una página sencilla, de solo lectura, para mostrar el prompt en sí, que implemento de forma rápida. La url será /prompts/[id_prompt] 

@@ -43,9 +43,9 @@ Si simplemente prefieres probarlo, ve a https://promptly.es. Si tienes curiosida
 
 ## Proceso
 En cada post iré recogiendo el proceso de construcción y seguiré un esquema parecido:
-- 1. Punto de partida: los requisitos en ese punto (que irán inevitablemente creciendo / modificándose)
+- 1. Punto de partida: los requisitos en ese punto (que irán cambiando conforme avancemos)
 - 2. Acciones: cosas concretas hechas esa sesión para avanzar en la construcción del proyecto
-- 3. Balance: un cierre de sesión, revisando los resultados
+- 3. Balance: un balance de la sesión, revisando los resultados
 
 Sin más dilación, vamos a ello, con la primera sesión de trabajo.
 

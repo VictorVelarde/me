@@ -31,8 +31,8 @@
 ## Punto de partida
 ### Objetivos
 - No cambian.
-- Sin embargo, conforme trabajo en el proyecto, más claro tengo que si quiero que sea realmente útil, tiene que tener buenos contenidos de origen, es decir, un catálogo de prompts base, aunque luego la gente vaya agregando los suyos. Por esto mismo, he decidido buscar e importar prompts al sistema, antes de avanzar más en nuevas features, y agrego esto a la lista de tareas.
-- Hasta ahora he utilizado las urls 'autogeneradas' / aka feas pero gratuitas de Vercel. Pero está claro que un dominio propio es preferible. Agrego la tarea de configuración de dominio
+- Sin embargo, conforme trabajo en el proyecto, más claro tengo que si quiero que sea realmente útil tiene que tener algunos buenos contenidos de origen, es decir, un catálogo de prompts base, aunque luego la gente vaya agregando los suyos. Por esto mismo, he decidido buscar e importar prompts al sistema, antes de avanzar más en nuevas features, y agrego esto a la lista de tareas.
+- Hasta ahora he utilizado las urls 'autogeneradas' / aka feas pero gratuitas de Vercel. Pero está claro que un dominio propio es preferible. Agrego la tarea de configuración de dominio a mi lista.
 
 ### Tareas
 - [x] Registrarse para crear una cuenta
@@ -51,7 +51,7 @@
 ## Acciones
 
 ### Importación de prompts
-La licencia Creative Commons CC0 en awesome-chatgpt-prompts permite una importación libre, y ChatGPT nos ayuda a generar un script para ello, en base a nuestras indicaciones de mapeo de campos. Me siento cómodo con el scripting en python, así que voy a ello (en este punto, aprovecho también para configurar el entorno con pyenv en local, requirements.txt y un fichero .env para las credenciales).
+La licencia Creative Commons CC0 en *awesome-chatgpt-prompts* permite una importación libre, y ChatGPT nos ayuda a generar un script para ello, en base a nuestras indicaciones de mapeo de campos. Me siento cómodo con el scripting en python, así que voy a ello (en este punto, aprovecho también para configurar el entorno con pyenv en local, requirements.txt y un fichero .env para las credenciales).
 
 ```python
 import pandas as pd
@@ -119,12 +119,12 @@ Por cierto, el hecho de que Supabase sea realmente un postgres accesible, que pe
 
 
 ### Configuración de dominio
-La compra la realizo en godaddy.com, donde tengo otros dominios. Encuentro promptly.es, dado que lo encuentro en buenas condiciones de precio. Es sencillo y rápido de configurar con Vercel (básicamente es factible hacer una autoconfiguración desde su panel)
+La compra del dominio la realizo en godaddy.com, donde tengo otros dominios. Encuentro libre *promptly.es*, en buenas condiciones de precio, así que voy a por ello. 
+
+Es sencillo y rápido de configurar el dominio con Vercel (básicamente es factible hacer una autoconfiguración desde su panel)
 
 ## Resumen
-Empieza a haber contenidos interesantes (yo mismo exploro la colección y veo algunas cosas curiosas).
-
-Estado:
+Empieza a haber contenidos interesantes (yo mismo exploro la colección y veo algunas cosas curiosas). Estado:
 - [x] Registrarse para crear una cuenta
 - [x] Logarse después
 - [x] Persistir el prompt

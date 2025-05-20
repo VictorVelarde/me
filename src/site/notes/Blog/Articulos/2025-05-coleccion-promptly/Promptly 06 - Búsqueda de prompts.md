@@ -31,7 +31,7 @@
 ### Objetivos
 - Sin cambios
 ### Tareas
-Como ya señalamos en sesiones previas, el manejo de tags parece un elemento importante, lo trabajaremos en esta sesión. Sin embargo, vista la experiencia actual del listado de prompts, no parece que  tenga sentido mostrar toda la info y las acciones en el listado de prompts (por claridad, por rapidez...). Sería mejor mostrar esa info desde el detalle del prompt individual; así que voy a hacer primero algunos ajustes, simplificando la lista de prompts.
+Como ya señalamos en sesiones previas, el manejo de tags parece un elemento importante, lo trabajaremos en esta sesión. Sin embargo, vista la experiencia actual del listado de prompts, no parece que  tenga sentido mostrar toda la info y las acciones en el listado de prompts (por claridad, por rapidez en las consultas...). Sería mejor mostrar esa info desde el detalle del prompt individual; así que voy a hacer primero algunos ajustes, simplificando la lista de prompts.
 
 - [x] Registrarse para crear una cuenta
 - [x] Logarse después
@@ -49,14 +49,17 @@ Como ya señalamos en sesiones previas, el manejo de tags parece un elemento imp
 ## Acciones
 
 ### Lista mejorada de prompts + username!
-Solo *nombre, autor y fecha del prompt*, sería lo ideal; solo hay un pequeño problema 😄: con el registro actual (email y clave), no hay nombre de usuario, solo email. 
+Solo *nombre, autor y fecha del prompt* en la lista sería lo ideal; solo hay un pequeño problema 😄: con el registro actual (email y clave), no hay nombre de usuario, solo email. 
 
 En este punto, creo que es razonable que se pida como input y se guarde al registrar al usuario, como el típico *username* único de toda red social. No creo que sea adecuado mostrar, por privacidad, el email de las personas que se registran; este solo es requerido para validar el signup / sign-in y si lo compartes, puede acabar en spam o correos no deseados. 
 
-Tiro un poco de ChatGPT, lo suficiente para averiguar que Supabase no da la feature tal cual, hay que currárselo un poco y saber lo que se quiere (precisamente porque exponer email u otros datos de los users es delicado). Me tropiezo con esta [referencia](https://stackoverflow.com/questions/78550922/how-do-i-authorise-users-with-username-in-supabase), que a su vez apunta a la guia recomendada de **Supabase**  para [user-data](https://supabase.com/docs/guides/auth/managing-user-data) y sigo su enfoque: básicamente un trigger y una nueva tabla para mantener users y sus nombres separados pero vinculados.
+Tiro un poco de ChatGPT, lo suficiente para averiguar que Supabase no da la feature tal cual, hay que currárselo un poco y saber lo que se quiere (precisamente porque exponer email u otros datos de los users es delicado). Me tropiezo con esta [referencia](https://stackoverflow.com/questions/78550922/how-do-i-authorise-users-with-username-in-supabase), que a su vez apunta a la guia recomendada de **Supabase**  para [user-data](https://supabase.com/docs/guides/auth/managing-user-data) y sigo su enfoque: básicamente un trigger y una nueva tabla para mantener users y sus nombres separados pero sincronizados.
 
-Por cierto, me he dado cuenta, al ir a mirar unos cambios WIP, que no tengo debugger para el lado server-side (sí para cliente, con chrome). Siguiendo la guía de NextJS se pueden poner ambos en VS Code: https://nextjs.org/docs/pages/guides/debugging#debugging-with-vs-code, y con esto en el proyecto es más fácil trabajar.
+> [!info] 
+> Por cierto, me he dado cuenta, al ir a mirar unos cambios WIP, que no tengo debugger para el lado server-side (sí para cliente, con chrome). Siguiendo la guía de NextJS se pueden poner ambos en VS Code: https://nextjs.org/docs/pages/guides/debugging#debugging-with-vs-code, y con esto en el proyecto es más fácil trabajar.
 
+
+Esta es la vista simplificada:
 ![promptly_07_simple_public_list.png](/img/user/Blog/Articulos/2025-05-coleccion-promptly/media/promptly_07_simple_public_list.png)
 
 ### Colecciones de prompts con tags / buscar
@@ -66,7 +69,7 @@ Las tags son un elemento central, pero en compañía de estas y para tener un bu
 - **3. búsqueda por tag**
 - **4. ordenación** (asc / desc, por título y fecha)
 
-*UX de la búsqueda*
+#### UX de la búsqueda
 Como el objetivo al final es poder compartir fácilmente prompts, es interesante *persistir el estado en la url*, lo cual permite compartir búsquedas fácilmente...  
 
 Durante un rato le he estado dando vueltas también a la experiencia de uso de los tags. Por ejemplo:
@@ -82,7 +85,7 @@ La experiencia de este bloque se ve algo como:
 ![promptly_08_tags_search.gif](/img/user/Blog/Articulos/2025-05-coleccion-promptly/media/promptly_08_tags_search.gif)
 
 ### Compartir prompt
-Una vez la búsqueda está resuelta bien, la página clave, con la unidad principal de info, es la *vista pública del prompt*. Una página sencilla, de solo lectura, para mostrar el prompt en sí, que implemento de forma rápida. La url será /prompts/[id_prompt] 
+Una vez la búsqueda está resuelta bien, la página clave es la *vista pública del prompt*. Una página sencilla, de solo lectura, para mostrar el prompt en sí, que implemento de forma rápida. La url será /prompts/[id_prompt] 
 
 Como está pensada como página pública, para compartir un prompt por ejemplo en una red social, es interesante dotarla de los metadatos en el servidor, basados en un estándar como *OpenGraph*. NextJS permite fácilmente usar su función *generateMetadata* para que se generen las previsualizaciones adecuadas al compartir.
 

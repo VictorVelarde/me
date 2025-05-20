@@ -40,7 +40,7 @@ Se mantienen tal cual.
 Los 3 elementos previos apuntan a que la app debe persistir los datos y hacerlo de forma **segura** (que los prompts sean de cada usuario y privados por defecto). Lo que es lo mismo, que un usuario liste y vea solo sus prompts y otro usuario los suyos. Esto se consigue de 2 formas tradicionalmente: una **base de datos propia** (cuando el usuario está por ejemplo en un entorno dedicado, o bien la plataforma crea una para cada cuenta) o la misma base de datos / tablas pero un **sistema robusto de RLS** (Row Level Security) que aisle los datos de cada cliente. Habitualmente lo 2º es más sencillo y eficiente en términos de costes, así que iremos por ese camino.
 
 - [x] La UI no debe ser tal cual la de una plantilla, el proyecto tiene que tener una imagen reconocible y ser claro y fácil de usar (UX)
-🔝Es claro que los requisitos funcionales (gestionar los prompts), van acompañados necesariamente de requisitos de otro tipo. En un enfoque de mínimos, comenzaremos por Seguridad / Usabilidad básica... pero más adelante, si la cosa crece, habría que revisar otros como el Rendimiento del sistema o su Mantenibilidad
+🔝Es claro que los requisitos funcionales (gestionar los prompts), van acompañados necesariamente de requisitos de otro tipo. En un enfoque de mínimos, comenzaremos por una seguridad / usabilidad básica... pero más adelante, si la cosa crece, habría que revisar otros como el rendimiento del sistema o su mantenibilidad.
 
 ## Acciones
 
@@ -94,9 +94,7 @@ USING ((select auth.uid()) = user_id);
 🔝Supabase tiene una UI para definirlo, pero el SQL Editor es más flexible para crearlos.
 
 - [x] Realizar unas inserciones de prueba / datos seed y pruebas
-❗Hay librerías custom para generar datos 'semilla' de prueba, y muchas formas de hacerlo, pero lo más sencillo es pasarle el create table a un LLM cualquiera y pedirle N filas, con las restricciones que apliquen, por ejemplo:
-
-**snippet**
+Hay librerías custom para generar datos 'semilla' de prueba, y muchas formas de hacerlo, pero lo más sencillo es pasarle el create table a un LLM cualquiera y pedirle N filas, con las restricciones que apliquen, por ejemplo:
 ```prompt
 sql
 CREATE TABLE prompts (
@@ -151,12 +149,13 @@ WHERE NOT ('random_mock' = ANY(tags));
 ### UI  básica para prompts
 - [x] Listar prompts
 Ya tenemos datos de prueba, con 10 prompts para un usuario, así que podemos empezar por listarlos y ver el detalle de 1 de ellos.
+
 Es muy sencillo con el cliente server-side para Supabase, las instrucciones en la template y un poco de ayuda de Copilot en VSCode para las clases de TailwindCSS, el resultado:
 
 ![promptly_02_prompts_list.png](/img/user/Blog/Articulos/2025-05-coleccion-promptly/media/promptly_02_prompts_list.png)
 
 - [x] General: Modificar la UI para eliminar las referencias a la plantilla
-❗Lo mínimo es eliminar algunos botones y referencias a la template. Aun quedará dead-code y cosas a limpiar en el futuro, pero sirve para avanzar. Vamos a usar como "nombre del proyecto": Promptly
+Lo mínimo es eliminar algunos botones y referencias a la template. Aun quedará dead-code y cosas a limpiar en el futuro, pero sirve para avanzar. Vamos a usar como "nombre del proyecto": Promptly
 
 - [x] Formulario para registrar el prompt
 Se necesita un usuario logado, y otra página, por lo que es un buen momento para considerar por primer vez las "rutas" de forma más general, y los caminos que seguirán los usuarios. 
@@ -224,6 +223,6 @@ En este punto, ya tenemos:
 - La feature de listar los Prompt de un usuario, gracias a Row Level Security.
 
 Si revisamos la lista de tareas tenemos:
-- [x] 1. Registrarse para crear una cuenta
-- [x] 2. Logarse después (gestión de la identidad)
-- [x] 3. Persistir y recuperar prompts
+- [x] Registrarse para crear una cuenta
+- [x] Logarse después (gestión de la identidad)
+- [x] Persistir y recuperar prompts

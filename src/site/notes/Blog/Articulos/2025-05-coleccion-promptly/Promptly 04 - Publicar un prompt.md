@@ -90,7 +90,7 @@ USING (
 
 Y así conseguimos avances, especialmente en el primer bloque: La home muestra ya un enlace al catalogo, se puede usar leyendo los últimos 20 elementos (de momento sin búsquedas, filtros por tag, etc.)
 
-![[promptly_06_app_with_public_catalog.mp4]]
+![promptly_06_app_with_public_catalog.gif](/img/user/Blog/Articulos/2025-05-coleccion-promptly/media/promptly_06_app_with_public_catalog.gif)
 
 
 ## Resumen

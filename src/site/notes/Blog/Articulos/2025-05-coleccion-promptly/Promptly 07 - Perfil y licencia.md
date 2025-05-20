@@ -63,7 +63,7 @@ Actualmente los usuarios se registran con 3 elementos: nombre de usuario, email 
 
 Para acceder al perfil de un usuario (url tipo */profiles/promptly*), se puede acceder desde la vista individual del prompt. He aprovechado para agregar también la búsqueda de prompts en el catalogo de un usuario y he linkado ambas vistas. La feature de forma conjunta se ve tal que así:
 
-[[promptly_09_profile.mov]]
+![promptly_09_profile.gif](/img/user/Blog/Articulos/2025-05-coleccion-promptly/media/promptly_09_profile.gif)
 🔝para el render he usado la librería `react-markdown` 
 
 ### Licencia de prompts
@@ -71,7 +71,7 @@ De nuevo, nos podríamos complicar aquí, pero vamos a ir una lista cerrada de l
 
 La selección de tipo de licencia, desde la edición de prompts (modo privado) se ve tal que así:
 
-![[promptly_10_license.mp4]]
+![promptly_10_license.gif](/img/user/Blog/Articulos/2025-05-coleccion-promptly/media/promptly_10_license.gif)
 
 ## Resumen
 

@@ -80,7 +80,7 @@ En algunos casos, al usuario le vendrá  mejor copiarlo para ejecutar de otra fo
 ## Resumen
 
 En este punto, la app es funcional y se ve así:
-![[promptly_04_run_in_chatgpt.mp4]]
+![promptly_04_run_in_chatgpt.gif](/img/user/Blog/Articulos/2025-05-coleccion-promptly/media/promptly_04_run_in_chatgpt.gif)
 
 
 Sobre la lista de tareas, este es el estado al terminar la sesión:

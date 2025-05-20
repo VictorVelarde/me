@@ -10,7 +10,7 @@
 I'm interested in programming applied to solving relevant problems, building tools for users and developers, Geographic Information Systems (GIS), and, in general, learning and solving complex problems as a team.  
 On a personal level, I seek to spend time with my family, read, and practice sports whenever I can.
 
-If you want to contact me, this is my email address: **victor.velarde at gmail dot com**
+If you want to contact me, this is my email address: **victor.velarde at gmail dot com** and these are my main social profiles
 - [github](https://github.com/VictorVelarde/)
 - [linkedin](https://www.linkedin.com/in/victorvelarde/)
 

@@ -9,7 +9,7 @@
 
 Me interesa la programación aplicada a resolver problemas relevantes, construir herramientas para usuarios y desarrolladores, los Sistemas de Información Geográfica (SIG) y en general aprender y resolver problemas complejos en equipo. En lo personal, lo que busco es pasar tiempo con mi familia, leer y hacer deporte siempre que puedo. 
 
-Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail punto com**
+Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail punto com** y estos mis perfiles sociales
 - [github](https://github.com/VictorVelarde/)
 - [linkedin](https://www.linkedin.com/in/victorvelarde/)
 

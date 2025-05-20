@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 02 - Listar prompts.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-02-listar-prompts/","title":"Promptly 02 - Listar prompts","tags":["nextjs","supabase","postgresql","tailwindcss"]}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 02 - Listar prompts.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-02-listar-prompts/","title":"Promptly 02 - Listar prompts","tags":["nextjs","supabase","postgresql"]}
 ---
 
 

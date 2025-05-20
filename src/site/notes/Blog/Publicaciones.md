@@ -41,7 +41,6 @@
 - #nextjs (7)
 - #postgresql (7)
 - #supabase (7)
-- #tailwindcss (7)
 - #openlayers (5)
 - #python (4)
 - #qgis (3)

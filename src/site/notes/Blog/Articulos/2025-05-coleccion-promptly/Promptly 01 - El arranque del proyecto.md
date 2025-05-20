@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 01 - El arranque del proyecto.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-01-el-arranque-del-proyecto/","title":"Promptly 01 - El arranque del proyecto","tags":["nextjs","supabase","postgresql","tailwindcss"]}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 01 - El arranque del proyecto.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-01-el-arranque-del-proyecto/","title":"Promptly 01 - El arranque del proyecto","tags":["nextjs","supabase","postgresql"]}
 ---
 
 Con este post inicio una serie sobre la construcción de un side-project que he llamado Promptly, para la gestión de prompts de IA. Iré enlazando aquí los posts conforme los vaya publicando, para que sea más fácil navegar entre ellos. 

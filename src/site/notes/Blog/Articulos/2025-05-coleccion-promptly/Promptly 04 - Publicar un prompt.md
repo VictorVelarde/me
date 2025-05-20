@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 04 - Publicar un prompt.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-04-publicar-un-prompt/","title":"Promptly 04 - Publicar un prompt","tags":["nextjs","supabase","postgresql","tailwindcss"]}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 04 - Publicar un prompt.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-04-publicar-un-prompt/","title":"Promptly 04 - Publicar un prompt","tags":["nextjs","supabase","postgresql"]}
 ---
 
 

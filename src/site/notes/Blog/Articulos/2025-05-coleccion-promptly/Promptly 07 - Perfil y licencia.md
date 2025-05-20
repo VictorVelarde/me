@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 07 - Perfil y licencia.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-07-perfil-y-licencia/","title":"Promptly 07 - Perfil y licencia","tags":["nextjs","supabase","postgresql","tailwindcss"]}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 07 - Perfil y licencia.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-07-perfil-y-licencia/","title":"Promptly 07 - Perfil y licencia","tags":["nextjs","supabase","postgresql"]}
 ---
 
 

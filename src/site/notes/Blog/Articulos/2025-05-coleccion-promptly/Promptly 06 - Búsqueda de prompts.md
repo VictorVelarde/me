@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 06 - Búsqueda de prompts.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-06-busqueda-de-prompts/","title":"Promptly 06 - Búsqueda de prompts","tags":["nextjs","supabase","postgresql","tailwindcss"]}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 06 - Búsqueda de prompts.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-06-busqueda-de-prompts/","title":"Promptly 06 - Búsqueda de prompts","tags":["nextjs","supabase","postgresql"]}
 ---
 
 

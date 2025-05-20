@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 03 - Ejecutar un prompt.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-03-ejecutar-un-prompt/","title":"Promptly 03 - Ejecutar un prompt","tags":["nextjs","supabase","postgresql","tailwindcss"]}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 03 - Ejecutar un prompt.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-03-ejecutar-un-prompt/","title":"Promptly 03 - Ejecutar un prompt","tags":["nextjs","supabase","postgresql"]}
 ---
 
 

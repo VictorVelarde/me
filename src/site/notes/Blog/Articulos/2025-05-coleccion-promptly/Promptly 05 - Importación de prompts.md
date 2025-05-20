@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 05 - Importación de prompts.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-05-importacion-de-prompts/","title":"Promptly 05 - Importación de prompts","tags":["nextjs","supabase","postgresql","tailwindcss"]}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 05 - Importación de prompts.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-05-importacion-de-prompts/","title":"Promptly 05 - Importación de prompts","tags":["nextjs","supabase","postgresql"]}
 ---
 
 

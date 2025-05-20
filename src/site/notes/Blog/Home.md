@@ -17,11 +17,11 @@ If you want to contact me, this is my email address: **victor.velarde at gmail d
 ---
 ### ✍ Blog
 Here are some of my posts (in Spanish):
+- [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 01 - El arranque del proyecto\|Promptly 01 - El arranque del proyecto]]
 - [[Blog/Articulos/2025-02-19-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital\|Obsidian como herramienta para un cerebro digital]]
 - [[Blog/Articulos/2018-01-29-working-effectively-with-legacy-code/Working effectively with legacy code\|Working effectively with legacy code]]
 - [[Blog/Articulos/2015-01-23-como-utilizar-datos-geograficos-publicos-de-la-nasa-srtm-con-un-software-libre-como-qgis/Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS\|Cómo utilizar datos geográficos públicos de la NASA (SRTM) con un software libre como QGIS]]
 - [[Blog/Articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3 lenguajes de programación para SIG\|3 lenguajes de programación para SIG]]
-- [[Blog/Articulos/2012-10-13-sig-en-la-nube/Nuevas tendencias los SIG en la nube\|Nuevas tendencias los SIG en la nube]]
 
 { .block-language-dataview}
 

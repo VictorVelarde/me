@@ -2,6 +2,13 @@
 {"dg-publish":true,"dg-path":"Publicaciones.md","permalink":"/publicaciones/"}
 ---
 
+- [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 07 - Perfil y licencia\|Promptly 07 - Perfil y licencia]]: May 20, 2025
+- [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 06 - Búsqueda de prompts\|Promptly 06 - Búsqueda de prompts]]: May 19, 2025
+- [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 05 - Importación de prompts\|Promptly 05 - Importación de prompts]]: May 18, 2025
+- [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 04 - Publicar un prompt\|Promptly 04 - Publicar un prompt]]: May 17, 2025
+- [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 03 - Ejecutar un prompt\|Promptly 03 - Ejecutar un prompt]]: May 16, 2025
+- [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 02 - Listar prompts\|Promptly 02 - Listar prompts]]: May 15, 2025
+- [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 01 - El arranque del proyecto\|Promptly 01 - El arranque del proyecto]]: May 14, 2025
 - [[Blog/Articulos/2025-02-19-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital\|Obsidian como herramienta para un cerebro digital]]: February 19, 2025
 - [[Blog/Articulos/2018-01-29-working-effectively-with-legacy-code/Working effectively with legacy code\|Working effectively with legacy code]]: January 29, 2018
 - [[Blog/Articulos/2017-06-05-jornadas-sig-libre-girona-2017/Jornadas SIG Libre Girona\|Jornadas SIG Libre Girona]]: June 05, 2017

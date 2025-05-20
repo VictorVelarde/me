@@ -39,14 +39,15 @@ Se mantienen tal cual.
 
 Los 3 elementos previos apuntan a que la app debe persistir los datos y hacerlo de forma **segura** (que los prompts sean de cada usuario y privados por defecto). Lo que es lo mismo, que un usuario liste y vea solo sus prompts y otro usuario los suyos. Esto se consigue de 2 formas tradicionalmente: una **base de datos propia** (cuando el usuario está por ejemplo en un entorno dedicado, o bien la plataforma crea una para cada cuenta) o la misma base de datos / tablas pero un **sistema robusto de RLS** (Row Level Security) que aisle los datos de cada cliente. Habitualmente lo 2º es más sencillo y eficiente en términos de costes, así que iremos por ese camino.
 
-- [x] La UI no debe ser tal cual la de una plantilla, el proyecto tiene que tener una imagen reconocible y ser claro y fácil de usar (UX)
 🔝Es claro que los requisitos funcionales (gestionar los prompts), van acompañados necesariamente de requisitos de otro tipo. En un enfoque de mínimos, comenzaremos por una seguridad / usabilidad básica... pero más adelante, si la cosa crece, habría que revisar otros como el rendimiento del sistema o su mantenibilidad.
 
 ## Acciones
 
 ### Persistencia
+
 - [x] Crear tabla de prompts
-- Seguramente la estructura evolucionará, pero en una primera versión, y con ayuda de ChatGPT, esta es la estructura propuesta, con una sola tabla
+
+Seguramente la estructura evolucionará, pero en una primera versión, y con ayuda de ChatGPT, esta es la estructura propuesta, con una sola tabla
 ```sql
 CREATE TABLE prompts (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
@@ -61,9 +62,12 @@ CREATE TABLE prompts (
 );
 ```
 
-En Supabase no hay una tabla `public.users`, para hacer la FK. En la sección Authentication > Users muestra que existe sin embargo, con los campos UID, Display name, Email, Provider type, etc. Esta tabla se encuentra en realidad bajo *auth.users*, así que omitiremos el FK explícito, pero habrá que tenerlo en cuenta para manejar la integridad de los datos (con algún tipo de borrado manual en cascada). Reemplazamos pues: `user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE` con un simple `user_id UUID NOT NULL`
+En **Supabase** no hay una tabla `public.users`, para hacer la FK. En la sección Authentication > Users muestra que existe sin embargo, con los campos UID, Display name, Email, Provider type, etc. Esta tabla se encuentra en realidad bajo *auth.users*, así que omitiremos el FK explícito, pero habrá que tenerlo en cuenta para manejar la integridad de los datos (con algún tipo de borrado manual en cascada). Reemplazamos pues: `user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE` con un simple `user_id UUID NOT NULL`
 
-- [x] Privacidad de datos. Usaremos RLS: Inicialmente Supabase (mediante un asistente con AI por cierto para los SQL muy útil), sugiere unas reglas que tienen bastante sentido, para limitar, via CREATE POLICY las operaciones a nivel de SELECT, INSERT, UPDATE, DELETE. Si más adelante incluimos el is_public, crearemos otra policy para ver los prompts compartidos
+- [x] Privacidad de datos
+
+Usaremos RLS. Inicialmente Supabase (mediante un asistente con AI por cierto para los SQL muy útil), sugiere unas reglas que tienen bastante sentido, para limitar, via CREATE POLICY las operaciones a nivel de SELECT, INSERT, UPDATE, DELETE. Si más adelante incluimos el is_public, crearemos otra policy para ver los prompts compartidos
+
 ```sql
 -- RLS basica
 CREATE POLICY "Authenticated users can view their own prompts" 
@@ -94,6 +98,7 @@ USING ((select auth.uid()) = user_id);
 🔝Supabase tiene una UI para definirlo, pero el SQL Editor es más flexible para crearlos.
 
 - [x] Realizar unas inserciones de prueba / datos seed y pruebas
+
 Hay librerías custom para generar datos 'semilla' de prueba, y muchas formas de hacerlo, pero lo más sencillo es pasarle el create table a un LLM cualquiera y pedirle N filas, con las restricciones que apliquen, por ejemplo:
 ```prompt
 sql
@@ -112,7 +117,7 @@ CREATE TABLE prompts (
 Generame 10 ejemplos de prompt para la tabla previa, para el usuario con id='18e3e69f-9723-462f-8e5f-edfca2e1232b', teniendo en cuenta que estoy utilizando Supabase, sobre un PostgreSQL 15.8
 ```
 
-🔝Esto sería un buen ejemplo luego de un prompt a almacenar en la plataforma, como un ejemplo de generador de mocks de postgres. ChatGPT genera un snippet compacto, con generate_series,  algo como:
+🔝Por cierto, este sería un buen ejemplo de un prompt a almacenar en la plataforma, como un ejemplo de generador de mocks de postgres. ChatGPT genera un snippet compacto, con *generate_series*,  algo como:
 ```sql
 -- Enable pgcrypto if not already enabled
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
@@ -122,21 +127,22 @@ INSERT INTO prompts (user_id, title, content, description, tags)
 SELECT
   'el-id-del-usuario-que-toque'::uuid,
   'Prompt #' || gs AS title,
-  'Write a creative text about ' || 
+  'Escribe un texto creativo sobre ' || 
     (ARRAY[
-      'the future of artificial intelligence',
-      'a conversation between trees',
-      'a sunken city',
-      'the last thought of a robot',
-      'a failed time travel experiment'
+      'el futuro de la inteligencia artificial',
+      'una conversación entre dos árboles',
+      'una ciudad sumergida',
+      'el último pensamiento de un robot',
+      'un experimento fallido de viaje en el tiempo'
     ])[floor(random() * 5 + 1)] || '.' AS content,
-  'This prompt was auto-generated for development testing. Ref: ' || md5(random()::text) AS description,
+  'Prompt auto-generado para hacer pruebas. Ref: ' || md5(random()::text) AS description,
   ARRAY[
-    (ARRAY['creative', 'technology', 'fiction', 'history', 'mystery'])[floor(random() * 5 + 1)],
-    (ARRAY['philosophy', 'future', 'AI', 'nature', 'dystopia'])[floor(random() * 5 + 1)]
+    (ARRAY['creatividad', 'tecnologia', 'ficcion', 'historia', 'misterio'])[floor(random() * 5 + 1)],
+    (ARRAY['filosofia', 'futuro', 'ia', 'naturaleza', 'distopia'])[floor(random() * 5 + 1)]
   ] AS tags
 FROM generate_series(1, 10) AS gs;
 ```
+
 🔝Y esto se ejecuta sin problema en Supabase. Bien Supabase, bien 💌
 
 Se puede tal vez agregar un tag extra, para borrarlos más adelante. Prompt en el propio Supabase, que tiene un interfaz en modo texto llamada "Assistant": `Actualiza todo registro en "prompts" y agrega un tag "random_mock", respetando las tags actuales`... mmm parece que ahora mismo no funciona bien (dicen que está en Alpha), vamos a ChatGPT y genera un SQL que funciona bien:
@@ -147,6 +153,7 @@ WHERE NOT ('random_mock' = ANY(tags));
 ```
 
 ### UI  básica para prompts
+
 - [x] Listar prompts
 Ya tenemos datos de prueba, con 10 prompts para un usuario, así que podemos empezar por listarlos y ver el detalle de 1 de ellos.
 
@@ -155,9 +162,11 @@ Es muy sencillo con el cliente server-side para Supabase, las instrucciones en l
 ![promptly_02_prompts_list.png](/img/user/Blog/Articulos/2025-05-coleccion-promptly/media/promptly_02_prompts_list.png)
 
 - [x] General: Modificar la UI para eliminar las referencias a la plantilla
+
 Lo mínimo es eliminar algunos botones y referencias a la template. Aun quedará dead-code y cosas a limpiar en el futuro, pero sirve para avanzar. Vamos a usar como "nombre del proyecto": Promptly
 
 - [x] Formulario para registrar el prompt
+
 Se necesita un usuario logado, y otra página, por lo que es un buen momento para considerar por primer vez las "rutas" de forma más general, y los caminos que seguirán los usuarios. 
 
 ### Rutas
@@ -175,13 +184,13 @@ Y considerando lo que queremos hacer, esta podría ser una buena estructura. Por
 
 **(a) Rutas públicas**
 
-| Ruta          | Descripción                                                                                                                   |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| /             | Home pública                                                                                                                  |
-| /prompts      | Catálogo público de prompts. Navegable, con filtros por tags, votos, etc.                                                     |
-| /prompts/[id] | Detalle de un prompt específico. Accesible sin login. Posible CTA de login para interactuar (votar, comentar, guardar, etc.). |
-| /sign-up      | Registro de usuario.                                                                                                          |
-| /sign-in      | Login de usuario.                                                                                                             |
+| Ruta          | Descripción                                                                |
+| ------------- | -------------------------------------------------------------------------- |
+| /             | Home pública                                                               |
+| /prompts      | Catálogo público de prompts. Navegable, con filtros por tags, nombre, etc. |
+| /prompts/[id] | Detalle de un prompt específico. Accesible sin login.                      |
+| /sign-up      | Registro de usuario.                                                       |
+| /sign-in      | Login de usuario.                                                          |
 
 **(b) Rutas privadas**
 
@@ -202,13 +211,14 @@ Hazme un logo sencillo, en SVG que diga "Promptly", con la P más destacada, tom
 --y-le-pego-el-SVG-tal-cual-de-NextJS (omitido)
 ```
 
-Y nos genera algo para empezar...; ya que es un SVG, se puede editar, por ejemplo para meter un prefijo de prompt y ajustar un poco los espacios y con eso tenemos
+Y nos genera algo para empezar...
 ![promptly_03_home_with_hero.png](/img/user/Blog/Articulos/2025-05-coleccion-promptly/media/promptly_03_home_with_hero.png)
 
 Vale sí, es bastante feo, pero sirve para empezar. Además, como es un SVG con el fill="currentColor", se adapta también a la feature de theme de la template (tema oscuro), por lo que de momento👌.
 
 ### Crear y listar prompts
 - [x] Nueva estructura para la zona privada (componentes y esbozo de interfaz)
+
 Las rutas son algo importante y en lo que es fácil cometer errores. En la plantilla actualmente las rutas están hardcodeadas, y repetidas en varios lugares. Vamos a crear un fichero "*routes.ts*" para tenerlas controladas y poder cambiarlas después sin romper. 
 
 Tras varios refactor, con algo de ayuda de ChatGPT / Copilot se puede avanzar y tener una app funcional para el flujo básico: guardar y listar prompts de un usuario en modo privado.

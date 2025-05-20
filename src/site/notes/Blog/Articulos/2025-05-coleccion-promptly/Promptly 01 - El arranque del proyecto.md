@@ -55,7 +55,7 @@ Sin más dilación, vamos a ello, con la primera sesión de trabajo.
 
 ### Objetivos
 A alto nivel estos serían los **objetivos actuales del proyecto**:
-- Quiero permitir guardar prompts para poder gestionarlos / usarlos mejor. Pienso que esto puede ser útil para muchos usuarios.
+- Quiero permitir guardar prompts para poder gestionarlos / usarlos mejor.
 - Quiero a la vez hacer involucrarme en un proyecto que me permita aprender más sobre algunas tecnologías (NextJS, TailwindCSS y otras)
 - Quiero usar lo que sea más sencillo y rápido / barato.
 
@@ -66,12 +66,13 @@ Vamos a sacar una lista primera de **tareas** (o requisitos si se quiere), para 
 - [ ] Persistir un prompt
 
 Y todo esto debe ser seguro, claro: que los prompts sean de cada usuario y privados por defecto.
+
 Venga, pues con este punto de partida, vamos a ponernos manos a la obra.
 
 ## Acciones
 ### Elección de plataforma
 #### Firebase
-❗Una forma que conozco y seguramente funcionaría bien es *Firebase*; ya lo he usado para algunos proyectos en el pasado, incluyendo la gestión de la autenticación y la persistencia de JSON (su motor Firebase es NoSQL) y los updates en tiempo real, y funciona muy bien, sin duda.  Seguramente podría probar el nuevo [Firebase Studio](https://cloud.google.com/blog/products/application-development/firebase-studio-lets-you-build-full-stack-ai-apps-with-gemini)... pero me gustaría más usar un motor SQL estándar... así que voy a ver otras opciones en GCP.
+Una forma que conozco y seguramente funcionaría bien es *Firebase*; ya lo he usado para algunos proyectos en el pasado, incluyendo la gestión de la autenticación y la persistencia de JSON (su motor Firebase es NoSQL) y los updates en tiempo real, y funciona muy bien, sin duda.  Seguramente podría probar el nuevo [Firebase Studio](https://cloud.google.com/blog/products/application-development/firebase-studio-lets-you-build-full-stack-ai-apps-with-gemini)... pero me gustaría más usar un motor SQL estándar... así que voy a ver otras opciones en GCP.
 
 #### PostgreSQL en GCP
 He trabajado con muchos tipos de base de datos: SQL Server, Oracle,  Postgres, ClickHouse... pero como lei en alguna ocasión: "*en caso de duda, usa postgres*". Así que he echado un ojo a mi cuenta Google Cloud Platform (GCP), y veo que actualmente una instancia gestionada de Postgres 16, con 2 vCPU y 8 GB + 10 GB SSD cuesta (en Iowa) $0.14/hora, lo que vendría a ser aprox $102 dólares al mes (en Europa GCP es más caro, y sobre un coste unitario de $0.17 hora, se iría hasta casi $125 mes, pero para un prototipo / side-project la latencia no me preocupa demasiado).
@@ -82,18 +83,19 @@ A pesar de que tengo un descuento disponible en GCP,  la verdad, 0 € para arra
 Y así he llegado hasta Supabase, que se vende como una alternativa open-source a Firebase e incluye Postgres y un plan inicial de $0 / mes. así que le voy a dar una oportunidad. 
 
 - [x] Creación de proyecto "promptly" en region West Europe
+
 > [!info]
-   El plan en Supabase tampoco es para tirar cohetes, veremos después como se maneja: Nano: $0 / hour (up to 0.5 GB de memoria y una CPU Shared) + Disk size: 1 GB
+   El plan en Supabase tampoco es para tirar cohetes, veremos después como se comporta. Se trata del plan Nano = $0 / hour (up to 0.5 GB de memoria y una CPU Shared) + Disk size: 1 GB
 
 ### Creación de la app
-Hoy en día existen muchas fórmulas, pero me apetece profundizar más en [NextJS]. Un proyecto [[NextJS]] "normal", puede ser creado en local fácilmente con
+Hoy en día existen muchas fórmulas, pero me apetece profundizar más en NextJS. Un proyecto NextJS "normal", puede ser creado en local fácilmente con
 ```shell
 npx create-next-app@latest
 ```
 
 Pero también se admiten 'templates' o plantillas pre-configuradas. Este es el caso de Supabase, ya que existe una **plantilla oficial** que facilita el arranque:
 
-- [x] Creación del proyecto NextJS con plantilla
+- [x] Creación del proyecto NextJS con la plantilla oficial de supabase
 ```shell
 npx create-next-app@latest -e with-supabase
 ```
@@ -155,7 +157,7 @@ En este punto, tenemos:
 - Un proyecto "promptly" en Supabase, inicialmente vacío
 - Un repo privado "promptly" en Github, con el proyecto NextJs de plantilla de supabase
 - Un proyecto "promptly" en Vercel, vinculado a Github, para el hosting de la app.
-- El proyecto desplegado en una url pública
+- El proyecto desplegado por primera vez en una url pública
 
 ![promptly_01_template_deployed_to_vercel.png](/img/user/Blog/Articulos/2025-05-coleccion-promptly/media/promptly_01_template_deployed_to_vercel.png)
 

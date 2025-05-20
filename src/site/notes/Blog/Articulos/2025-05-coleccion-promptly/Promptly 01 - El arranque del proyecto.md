@@ -39,8 +39,7 @@ Si simplemente prefieres probarlo, ve a https://promptly.es. Si tienes curiosida
 
 ## Reto
 - Crear un lugar donde gestionar los prompts y poder compartir, descubrir y probar de forma sencilla otros nuevos puede ser muy útil.
-- Construir algo así, pero también describir el proceso y las decisiones, me parece una experiencia enriquecedora profesionalmente, así que voy a hacerlo a través de varios post sucesivos, describiendo lo realizado, sesión a sesión.
-- De forma orientativa, una sesión puede ser un bloque aproximado de tiempo, de 1 a 2 horas aprox.
+- Construir algo así, pero también describir el proceso y las decisiones, me parece una experiencia interesante profesionalmente, así que voy a hacerlo a través de varios post sucesivos, describiendo lo realizado, sesión a sesión (de forma orientativa, una sesión puede ser un bloque aproximado de tiempo de 1 a 2 horas aprox).
 
 ## Proceso
 En cada post iré recogiendo el proceso de construcción y seguiré un esquema parecido:

@@ -28,6 +28,6 @@ Todos los [[Blog/Publicaciones\|posts]]
 
 ---
 ###  🧔‍♂ Sobre mí
- Actualmente vivo en Santander (España) y trabajo en remoto como _Core Tech Lead-Manager_ en [Tinybird](https://www.tinybird.co/). Tinybird es una plataforma SaaS para analíticas de datos en tiempo real, montada sobre un fork propio de ClickHouse. Admite la ingesta en modo batch o _streaming_ y permite su consulta usando SQL, así como la publicación de APIs para crear de forma sencilla productos de datos. Los dominios en los que trabajo especialmente son el billing y la observabilidad. 
+Actualmente vivo en Santander (España) y trabajo en remoto como _Software Engineer_ en [MOGU](https://www.moguplatform.com/), una plataforma SaaS que ayuda a las agencias de viajes a digitalizar sus operaciones, optimizar pagos y ofrecer experiencias personalizadas. MOGU busca transformar el turismo mediante tecnología inteligente centrada en el cliente.
 
 Si quieres saber más sobre mi experiencia laboral, puedes echar un ojo a estas notas sobre mi [[Blog/Carrera\|Carrera]] profesional. 

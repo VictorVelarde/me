@@ -56,9 +56,11 @@ Me uní como ingeniero front y terminé haciéndome cargo del equipo de Frontend
 
 Pasé por cosas tan diversas como trabajar en el código complejo pero muy potente de la primera etapa de *Builder*, intentar el desarrollo de una biblioteca de render como *CARTO VL*, presentarla en el congreso internacional FOSS4G en Bucarest (y vivir su posterior deprecación), unirnos con éxito a *deck.gl* y contribuir a su ecosistema libre open source en vis.gl, crear la nueva arquitectura front con *React & Redux*, pegarme con el tooling, hacer crecer el equipo (motivación, liderazgo, hiring, planificación...) y siempre, claro, mantener el delivery de forma sólida… Cuando nos reorganizamos como equipos más autónomos, lideré también un equipo fullstack en el área de account & workspaces (incluyendo todo lo relacionado con autenticación y permisos, APIs y servicios generales, Design System y el Dashboard del frontend...)
 
-Una etapa muy bonita y de muchos retos superados, que finalmente tocó a su fin.
+Una etapa larga, muy bonita y de muchos retos superados, que finalmente tocó a su fin.
 
-Actualmente estoy trabajando en Tinybird, y el reto es grande: construir una plataforma para desarrolladores que permita fácilmente el manejo y análisis de sus datos en tiempo real, con clientes tan relevantes como Vercel, Canva... y otros muchos. Equipo técnico super-top y sin tiempo para aburrirse (Python para el API, ClickHouse como motor de base de datos, NextJS para el front…).
+Después estuve un periodo breve en Tinybird, trabajando como Tech Lead & Manager en el equipo Core de la plataforma. Aprendizaje intensivo sobre datos en tiempo real, trabajando para clientes tan relevantes como Vercel, Canva... y otros muchos. *Python* para el API, ClickHouse como motor y *NextJS* para el front. Sin embargo hubo un cambio de rumbo grande y layoffs, y tras algunos meses turbulentos para la compañía, no continué. De todo se aprende, también de lo desagradable.
+
+Actualmente estoy trabajando en MOGU Platform, construyendo desde cero una plataforma SaaS para el sector turístico, principalmente agencias. Equipo potente, plataforma Cloud con TypeScript y 100% hands-on volcado en construir un proyecto fresco e ilusionante. 
 
 Saludos
 [@VictorVelarde](https://github.com/VictorVelarde)

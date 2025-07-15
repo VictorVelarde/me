@@ -29,6 +29,6 @@ All my [[blogposts\|posts]]
 
 ---
 ### 🧔‍♂ About me
-I currently live in Santander (Spain) and work remotely as a _Software Engineer_ at [MOGU](https://www.moguplatform.com/), a SaaS platform that helps travel agencies digitize operations, streamline payments and deliver personalized experiences. MOGU aims to transform tourism through smart, customer-focused technology.
+I currently live in Santander (Spain) and work remotely as a _Senior Software Engineer_ at [MOGU](https://www.moguplatform.com/), a SaaS platform that helps travel agencies digitize operations, streamline payments and deliver personalized experiences. MOGU aims to transform tourism through smart, customer-focused technology.
 
 If you want to learn more about my professional experience, you can take a look at these notes on my [[Blog/Carrera\|Carrera]].

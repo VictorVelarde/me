@@ -62,8 +62,6 @@ I went through everything from working on the complex but powerful initial *Buil
 
 It was an incredibly rewarding stage with many challenges overcome, but it eventually came to an end.
 
-Currently, I’m working at Tinybird, and the challenge is huge: building a developer-first platform for real-time data handling and analytics, with major clients like Vercel, Canva, and many more.  Super-strong technical team and no time for boredom (Python for the API, ClickHouse as the database engine, Next.js for the frontend…).
-
 Afterwards, I spent a short period at Tinybird, working as a Tech Lead & Manager on the Core team of the platform. It was an intense learning experience around real-time data, collaborating with high-profile clients such as Vercel, Canva, and many others. _Python_ for the API, ClickHouse as the engine, and _Next.js_ on the frontend. However, after a significant strategic shift and a challenging period for the company, I didn’t continue. You learn from everything, even the unpleasant.
 
 I’m currently working at MOGU Platform, building a SaaS product for the travel industry, primarily focused on travel agencies, from the ground up. We have a strong team and a modern cloud-native stack built with TypeScript. I’m fully hands-on and deeply involved in shaping a fresh and exciting product from scratch.

@@ -5,10 +5,9 @@
 > [[Blog/Inicio\|🇪🇸 ES]]
 
 ![Fondo.png](/img/user/Blog/Media/Fondo.png)
-### 👋 Hi, I'm Víctor Velarde. Software Developer, Tech Lead & Engineering Manager
+### 👋 Hi, I'm Víctor Velarde. Software Engineer - AI applied to Product
 
-I'm interested in programming applied to solving relevant problems, building tools for users and developers, Geographic Information Systems (GIS), and, in general, learning and solving complex problems as a team.  
-On a personal level, I seek to spend time with my family, read, and practice sports whenever I can.
+I'm interested in building software that solves real problems, applying artificial intelligence where it adds value to the product and the user. I come from a background in Geographic Information Systems (GIS) and full-stack development and more recently I've focused on applied AI, frontend architecture and product thinking. On a personal level, I seek to spend time with my family, read, and practice sports whenever I can.
 
 If you want to contact me, this is my email address: **victor.velarde at gmail dot com** and these are my main social profiles
 - [github](https://github.com/VictorVelarde/)
@@ -29,6 +28,8 @@ All my [[blogposts\|posts]]
 
 ---
 ### 🧔‍♂ About me
-I currently live in Santander (Spain) and work remotely as a _Senior Software Engineer_ at [MOGU](https://www.moguplatform.com/), a SaaS platform that helps travel agencies digitize operations, streamline payments and deliver personalized experiences. MOGU aims to transform tourism through smart, customer-focused technology.
+I currently live in Santander (Spain) and work remotely as a _Senior Software Engineer_ at [MOGU](https://www.moguplatform.com/), where I'm building a SaaS platform for the travel industry from the ground up.
+
+My day-to-day combines TypeScript, React, and cloud architecture with applied AI exploration (MCP, agents, LLMs). Previously, I worked at CARTO and Tinybird as Tech Lead and Engineering Manager, leading teams on internationally-focused data products.
 
 If you want to learn more about my professional experience, you can take a look at these notes on my [[Blog/Career\|Career]]

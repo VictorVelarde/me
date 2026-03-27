@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-02-19-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital.md","permalink":"/articulos/2025-02-19-herramientas-gestion-conocimiento/obsidian-como-herramienta-para-un-cerebro-digital/","title":"Usa Obsidian como herramienta para tu cerebro digital","tags":["productividad"]}
+{"dg-publish":true,"dg-path":"Articulos/2025-02-19-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital.md","permalink":"/articulos/2025-02-19-herramientas-gestion-conocimiento/obsidian-como-herramienta-para-un-cerebro-digital/","title":"Usa Obsidian como herramienta para tu cerebro digital","tags":["productividad"],"dg-note-properties":{"title":"Usa Obsidian como herramienta para tu cerebro digital","date":"2025-02-19","tags":["productividad"],"review":true,"starred":true}}
 ---
 
 

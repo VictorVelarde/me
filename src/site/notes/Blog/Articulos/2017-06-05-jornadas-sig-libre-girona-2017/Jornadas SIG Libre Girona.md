@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2017-06-05-jornadas-sig-libre-girona-2017/Jornadas SIG Libre Girona.md","permalink":"/articulos/2017-06-05-jornadas-sig-libre-girona-2017/jornadas-sig-libre-girona/","title":"Jornadas SIG Libre Girona"}
+{"dg-publish":true,"dg-path":"Articulos/2017-06-05-jornadas-sig-libre-girona-2017/Jornadas SIG Libre Girona.md","permalink":"/articulos/2017-06-05-jornadas-sig-libre-girona-2017/jornadas-sig-libre-girona/","title":"Jornadas SIG Libre Girona","dg-note-properties":{"title":"Jornadas SIG Libre Girona","date":"2017-06-05","categories":["gis","javascript","opensource","conferencia"],"coverImage":"jsl11-girona2017.jpg","review":true}}
 ---
 
 

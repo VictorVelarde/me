@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Home.md","permalink":"/home/"}
+{"dg-publish":true,"dg-path":"Home.md","permalink":"/home/","dg-note-properties":{"lang":"en"}}
 ---
 
 > [[Blog/Inicio\|🇪🇸 ES]]
@@ -24,7 +24,7 @@ Here are some of my posts (in Spanish):
 
 { .block-language-dataview}
 
-All my [[blogposts\|posts]]
+All my [[Blog/Publicaciones\|posts]]
 
 ---
 ### 🧔‍♂ About me

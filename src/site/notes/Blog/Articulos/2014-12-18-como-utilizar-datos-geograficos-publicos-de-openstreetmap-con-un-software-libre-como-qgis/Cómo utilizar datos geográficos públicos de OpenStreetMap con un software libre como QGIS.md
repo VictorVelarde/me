@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/Cómo utilizar datos geográficos públicos de OpenStreetMap con un software libre como QGIS.md","permalink":"/articulos/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/como-utilizar-datos-geograficos-publicos-de-open-street-map-con-un-software-libre-como-qgis/","title":"Cómo utilizar datos geográficos públicos de OpenStreetMap con un software libre como QGIS","tags":["osm","qgis"]}
+{"dg-publish":true,"dg-path":"Articulos/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/Cómo utilizar datos geográficos públicos de OpenStreetMap con un software libre como QGIS.md","permalink":"/articulos/2014-12-18-como-utilizar-datos-geograficos-publicos-de-openstreetmap-con-un-software-libre-como-qgis/como-utilizar-datos-geograficos-publicos-de-open-street-map-con-un-software-libre-como-qgis/","title":"Cómo utilizar datos geográficos públicos de OpenStreetMap con un software libre como QGIS","tags":["osm","qgis"],"dg-note-properties":{"title":"Cómo utilizar datos geográficos públicos de OpenStreetMap con un software libre como QGIS","date":"2014-12-18","categories":["gis","opensource"],"tags":["osm","qgis"],"review":true}}
 ---
 
 

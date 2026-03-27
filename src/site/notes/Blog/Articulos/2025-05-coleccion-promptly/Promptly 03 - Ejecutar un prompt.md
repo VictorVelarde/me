@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 03 - Ejecutar un prompt.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-03-ejecutar-un-prompt/","title":"Promptly 03 - Ejecutar un prompt","tags":["nextjs","supabase","postgresql"]}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 03 - Ejecutar un prompt.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-03-ejecutar-un-prompt/","title":"Promptly 03 - Ejecutar un prompt","tags":["nextjs","supabase","postgresql"],"dg-note-properties":{"title":"Promptly 03 - Ejecutar un prompt","date":"2025-05-16","categories":["programacion"],"tags":["nextjs","supabase","postgresql"],"review":true,"starred":null,"descripcion":"Promptly 03 - Ejecutar un prompt"}}
 ---
 
 

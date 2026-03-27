@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2011-01-31-material-de-introduccion-a-openlayers/Material de introducción a OpenLayers.md","permalink":"/articulos/2011-01-31-material-de-introduccion-a-openlayers/material-de-introduccion-a-open-layers/","title":"Material de introducción a OpenLayers","tags":["curso","openlayers"]}
+{"dg-publish":true,"dg-path":"Articulos/2011-01-31-material-de-introduccion-a-openlayers/Material de introducción a OpenLayers.md","permalink":"/articulos/2011-01-31-material-de-introduccion-a-openlayers/material-de-introduccion-a-open-layers/","title":"Material de introducción a OpenLayers","tags":["curso","openlayers"],"dg-note-properties":{"title":"Material de introducción a OpenLayers","date":"2011-01-31","categories":["gis","opensource"],"tags":["curso","openlayers"],"review":true}}
 ---
 
 
@@ -11,7 +11,7 @@ El módulo que impartí era una introducción rápida a **OpenLayers**. La mayor
 
 Cuelgo a continuación el documento de apuntes que se les entregó a los alumnos para apoyar y complementar los ejercicios prácticos hechos en clase.
 
-![[curso-openlayers-victorvelarde-2011.pdf]]
+<iframe src="/img/user/Blog/Articulos/2011-01-31-material-de-introduccion-a-openlayers/media/curso-openlayers-victorvelarde-2011.pdf" width="100%" height="900px" title="curso-openlayers-victorvelarde-2011.pdf" style="border:1px solid #ccc;"></iframe>
 
 El documento pretende recoger los fundamentos básicos útiles (sobre neogeografía, mashups, html, javascript...) para que una persona sin conocimientos previos de programación se sienta cómoda al empezar a trabajar con OpenLayers.
 

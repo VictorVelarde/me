@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2012-10-13-sig-en-la-nube/Nuevas tendencias los SIG en la nube.md","permalink":"/articulos/2012-10-13-sig-en-la-nube/nuevas-tendencias-los-sig-en-la-nube/","title":"Nuevas tendencias: los SIG en la nube","tags":["analisis","ikimap","neogeografia","nube"]}
+{"dg-publish":true,"dg-path":"Articulos/2012-10-13-sig-en-la-nube/Nuevas tendencias los SIG en la nube.md","permalink":"/articulos/2012-10-13-sig-en-la-nube/nuevas-tendencias-los-sig-en-la-nube/","title":"Nuevas tendencias: los SIG en la nube","tags":["analisis","ikimap","neogeografia","nube"],"dg-note-properties":{"title":"Nuevas tendencias: los SIG en la nube","date":"2012-10-13","categories":["gis"],"tags":["analisis","ikimap","neogeografia","nube"],"starred":true,"review":true}}
 ---
 
 Hoy se dispone de un abanico amplio de opciones para publicar información geográfica en Internet. Generalmente cuando un profesional se plantea esta tarea suele considerar alguna de estas **vías**
@@ -13,7 +13,7 @@ En general, las dos primeras opciones funcionan bien en organizaciones con perso
 
 ![Nubes.jpg](/img/user/Blog/Articulos/2012-10-13-sig-en-la-nube/media/Nubes.jpg)
 
-![[sig-cloud-uoc.pdf]]
+<iframe src="/img/user/Blog/Articulos/2012-10-13-sig-en-la-nube/media/sig-cloud-uoc.pdf" width="100%" height="900px" title="sig-cloud-uoc.pdf" style="border:1px solid #ccc;"></iframe>
 
 Sin embargo, hay más opciones a considerar... y es que en los últimos tiempos está emergiendo una tendencia denominada **computación en la nube**. Ésta implica la aparición de hardware, plataformas y servicios web mediante los que se externaliza a empresas especializadas parte de las labores informáticas de organizaciones e individuos. Y dentro de estas plataformas existen ya varias que permiten el almacenamiento y publicación de información geográfica.
 

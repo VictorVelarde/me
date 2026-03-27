@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2011-12-04-aplicaciones-geograficas-web-moviles/Aplicaciones geográficas web móviles.md","permalink":"/articulos/2011-12-04-aplicaciones-geograficas-web-moviles/aplicaciones-geograficas-web-moviles/","title":"Aplicaciones geográficas web móviles","tags":["geoinquietos","jquery","mobile","web"]}
+{"dg-publish":true,"dg-path":"Articulos/2011-12-04-aplicaciones-geograficas-web-moviles/Aplicaciones geográficas web móviles.md","permalink":"/articulos/2011-12-04-aplicaciones-geograficas-web-moviles/aplicaciones-geograficas-web-moviles/","title":"Aplicaciones geográficas web móviles","tags":["geoinquietos","jquery","mobile","web"],"dg-note-properties":{"title":"Aplicaciones geográficas web móviles","date":"2011-12-04","categories":["gis","javascript"],"tags":["geoinquietos","jquery","mobile","web"],"review":true}}
 ---
 
 
@@ -13,7 +13,7 @@ Esta fue la presentación que compartí con ellos:
 
 ![portada-geoinquietos-webmovil.png](/img/user/Blog/Articulos/2011-12-04-aplicaciones-geograficas-web-moviles/media/portada-geoinquietos-webmovil.png)
 
-![[geoinquietos-webmovil.pdf]]
+<iframe src="/img/user/Blog/Articulos/2011-12-04-aplicaciones-geograficas-web-moviles/media/geoinquietos-webmovil.pdf" width="100%" height="900px" title="geoinquietos-webmovil.pdf" style="border:1px solid #ccc;"></iframe>
 
 
 > Si no conoces la iniciativa geoinquietos, infórmate en **[osgeo](http://wiki.osgeo.org/wiki/Cap%C3%ADtulo_Local_de_la_comunidad_hispano-hablante)** y busca tu grupo más cercano.

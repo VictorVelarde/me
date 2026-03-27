@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2009-10-03-conferenciaesri2009/Conferencia de usuarios ESRI España 2009.md","permalink":"/articulos/2009-10-03-conferenciaesri2009/conferencia-de-usuarios-esri-espana-2009/","title":"Conferencia de usuarios ESRI España 2009","tags":["conferencia"]}
+{"dg-publish":true,"dg-path":"Articulos/2009-10-03-conferenciaesri2009/Conferencia de usuarios ESRI España 2009.md","permalink":"/articulos/2009-10-03-conferenciaesri2009/conferencia-de-usuarios-esri-espana-2009/","title":"Conferencia de usuarios ESRI España 2009","tags":["conferencia"],"dg-note-properties":{"title":"Conferencia de usuarios ESRI España 2009","date":"2009-10-03","categories":["esri","gis"],"tags":["conferencia"],"review":true}}
 ---
 
 
@@ -10,7 +10,7 @@ Como resultado de los trabajos que hemos estado realizando con ArcGIS Server y g
 
 ![presion-contaminacion-atmosferica.png](/img/user/Blog/Articulos/2009-10-03-conferenciaesri2009/media/presion-contaminacion-atmosferica.png)
 
-[[poster-geolics.pdf]]
+[poster-geolics.pdf](/img/user/Blog/Articulos/2009-10-03-conferenciaesri2009/media/poster-geolics.pdf)
 
 ## Conferencia
 En la conferencia se presentaron algunas cuestiones interesantes, sobre la versión 9.3.1 y algunos avances de la próxima v9.4 (estimada para mayo de 2010). Algunas cosas que considero interesantes:

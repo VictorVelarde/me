@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones.md","permalink":"/publicaciones/"}
+{"dg-publish":true,"dg-path":"Publicaciones.md","permalink":"/publicaciones/","dg-note-properties":{}}
 ---
 
 - [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 07 - Perfil y licencia\|Promptly 07 - Perfil y licencia]]: May 20, 2025

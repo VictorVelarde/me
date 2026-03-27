@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Carrera.md","permalink":"/carrera/"}
+{"dg-publish":true,"dg-path":"Carrera.md","permalink":"/carrera/","dg-note-properties":{}}
 ---
 
 > [[Blog/Career\|🇬🇧 EN]]

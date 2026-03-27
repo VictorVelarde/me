@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 06 - Búsqueda de prompts.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-06-busqueda-de-prompts/","title":"Promptly 06 - Búsqueda de prompts","tags":["nextjs","supabase","postgresql"]}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 06 - Búsqueda de prompts.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-06-busqueda-de-prompts/","title":"Promptly 06 - Búsqueda de prompts","tags":["nextjs","supabase","postgresql"],"dg-note-properties":{"title":"Promptly 06 - Búsqueda de prompts","date":"2025-05-19","categories":["programacion"],"tags":["nextjs","supabase","postgresql"],"review":false,"starred":null,"descripcion":"Promptly 06 -  Búsqueda de prompts"}}
 ---
 
 

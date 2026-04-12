@@ -93,7 +93,7 @@ Con los agentes de IA pasa igual. Habrá momentos en que el contexto falle, la c
 El objetivo no es desaparecer del sistema. Es tener el sistema lo mejor construido posible, y que tu intervención sea la excepción, no la regla. 
 
 > [!Aprendizaje]
-> Por cierto, el conocimiento tradicionalmente se ha forjado "en las trincheras", mediante la práctica de la construcción de esos sistemas de forma más manual... si eso no se produce ahora durante la producción, hay que aprender igualmente; consejo: lee, experimenta, pregunta y re-pregunta... usa la propia IA para aclararte cualquier duda que puedas tener sobre lo que tus compañeros o tú mismo estáis generando en el código. Si te saltas ese proceso, alguien pagará el coste.
+> El conocimiento aplicable tradicionalmente se ha forjado "en las trincheras", mediante la práctica de la construcción de esos sistemas de forma más manual... si eso no se produce ahora durante la producción, hay que aprender igualmente; consejo: lee, experimenta, pregunta y re-pregunta... usa la propia IA para aclararte cualquier duda que puedas tener sobre lo que tus compañeros o tú mismo estáis generando en el código. Si te saltas ese proceso, alguien pagará el coste.
 
 Todo lo que vivimos ahora mismo en el mundo del software no es sino la avanzadilla de lo que en breve inundará toda profesión y no creo que tenga sentido tenerle miedo o intentar postponer lo inevitable. 
 

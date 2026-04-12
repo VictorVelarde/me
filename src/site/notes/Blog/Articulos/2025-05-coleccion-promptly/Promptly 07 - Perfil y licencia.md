@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 07 - Perfil y licencia.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-07-perfil-y-licencia/","title":"Promptly 07 - Perfil y licencia","tags":["nextjs","supabase","postgresql"],"dg-note-properties":{"title":"Promptly 07 - Perfil y licencia","date":"2025-05-20","categories":["programacion"],"tags":["nextjs","supabase","postgresql"],"review":true,"starred":null,"descripcion":"Promptly 07 -  Perfil y licencia"}}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 07 - Perfil y licencia.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-07-perfil-y-licencia/","title":"Promptly 07 - Perfil y licencia","tags":["nextjs","supabase","postgresql","ia"],"dg-note-properties":{"title":"Promptly 07 - Perfil y licencia","date":"2025-05-20","categories":["programacion"],"tags":["nextjs","supabase","postgresql","ia"],"review":true,"starred":null,"descripcion":"Promptly 07 -  Perfil y licencia"}}
 ---
 
 

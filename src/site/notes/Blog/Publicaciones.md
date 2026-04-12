@@ -39,6 +39,7 @@
 
 ## Tags
 
+- #ia (8)
 - #nextjs (7)
 - #postgresql (7)
 - #supabase (7)
@@ -60,10 +61,7 @@
 - #gdal (1)
 - #geoinquietos (1)
 - #geoprocesos (1)
-- #ia (1)
-- #identidad (1)
 - #jqueryui (1)
-- #management (1)
 - #menu (1)
 - #mobile (1)
 - #neogeografia (1)

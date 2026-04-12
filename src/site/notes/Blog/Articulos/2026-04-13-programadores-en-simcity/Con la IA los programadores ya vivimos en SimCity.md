@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2026-04-13-programadores-en-simcity/Con la IA los programadores ya vivimos en SimCity.md","permalink":"/articulos/2026-04-13-programadores-en-simcity/con-la-ia-los-programadores-ya-vivimos-en-sim-city/","title":"Con la IA los programadores ya vivimos en SimCity","tags":["ia","agentes","management","productividad","identidad"],"dg-note-properties":{"title":"Con la IA los programadores ya vivimos en SimCity","date":"2026-04-13","categories":"ia","tags":["ia","agentes","management","productividad","identidad"],"review":true,"starred":true}}
+{"dg-publish":true,"dg-path":"Articulos/2026-04-13-programadores-en-simcity/Con la IA los programadores ya vivimos en SimCity.md","permalink":"/articulos/2026-04-13-programadores-en-simcity/con-la-ia-los-programadores-ya-vivimos-en-sim-city/","title":"Con la IA los programadores ya vivimos en SimCity","tags":["ia","agentes","productividad"],"dg-note-properties":{"title":"Con la IA los programadores ya vivimos en SimCity","date":"2026-04-13","categories":"ia","tags":["ia","agentes","productividad"],"review":true,"starred":true}}
 ---
 
 Si has jugado alguna vez SimCity, ya conoces a buen seguro algunas cosas de las que te voy a hablar. Si no, mejor échate una partida primero (aunque sea casual y en el móvil…) y luego vuelve por aquí a leer el post 😄

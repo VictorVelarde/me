@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 04 - Publicar un prompt.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-04-publicar-un-prompt/","title":"Promptly 04 - Publicar un prompt","tags":["nextjs","supabase","postgresql"],"dg-note-properties":{"title":"Promptly 04 - Publicar un prompt","date":"2025-05-17","categories":["programacion"],"tags":["nextjs","supabase","postgresql"],"review":true,"starred":null,"descripcion":"Promptly 04 - Publicar un prompt"}}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 04 - Publicar un prompt.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-04-publicar-un-prompt/","title":"Promptly 04 - Publicar un prompt","tags":["nextjs","supabase","postgresql","ia"],"dg-note-properties":{"title":"Promptly 04 - Publicar un prompt","date":"2025-05-17","categories":["programacion"],"tags":["nextjs","supabase","postgresql","ia"],"review":true,"starred":null,"descripcion":"Promptly 04 - Publicar un prompt"}}
 ---
 
 

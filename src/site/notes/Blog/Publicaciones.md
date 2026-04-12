@@ -2,6 +2,7 @@
 {"dg-publish":true,"dg-path":"Publicaciones.md","permalink":"/publicaciones/","dg-note-properties":{}}
 ---
 
+- [[Blog/Articulos/2026-04-13-programadores-en-simcity/Con la IA los programadores ya vivimos en SimCity\|Con la IA los programadores ya vivimos en SimCity]]: April 13, 2026
 - [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 07 - Perfil y licencia\|Promptly 07 - Perfil y licencia]]: May 20, 2025
 - [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 06 - Búsqueda de prompts\|Promptly 06 - Búsqueda de prompts]]: May 19, 2025
 - [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 05 - Importación de prompts\|Promptly 05 - Importación de prompts]]: May 18, 2025
@@ -50,6 +51,8 @@
 - #ikimap (2)
 - #jquery (2)
 - #popup (2)
+- #productividad (2)
+- #agentes (1)
 - #analisis (1)
 - #arcgisserver (1)
 - #conferencia (1)
@@ -57,7 +60,10 @@
 - #gdal (1)
 - #geoinquietos (1)
 - #geoprocesos (1)
+- #ia (1)
+- #identidad (1)
 - #jqueryui (1)
+- #management (1)
 - #menu (1)
 - #mobile (1)
 - #neogeografia (1)
@@ -66,7 +72,6 @@
 - #ogc (1)
 - #ogr2ogr (1)
 - #osm (1)
-- #productividad (1)
 - #raster (1)
 - #refactoring (1)
 - #shapefile (1)

@@ -7,7 +7,7 @@ Si has jugado alguna vez SimCity, ya conoces a buen seguro algunas cosas de las 
 ```table-of-contents
 ```
 
-# Si eres buen jugador de SimCity, te las arreglarás bien con la IA en los próximos años
+## Si eres buen jugador de SimCity, te las arreglarás bien con la IA en los próximos años
 
 ![sc2000-general.jpg\|Ciudad en SimCity 2000](/img/user/Blog/Articulos/2026-04-13-programadores-en-simcity/media/sc2000-general.jpg)
 
@@ -21,7 +21,7 @@ Si en algún momento has liderado un equipo de ingeniería, estoy seguro que te 
 
 Y estoy convencido que exactamente lo mismo aplica hoy al desarrollador que trabaja con agentes de IA. Tu rol es hacer que el sistema para desarrollar software en tu empresa funcione y produzca lo mejor posible.
 
-# El problema de la multitarea (propia)
+## El problema de la multitarea (propia)
 
 La multitarea es una trampa bien documentada. El coste de cambio de contexto es real, el foco se fragmenta y el resultado final es siempre peor que si hubieras hecho una cosa a la vez.
 
@@ -31,7 +31,7 @@ En SimCity, mientras tú lees un informe de tráfico, los bomberos apagan un fue
 
 Eso es exactamente lo que ocurre cuando tu equipo de software funciona bien. Y es exactamente lo que ocurre cuando los agentes de IA funcionan bien en tu proyecto: eres capaz de hacer más a la vez, porque delegas trabajo sustancial a los agentes de IA. Usa esa capacidad y los agentes, hasta el punto en el que sientas que controlas lo que haces (vigila tu carga cognitiva y nivel de energía), y esfuérzate en aprender cómo ampliar tu radio de impacto.
 
-# Gas Town y la IA
+## Gas Town y la IA
 
 En SimCity es habitual, como en el Urbanismo en general, diseñar un distrito industrial, especializado en producir energía y recursos para el resto de la ciudad. De nuevo, tú no gestionas cada tubería o conducción eléctrica hacia él, solo te aseguras de que la zona esté bien conectada, financiada y sin conflictos con las zonas residenciales.
 
@@ -43,7 +43,7 @@ Gas Town sigue unos principios similares a SimCity: un alcalde que coordina a ot
 
 > Gas Town es (aún o tal vez será para siempre...) una herramienta bastante caótica y compleja y es una ciudad (perdón sistema) que gasta muchos tokens... Pero estoy convencido que varias de sus ideas guiarán las herramientas de creación de software en el futuro. Si te suena interesante, creo que merece la pena probarlo al menos y luego leer esta revisión crítica de *Maggie Appleton*, del área de innovación en GitHub: https://maggieappleton.com/gastown
 
-# El plano de control
+## El plano de control
 
 En SimCity, el alcalde tiene un dashboard. No ve todo el tiempo cada tramo de tubería de gas, ve los indicadores que importan: tráfico, criminalidad, satisfacción ciudadana, presupuesto... Y actúa cuando algo requiere su atención directa e inmediata. Y probablemente el alcalde no se conforma con que su ciudad simplemente siga igual, sino que siempre tendrá uno o dos proyectos ambiciosos, para los que está preparando un plan y buscando financiación… así que trabaja en multitarea, repartido entre lo estratégico a medio largo plazo y lo operativo del día a día
 
@@ -65,7 +65,7 @@ Sino algo como "*Esta es el Top 4 de los problemas de esta semana en tu SaaS*", 
 	- El tiempo medio de onboarding del último cliente ZZZ ha sido casi el doble de la media...¿ha comunicado algún problema concreto a customer success / ha habido algún bug o caída puntual de la plataforma que haya podido afectar a su experiencia?
 	- La competencia ha sacado esta feature el mes pasado, ¿merece la pena lanzar un prototipo rápido en nuestra plataforma para ver si somos capaces de incorporarla?
 
-# La crisis del programador, una cuestión de identidad
+## La crisis del programador, una cuestión de identidad
 
 Hay algo de lo que quizá no se habla suficientemente en esta conversación sobre IA y el futuro del trabajo técnico: **la identidad** del trabajador inmerso en estos cambios. Tendemos a identificarnos con lo que hacemos: *soy programador*. Y cuando lo que hacemos cambia radicalmente, la pregunta se vuelve incómoda: si ya no programas línea a línea, ¿qué eres?
 
@@ -82,7 +82,7 @@ Los ordenadores nos dan la base para abordar problemas cada vez más complejos. 
 Creo que la IA no elimina al desarrollador. Elimina al *programador cuyo valor está solo en teclear*. El que sobrevive y prospera es el que entiende sistemas, toma decisiones y sabe orquestar las herramientas IA disponibles hacia un resultado tangible y útil.
 
 
-# Cuando lleguen los incendios...
+## Cuando lleguen los incendios...
 
 ![sc2000-incendios.webp\|Incendio en SimCity 2000](/img/user/Blog/Articulos/2026-04-13-programadores-en-simcity/media/sc2000-incendios.webp)
 

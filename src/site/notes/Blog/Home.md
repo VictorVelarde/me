@@ -5,9 +5,9 @@
 > [[Blog/Inicio\|🇪🇸 ES]]
 
 ![Fondo.png](/img/user/Blog/Media/Fondo.png)
-### 👋 Hi, I'm Víctor Velarde. Software Engineer - AI applied to Product
+### 👋 Hi, I'm Víctor Velarde. Product Engineer building AI-powered features
 
-I'm interested in building software that solves real problems, applying artificial intelligence where it adds value to the product and the user. I come from a background in Geographic Information Systems (GIS) and full-stack development and more recently I've focused on applied AI, frontend architecture and product thinking. On a personal level, I seek to spend time with my family, read, and practice sports whenever I can.
+I'm interested in building software that solves real problems, applying artificial intelligence to add value to the product and the user. I come from a background in Geographic Information Systems (GIS) and full-stack development and more recently I've focused on applied AI, frontend architecture and product thinking. On a personal level, I seek to spend time with my family, read, and practice sports whenever I can.
 
 If you want to contact me, this is my email address: **victor.velarde at gmail dot com** and these are my main social profiles
 - [github](https://github.com/VictorVelarde/)

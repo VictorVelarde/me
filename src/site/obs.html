@@ -1,0 +1,28 @@
+---
+layout: null
+permalink: /obs.html
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Abriendo Obsidian…</title>
+<script>
+  var p = new URLSearchParams(window.location.search);
+  var file = p.get('file');
+  var vault = p.get('vault') || 'VVG';
+  if (file) {
+    window.location = 'obsidian://open?vault=' + encodeURIComponent(vault) + '&file=' + decodeURIComponent(file);
+  }
+</script>
+</head>
+<body>
+<p>Abriendo Obsidian… Si no se abre, <a id="link">haz clic aquí</a>.</p>
+<script>
+  if (file) {
+    document.getElementById('link').href =
+      'obsidian://open?vault=' + encodeURIComponent(vault) + '&file=' + decodeURIComponent(file);
+  }
+</script>
+</body>
+</html>

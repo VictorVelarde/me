@@ -24,7 +24,7 @@ Vamos a partir de la premisa que este aprendizaje será siempre gradual, y tambi
 
 ## Crear la feature con IA
 - **No tengas skill-itis** 
-	- Tener una subscripción a Claude o ChatGPT debería bastar. Hay un montón de ruido en línea sobre mejoras, skills, prompts… pero mi consejo es que no tengas “skillitis”, y te vuelvas loco con mil historias (que lo más probable es que contaminen el contexto si no están claras y ordenadas). La tendencia parece ser que conforme los modelos crecen más en potencia, las skills son menos necesarias, pero al menos siempre habrá un mínimo sobre “cómo os gusta hacer las cosas en tu equipo”, ósea que algo podrás afinar.
+	- Tener una subscripción a Claude o ChatGPT debería bastar. Hay un montón de ruido en línea sobre mejoras, skills, prompts… pero mi consejo es que no tengas “skillitis”, y te vuelvas loco con mil historias (que lo más probable es que contaminen el contexto si no están claras y ordenadas). La tendencia parece ser que conforme los modelos crecen más en potencia, las skills son menos necesarias, pero al menos siempre habrá un mínimo sobre “cómo os gusta hacer las cosas en tu equipo”, osea que algo podrás afinar.
 - **Ten un proceso básico de desarrollo**
 	- En mi experiencia, la clave no son las skills sino tener claro el proceso de desarrollo que quieres seguir y cuáles son los puntos clave donde encajas tú como humano vs lo que hace la IA. Esto puede cambiar en función de tu equipo, experiencia, hábitos… no hay una bala de plata, pero es bueno que al menos haya un consenso básico en el equipo. 
 	- Dicho esto, y si aun no tienes un proceso claro, te animo a probar cosas como las de [Addy Osmani Agent Skills](https://skills.addy.ie/), un tipo listo que ahora además se ha ido a trabajar de Google a Antrophic, algo sabrá. 
@@ -58,6 +58,7 @@ Vamos a partir de la premisa que este aprendizaje será siempre gradual, y tambi
 		- Mételo en la especificación: pide trazas en los puntos clave, con el identificador del cliente, para que nazcan con el código y no se añadan después.
 		- Antes de mergear, con las métricas ya activas en desarrollo o integración, pídele a tu herramienta (por ejemplo Honeycomb) el dashboard de la feature y comprueba que cuenta lo que esperabas.
 
+---
 
 
 La IA es una gran revolución, sin duda, y las técnicas van a seguir cambiando: lo que hoy es una skill mañana será una capacidad más del modelo. Pero muchos principios se mantienen, y a mí me parecen especialmente importantes tres:

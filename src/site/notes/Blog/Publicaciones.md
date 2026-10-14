@@ -2,6 +2,7 @@
 {"dg-publish":true,"dg-path":"Publicaciones.md","permalink":"/publicaciones/","dg-note-properties":{}}
 ---
 
+- [[Blog/Articulos/2026-10-14-tu-trabajo-es-aprender/Con la IA tu trabajo es aprender\|Con la IA tu trabajo es aprender]]: October 14, 2026
 - [[Blog/Articulos/2026-04-13-programadores-en-simcity/Con la IA los programadores ya vivimos en SimCity\|Con la IA los programadores ya vivimos en SimCity]]: April 13, 2026
 - [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 07 - Perfil y licencia\|Promptly 07 - Perfil y licencia]]: May 20, 2025
 - [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 06 - Búsqueda de prompts\|Promptly 06 - Búsqueda de prompts]]: May 19, 2025
@@ -39,7 +40,7 @@
 
 ## Tags
 
-- #ia (8)
+- #ia (9)
 - #nextjs (7)
 - #postgresql (7)
 - #supabase (7)
@@ -55,7 +56,10 @@
 - #productividad (2)
 - #agentes (1)
 - #analisis (1)
+- #aprendizaje (1)
 - #arcgisserver (1)
+- #blog (1)
+- #claude-code (1)
 - #conferencia (1)
 - #dojo (1)
 - #gdal (1)

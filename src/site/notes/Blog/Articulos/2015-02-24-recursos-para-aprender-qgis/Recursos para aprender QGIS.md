@@ -5,7 +5,7 @@
 
 _QGIS_ es uno los software SIG de escritorio más pujantes en la actualidad. Libre, gratuito y extensible mediante plugins, tiene un potencial de evolución grande y una comunidad de usuarios creciente.
 
-[![QGIS](/img/user/Blog/Articulos/2015-02-24-recursos-para-aprender-qgis/media/logo-qgis.png)](http://www2.qgis.org/)
+[![logo-qgis.png\|QGIS](/img/user/Blog/Articulos/2015-02-24-recursos-para-aprender-qgis/media/logo-qgis.png)](http://www2.qgis.org/)
 
 Por esta razón cada día más gente se acerca a su aprendizaje, bien mediante cursos o de forma autónoma. Y en este proceso inicial toda guía o recopilación de enlaces suele resultar útil, así que voy a listar aquí algunos que he ido recopilando recientemente.
 

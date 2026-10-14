@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2026-10-14-tu-trabajo-es-aprender/Con la IA tu trabajo es aprender.md","permalink":"/articulos/2026-10-14-tu-trabajo-es-aprender/con-la-ia-tu-trabajo-es-aprender/","title":"Con la IA tu trabajo es aprender","tags":["ia","aprendizaje","blog","claude-code"],"dg-note-properties":{"estado":"borrador","categoria":"blog-post","tags":["ia","aprendizaje","blog","claude-code"],"title":"Con la IA tu trabajo es aprender","date":"2026-10-14","categories":["ia"],"review":false,"coverImage":"Blog/Articulos/2026-10-14-tu-trabajo-es-aprender/media/portada-tu-trabajo-es-aprender.jpg"}}
+{"dg-publish":true,"dg-path":"Articulos/2026-10-14-tu-trabajo-es-aprender/Con la IA tu trabajo es aprender.md","permalink":"/articulos/2026-10-14-tu-trabajo-es-aprender/con-la-ia-tu-trabajo-es-aprender/","title":"Con la IA tu trabajo es aprender","tags":["ia","aprendizaje","blog","claude-code"],"dg-note-properties":{"estado":"borrador","categoria":"blog-post","tags":["ia","aprendizaje","blog","claude-code"],"title":"Con la IA tu trabajo es aprender","date":"2026-10-14","categories":["ia"],"review":false,"coverImage":"Blog/Articulos/2026-10-14-tu-trabajo-es-aprender/media/portada-tu-trabajo-es-aprender.jpg","starred":true}}
 ---
 
 

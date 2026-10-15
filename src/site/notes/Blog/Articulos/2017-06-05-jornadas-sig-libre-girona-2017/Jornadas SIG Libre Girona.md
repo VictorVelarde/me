@@ -55,7 +55,7 @@ Por la tarde, continué en las charlas del track "Desarrollos técnicos":
 
 - Aquí la [presentación completa](https://victorvelarde.github.io/presentacion-jsl11/).
 
-[![pluginLeaflet](Me/Blog/2017-06-05-jornadas-sig-libre-girona-2017/images/pluginleaflet1.png)](http://victorvelarde.github.io/presentacion-jsl11)
+[![pluginleaflet.png\|pluginLeaflet](/img/user/Blog/Articulos/2017-06-05-jornadas-sig-libre-girona-2017/media/pluginleaflet.png)](http://victorvelarde.github.io/presentacion-jsl11)
 
 - Y tras nosotros, el mismo Roger, esta vez a título personal, presentó una extensión llamada [d3-composite-projections](https://github.com/rveciana/d3-composite-projections), la cual permite visualizar áreas disjuntas en un solo mapa (p.ej. Canarias 'cerca' de la Península). Muy práctica, p.ej. para mapas electorales.
 

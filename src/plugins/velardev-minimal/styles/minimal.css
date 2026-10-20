@@ -80,6 +80,7 @@ html[data-theme] body.theme-dark {
   --font-text-override: "Newsreader", "Iowan Old Style", Charter, Georgia, serif;
   --font-interface-override: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --font-monospace-override: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --callout-blend-mode: normal;
   --list-indent: 1.35em;
   --list-spacing: 0.2em;
   --dg-content-max-width: 680px;
@@ -167,6 +168,8 @@ body.no-filetree .content {
 
 .content strong,
 .content b { font-weight: 650; color: var(--vm-text); }
+.content strong a,
+.content b a { color: var(--vm-accent); }
 .content em,
 .content i { color: inherit; }
 
@@ -201,6 +204,79 @@ body.no-filetree .content {
 .content table { border-collapse: collapse; font-size: 0.92em; }
 .content th, .content td { border: 0; border-bottom: 1px solid var(--vm-border); padding: 0.5em 0.8em; }
 .content th { font-weight: 650; text-align: left; }
+
+/* ---------- Callouts and leftovers ---------- */
+
+/* Notes that use the Obsidian "table-of-contents" block render it as an empty
+   code block on the site (the Digital Garden does not generate it). */
+.content pre:has(> code.language-table-of-contents) { display: none; }
+
+.content .callout {
+  mix-blend-mode: normal;
+  background: var(--vm-surface);
+  border: 0;
+  border-left: 2px solid var(--vm-accent);
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin: 1.8em 0;
+}
+.content .callout .callout-title {
+  font-family: var(--font-interface-override);
+  font-size: 0.74rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--vm-muted);
+  margin-bottom: 0.5em;
+}
+.content .callout .callout-content,
+.content .callout .callout-content p { font-family: var(--font-text-override); color: var(--vm-text); font-size: 0.96em; line-height: 1.55; }
+.content .callout .callout-content p { margin: 0.4em 0; }
+
+/* ---------- Task lists ---------- */
+
+.content ul.task-list { padding-inline-start: 0; list-style: none; }
+.content ul.task-list > li.task-list-item { margin-inline-start: 0; padding-inline-start: 0; }
+.content ul.task-list input[type="checkbox"] { margin: 0 0.5em 0 0; vertical-align: -0.1em; }
+
+/* ---------- Code highlighting ---------- */
+
+.content pre,
+.content pre code,
+.content pre code .token { text-shadow: none; }
+
+/* The Prism theme and Apatheia use pastel tokens made for dark backgrounds. */
+html[data-theme="light"] .content pre code { color: #2b2a27; }
+html[data-theme="light"] .content pre .token.comment,
+html[data-theme="light"] .content pre .token.prolog,
+html[data-theme="light"] .content pre .token.doctype,
+html[data-theme="light"] .content pre .token.cdata { color: #8a867c; font-style: italic; }
+html[data-theme="light"] .content pre .token.punctuation,
+html[data-theme="light"] .content pre .token.operator,
+html[data-theme="light"] .content pre .token.entity,
+html[data-theme="light"] .content pre .token.url,
+html[data-theme="light"] .content pre .token.variable { color: #5c5950; background: none; }
+html[data-theme="light"] .content pre .token.property,
+html[data-theme="light"] .content pre .token.tag,
+html[data-theme="light"] .content pre .token.constant,
+html[data-theme="light"] .content pre .token.symbol,
+html[data-theme="light"] .content pre .token.deleted { color: #7a3e9d; }
+html[data-theme="light"] .content pre .token.null,
+html[data-theme="light"] .content pre .token.important,
+html[data-theme="light"] .content pre .token.regex,
+html[data-theme="light"] .content pre .token.boolean,
+html[data-theme="light"] .content pre .token.number { color: #b45309; }
+html[data-theme="light"] .content pre .token.selector,
+html[data-theme="light"] .content pre .token.attr-name,
+html[data-theme="light"] .content pre .token.string,
+html[data-theme="light"] .content pre .token.char,
+html[data-theme="light"] .content pre .token.builtin,
+html[data-theme="light"] .content pre .token.inserted { color: #1f7a4d; }
+html[data-theme="light"] .content pre .token.attr-value,
+html[data-theme="light"] .content pre .token.function,
+html[data-theme="light"] .content pre .token.class-name { color: #1d5fa8; }
+html[data-theme="light"] .content pre .token.keyword,
+html[data-theme="light"] .content pre .token.atrule { color: #b4254f; }
 
 /* ---------- Tags and meta (UI font) ---------- */
 

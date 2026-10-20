@@ -6,6 +6,6 @@ I‘m Víctor Velarde Gutiérrez. I live in Santander (Spain) and work remotely 
 
 My day-to-day combines TypeScript, React, and cloud architecture with applied AI exploration (MCP, agents, LLMs). 
 
-Previously, I worked at *CARTO* and *Tinybird* as Tech Lead and Engineering Manager, leading teams on internationally-focused data products.
+Previously, I worked at *CARTO* and *Tinybird* as Engineer, Tech Lead and Engineering Manager, leading teams on internationally-focused data products.
 
 If you want to learn more about my full professional experience, you can take a look at these notes on my [[Blog/Career\|Career]]

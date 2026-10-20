@@ -6,6 +6,6 @@ Soy Víctor Velarde Gutiérrez. Vivo en Santander (España) y trabajo en remoto 
 
 Mi día a día combina TypeScript, React y arquitectura cloud con exploración de IA aplicada al producto (MCP, agentes, LLMs). 
 
-Antes pasé por otras startups *CARTO* y *Tinybird* como Engineer, Tech Lead y Engineering Manager, liderando equipos en productos de datos con proyección internacional.
+Antes trabajé en startups como *CARTO* y *Tinybird* como Engineer, Tech Lead y Engineering Manager, liderando equipos en productos de datos con proyección internacional.
 
 Si quieres conocer mi experiencia laboral completa, puedes echar un ojo a estas notas sobre mi [[Blog/Carrera\|Carrera]] profesional.

@@ -7,7 +7,7 @@
 
 Me interesa construir software que resuelva problemas reales, aplicando inteligencia artificial para aportar valor al producto y al usuario. Vengo del mundo de los Sistemas de Información Geográfica (SIG) y el desarrollo full-stack y en los últimos tiempos me he volcado en IA aplicada, arquitectura frontend y pensamiento de producto. En lo personal, lo que busco es pasar tiempo con mi familia, leer y hacer deporte siempre que puedo.
 
-Si me quieres contactar, este es mi correo electrónico: **victor.velarde@gmail.com** y estos mis perfiles sociales
+Si me quieres contactar, este es mi correo **victor.velarde@gmail.com** y estos mis perfiles sociales
 - [github](https://github.com/VictorVelarde/)
 - [linkedin](https://www.linkedin.com/in/victorvelarde/)
 

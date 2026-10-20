@@ -60,6 +60,13 @@ html[data-theme] body.theme-dark {
   --h4-color: var(--vm-text);
   --h5-color: var(--vm-text);
   --h6-color: var(--vm-text);
+  --ap-color-tag-background: var(--vm-surface);
+  --ap-color-tag-text: var(--vm-muted);
+  --tag-background: var(--vm-surface);
+  --tag-background-hover: var(--vm-surface);
+  --tag-color: var(--vm-muted);
+  --tag-color-hover: var(--vm-text);
+  --tag-border-color: var(--vm-border);
   --ap-color-strong: var(--vm-text);
   --ap-color-quote: var(--vm-muted);
   --ap-color-italic: var(--vm-text);
@@ -209,7 +216,7 @@ body.no-filetree .content {
 
 /* Notes that use the Obsidian "table-of-contents" block render it as an empty
    code block on the site (the Digital Garden does not generate it). */
-.content pre:has(> code.language-table-of-contents) { display: none; }
+pre:has(> code.language-table-of-contents) { display: none; }
 
 .content .callout {
   mix-blend-mode: normal;
@@ -296,6 +303,23 @@ html[data-theme="light"] .content pre .token.atrule { color: #b4254f; }
   line-height: 1.7;
   text-decoration: none;
 }
+
+/* Tags also appear outside .content (search results and preview) */
+html[data-theme] .tag,
+html[data-theme] a.tag {
+  background: var(--vm-surface);
+  color: var(--vm-muted);
+  border: 1px solid var(--vm-border);
+  border-radius: 999px;
+  padding: 0.1em 0.7em;
+  font-family: var(--font-interface-override);
+  font-size: 0.74rem;
+  line-height: 1.7;
+  text-decoration: none;
+}
+html[data-theme] .result-tags,
+html[data-theme] .preview-tags,
+html[data-theme] #preview-content .header-tags { display: flex; flex-wrap: wrap; gap: 6px; }
 
 /* ---------- Top bar ---------- */
 

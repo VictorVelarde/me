@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Inicio.md","permalink":"/inicio/","title":"velardev","tags":["gardenEntry"],"dg-note-properties":{"title":"velardev"}}
+{"dg-publish":true,"dg-path":"Inicio.md","permalink":"/inicio/","title":"Inicio","tags":["gardenEntry"],"dg-note-properties":{"title":"Inicio"}}
 ---
 
 ![Fondo.png](/img/user/Blog/Media/Fondo.png)

@@ -1,3 +1,4 @@
-<a class="nav-link" href="/"{% if page.url == "/" or page.url == "/home/" %} aria-current="page"{% endif %}>Inicio</a>
+{%- set en = noteProps and noteProps.lang == "en" -%}
+<a class="nav-link" href="{{ '/home/' if en else '/' }}"{% if page.url == "/" or page.url == "/home/" or page.url == "/inicio/" %} aria-current="page"{% endif %}>{{ "Home" if en else "Inicio" }}</a>
 <a class="nav-link" href="/posts/"{% if page.url == "/posts/" %} aria-current="page"{% endif %}>Posts</a>
-<a class="nav-link" href="/acerca/"{% if page.url == "/acerca/" %} aria-current="page"{% endif %}>Acerca</a>
+<a class="nav-link" href="{{ '/about/' if en else '/acerca/' }}"{% if page.url == "/about/" or page.url == "/acerca/" %} aria-current="page"{% endif %}>{{ "About" if en else "Acerca" }}</a>

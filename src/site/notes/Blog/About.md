@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-path":"About.md","permalink":"/about/","dg-note-properties":{"lang":"en","translation":"/acerca/"}}
 ---
 
-I‘m Víctor Velarde Gutiérrez. I currently live in Santander (Spain) and work remotely as a _Senior Software Engineer_ at [MOGU](https://www.moguplatform.com/), where I'm building a SaaS platform for the travel industry from the ground up.
+I‘m Víctor Velarde Gutiérrez. I live in Santander (Spain) and work remotely as a _Senior Software Engineer_ at [MOGU](https://www.moguplatform.com/), where I'm building a SaaS platform for the travel industry from the ground up.
 
 My day-to-day combines TypeScript, React, and cloud architecture with applied AI exploration (MCP, agents, LLMs). 
 

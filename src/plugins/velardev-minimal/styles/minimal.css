@@ -1,0 +1,425 @@
+/* velardev minimal: editorial look, one accent, light/dark.
+   Loaded after the template and the Obsidian theme, so it wins by being
+   more specific (html[data-theme] body.theme-*) instead of using !important. */
+
+@font-face {
+  font-family: "Newsreader";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/plugins/velardev-minimal/assets/fonts/newsreader-latin-wght-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Newsreader";
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("/plugins/velardev-minimal/assets/fonts/newsreader-latin-wght-italic.woff2") format("woff2");
+}
+
+/* ---------- Palette ---------- */
+
+html[data-theme="light"] body.theme-light {
+  --vm-bg: #fbfaf7;
+  --vm-surface: #f1eee7;
+  --vm-text: #1c1b19;
+  --vm-muted: #6b685f;
+  --vm-border: #e3dfd4;
+  --vm-accent: #b4254f;
+  --vm-accent-hover: #8f1c3e;
+}
+html[data-theme="dark"] body.theme-dark {
+  --vm-bg: #121211;
+  --vm-surface: #1d1c1a;
+  --vm-text: #e9e6df;
+  --vm-muted: #a09b90;
+  --vm-border: #2b2a27;
+  --vm-accent: #ff86a5;
+  --vm-accent-hover: #ffb0c4;
+}
+
+html[data-theme="light"] { background: #fbfaf7; }
+html[data-theme="dark"] { background: #121211; }
+
+html[data-theme] body.theme-light,
+html[data-theme] body.theme-dark {
+  --background-primary: var(--vm-bg);
+  --background-primary-alt: var(--vm-surface);
+  --background-secondary: var(--vm-surface);
+  --background-secondary-alt: var(--vm-surface);
+  --background-modifier-border: var(--vm-border);
+  --background-modifier-hover: var(--vm-surface);
+  --text-normal: var(--vm-text);
+  --text-muted: var(--vm-muted);
+  --text-faint: var(--vm-muted);
+  --text-accent: var(--vm-accent);
+  --text-accent-hover: var(--vm-accent-hover);
+  --h1-color: var(--vm-text);
+  --h2-color: var(--vm-text);
+  --h3-color: var(--vm-text);
+  --h4-color: var(--vm-text);
+  --h5-color: var(--vm-text);
+  --h6-color: var(--vm-text);
+  --ap-color-tag-background: var(--vm-surface);
+  --ap-color-tag-text: var(--vm-muted);
+  --tag-background: var(--vm-surface);
+  --tag-background-hover: var(--vm-surface);
+  --tag-color: var(--vm-muted);
+  --tag-color-hover: var(--vm-text);
+  --tag-border-color: var(--vm-border);
+  --ap-color-strong: var(--vm-text);
+  --ap-color-quote: var(--vm-muted);
+  --ap-color-italic: var(--vm-text);
+  --ap-font-text: var(--font-text-override);
+  --ap-font-header: var(--font-text-override);
+  --ap-font-title: var(--font-text-override);
+  --ap-font-interface: var(--font-interface-override);
+  --ap-font-hashtag: var(--font-interface-override);
+  --ap-font-monospace: var(--font-monospace-override);
+  --strong-color: var(--vm-text);
+  --em-color: inherit;
+  --quote-color: var(--vm-muted);
+  --bold-color: var(--vm-text);
+  --link-color: var(--vm-accent);
+  --link-color-hover: var(--vm-accent-hover);
+  --link-external-color: var(--vm-accent);
+  --link-external-color-hover: var(--vm-accent-hover);
+  --font-text-override: "Newsreader", "Iowan Old Style", Charter, Georgia, serif;
+  --font-interface-override: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-monospace-override: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --callout-blend-mode: normal;
+  --list-indent: 1.35em;
+  --list-spacing: 0.2em;
+  --dg-content-max-width: 680px;
+  --dg-content-font-size: 1.28rem;
+  --dg-content-line-height: 1.62;
+  --dg-graph-bg: var(--vm-bg);
+
+  background: var(--vm-bg);
+  color: var(--vm-text);
+  font-family: var(--font-text-override);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ---------- Page column ---------- */
+
+body.no-filetree .content {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: calc(var(--dg-content-max-width) + 48px);
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 112px;
+  padding-bottom: 96px;
+  font-family: var(--font-text-override);
+  font-size: var(--dg-content-font-size);
+  line-height: var(--dg-content-line-height);
+}
+@media (max-width: 800px) {
+  body.no-filetree .content {
+    padding-top: 88px;
+    font-size: 1.18rem;
+  }
+}
+
+/* ---------- Headings ---------- */
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  font-family: var(--font-text-override);
+  font-weight: 600;
+  color: var(--vm-text);
+  letter-spacing: -0.012em;
+  line-height: 1.18;
+}
+.content header h1 { font-size: 2.6rem; font-weight: 650; letter-spacing: -0.02em; margin: 0 0 0.35em; }
+.content h2 { font-size: 1.75rem; margin: 2.1em 0 0.55em; border-bottom: 0; padding-bottom: 0; }
+.content h3 { font-size: 1.35rem; margin: 1.8em 0 0.45em; }
+.content h4 { font-size: 1.1rem; margin: 1.6em 0 0.4em; }
+@media (max-width: 800px) {
+  .content header h1 { font-size: 2.1rem; }
+  .content h2 { font-size: 1.5rem; }
+}
+
+/* ---------- Text ---------- */
+
+.content p,
+.content li { color: var(--vm-text); }
+.content p { margin: 0 0 1.15em; }
+.content ul, .content ol { margin: 0 0 1.15em; padding-inline-start: 1.35em; }
+.content li > ul, .content li > ol { margin: 0.35em 0; padding-inline-start: 1.2em; }
+.content li { margin: 0.25em 0; margin-inline-start: 0; padding-inline-start: 0; }
+.content li::marker { color: var(--vm-muted); }
+
+.content a,
+.content a.internal-link,
+.content a.external-link {
+  color: var(--vm-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: color-mix(in srgb, var(--vm-accent) 45%, transparent);
+  transition: text-decoration-color 0.15s, color 0.15s;
+}
+.content a:hover {
+  color: var(--vm-accent-hover);
+  text-decoration-color: currentColor;
+}
+
+.content strong,
+.content b { font-weight: 650; color: var(--vm-text); }
+.content strong a,
+.content b a { color: var(--vm-accent); }
+.content em,
+.content i { color: inherit; }
+
+.content blockquote {
+  margin: 1.4em 0;
+  padding: 0.1em 0 0.1em 1.1em;
+  border-left: 2px solid var(--vm-accent);
+  color: var(--vm-muted);
+  font-style: italic;
+  background: none;
+}
+
+.content hr {
+  border: 0;
+  border-top: 1px solid var(--vm-border);
+  margin: 2.4em 0;
+}
+
+.content img { border-radius: 10px; }
+
+.content code {
+  font-family: var(--font-monospace-override);
+  font-size: 0.82em;
+  background: var(--vm-surface);
+  color: var(--vm-text);
+  padding: 0.12em 0.4em;
+  border-radius: 5px;
+}
+.content pre { border-radius: 10px; }
+.content pre code { background: none; padding: 0; font-size: 0.85rem; }
+
+.content table { border-collapse: collapse; font-size: 0.92em; }
+.content th, .content td { border: 0; border-bottom: 1px solid var(--vm-border); padding: 0.5em 0.8em; }
+.content th { font-weight: 650; text-align: left; }
+
+/* ---------- Callouts and leftovers ---------- */
+
+/* Notes that use the Obsidian "table-of-contents" block render it as an empty
+   code block on the site (the Digital Garden does not generate it). */
+pre:has(> code.language-table-of-contents) { display: none; }
+
+.content .callout {
+  mix-blend-mode: normal;
+  background: var(--vm-surface);
+  border: 0;
+  border-left: 2px solid var(--vm-accent);
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin: 1.8em 0;
+}
+.content .callout .callout-title {
+  font-family: var(--font-interface-override);
+  font-size: 0.74rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--vm-muted);
+  margin-bottom: 0.5em;
+}
+.content .callout .callout-content,
+.content .callout .callout-content p { font-family: var(--font-text-override); color: var(--vm-text); font-size: 0.96em; line-height: 1.55; }
+.content .callout .callout-content p { margin: 0.4em 0; }
+
+/* ---------- Task lists ---------- */
+
+.content ul.task-list { padding-inline-start: 0; list-style: none; }
+.content ul.task-list > li.task-list-item { margin-inline-start: 0; padding-inline-start: 0; }
+.content ul.task-list input[type="checkbox"] { margin: 0 0.5em 0 0; vertical-align: -0.1em; }
+
+/* ---------- Code highlighting ---------- */
+
+.content pre,
+.content pre code,
+.content pre code .token { text-shadow: none; }
+
+/* The Prism theme and Apatheia use pastel tokens made for dark backgrounds. */
+html[data-theme="light"] .content pre code { color: #2b2a27; }
+html[data-theme="light"] .content pre .token.comment,
+html[data-theme="light"] .content pre .token.prolog,
+html[data-theme="light"] .content pre .token.doctype,
+html[data-theme="light"] .content pre .token.cdata { color: #8a867c; font-style: italic; }
+html[data-theme="light"] .content pre .token.punctuation,
+html[data-theme="light"] .content pre .token.operator,
+html[data-theme="light"] .content pre .token.entity,
+html[data-theme="light"] .content pre .token.url,
+html[data-theme="light"] .content pre .token.variable { color: #5c5950; background: none; }
+html[data-theme="light"] .content pre .token.property,
+html[data-theme="light"] .content pre .token.tag,
+html[data-theme="light"] .content pre .token.constant,
+html[data-theme="light"] .content pre .token.symbol,
+html[data-theme="light"] .content pre .token.deleted { color: #7a3e9d; }
+html[data-theme="light"] .content pre .token.null,
+html[data-theme="light"] .content pre .token.important,
+html[data-theme="light"] .content pre .token.regex,
+html[data-theme="light"] .content pre .token.boolean,
+html[data-theme="light"] .content pre .token.number { color: #b45309; }
+html[data-theme="light"] .content pre .token.selector,
+html[data-theme="light"] .content pre .token.attr-name,
+html[data-theme="light"] .content pre .token.string,
+html[data-theme="light"] .content pre .token.char,
+html[data-theme="light"] .content pre .token.builtin,
+html[data-theme="light"] .content pre .token.inserted { color: #1f7a4d; }
+html[data-theme="light"] .content pre .token.attr-value,
+html[data-theme="light"] .content pre .token.function,
+html[data-theme="light"] .content pre .token.class-name { color: #1d5fa8; }
+html[data-theme="light"] .content pre .token.keyword,
+html[data-theme="light"] .content pre .token.atrule { color: #b4254f; }
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  margin-top: 4.5rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--vm-border);
+  font-family: var(--font-interface-override);
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--vm-muted);
+}
+
+/* ---------- Tags and meta (UI font) ---------- */
+
+.content .header-meta,
+.content .tag {
+  font-family: var(--font-interface-override);
+}
+.content .header-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1.4em; }
+.content a.tag,
+.content .tag {
+  background: var(--vm-surface);
+  color: var(--vm-muted);
+  border: 1px solid var(--vm-border);
+  border-radius: 999px;
+  padding: 0.1em 0.7em;
+  font-size: 0.74rem;
+  line-height: 1.7;
+  text-decoration: none;
+}
+
+/* Tags also appear outside .content (search results and preview) */
+html[data-theme] .tag,
+html[data-theme] a.tag {
+  background: var(--vm-surface);
+  color: var(--vm-muted);
+  border: 1px solid var(--vm-border);
+  border-radius: 999px;
+  padding: 0.1em 0.7em;
+  font-family: var(--font-interface-override);
+  font-size: 0.74rem;
+  line-height: 1.7;
+  text-decoration: none;
+}
+html[data-theme] .result-tags,
+html[data-theme] .preview-tags,
+html[data-theme] #preview-content .header-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* ---------- Top bar ---------- */
+
+html[data-theme] .navbar {
+  background: color-mix(in srgb, var(--vm-bg) 82%, transparent);
+  -webkit-backdrop-filter: saturate(1.4) blur(10px);
+  backdrop-filter: saturate(1.4) blur(10px);
+  border-bottom: 1px solid var(--vm-border);
+  /* the template puts a 15px inline margin on the brand, hence the -15px */
+  padding-left: max(9px, calc((100vw - 728px) / 2 + 24px - 15px));
+  padding-right: max(24px, calc((100vw - 728px) / 2 + 24px));
+  box-sizing: border-box;
+  font-family: var(--font-interface-override);
+}
+html[data-theme] .navbar .navbar-inner h1 {
+  font-family: var(--font-text-override);
+  font-size: 1.35rem;
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  color: var(--vm-text);
+  padding: 0;
+}
+.navbar-actions { gap: 8px; }
+html[data-theme] .navbar .search-button {
+  margin: 0;
+  background: transparent;
+  color: var(--vm-muted);
+  border: 1px solid var(--vm-border);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.85rem;
+  box-shadow: none;
+}
+html[data-theme] .navbar .search-button:hover { color: var(--vm-text); border-color: var(--vm-muted); }
+html[data-theme] .navbar .search-keys code {
+  background: none;
+  color: var(--vm-muted);
+  font-family: var(--font-interface-override);
+  font-size: 0.72rem;
+  padding: 0;
+}
+
+/* Top bar links (Inicio, Posts): first in the actions group, before search */
+.navbar-actions .nav-link {
+  order: -1;
+  margin-right: 6px;
+  padding: 6px 10px;
+  color: var(--vm-muted);
+  font-family: var(--font-interface-override);
+  font-size: 0.88rem;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: color 0.15s;
+}
+.navbar-actions .nav-link:hover,
+.navbar-actions .nav-link[aria-current="page"] { color: var(--vm-text); }
+.navbar-actions .nav-link[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.3em; }
+.navbar-actions .nav-link:focus-visible { outline: 2px solid var(--vm-accent); outline-offset: 2px; }
+
+.theme-toggle,
+html[data-theme] .navbar .theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  color: var(--vm-muted);
+  border: 1px solid var(--vm-border);
+  border-radius: 999px;
+  box-shadow: none;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.theme-toggle:hover,
+html[data-theme] .navbar .theme-toggle:hover { color: var(--vm-text); border-color: var(--vm-muted); }
+.theme-toggle:focus-visible { outline: 2px solid var(--vm-accent); outline-offset: 2px; }
+html[data-theme="dark"] .theme-toggle .icon-moon,
+html[data-theme="light"] .theme-toggle .icon-sun { display: none; }
+@media (max-width: 800px) {
+  html[data-theme] .navbar { padding-left: 4px; padding-right: 16px; }
+  html[data-theme] .navbar .search-button { padding: 5px 9px; }
+}
+
+::selection { background: color-mix(in srgb, var(--vm-accent) 28%, transparent); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; scroll-behavior: auto !important; }
+}

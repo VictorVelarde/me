@@ -2,11 +2,12 @@
 {"dg-publish":true,"dg-path":"Inicio.md","permalink":"/inicio/","title":"Inicio","tags":["gardenEntry"],"dg-note-properties":{"title":"Inicio"}}
 ---
 
-![Fondo.png](/img/user/Blog/Media/Fondo.png)
 ### 👋 Hola, soy Víctor Velarde
 **Product Engineer construyendo productos con IA**
 
-Construyo software que resuelve problemas reales, con una formación fullstack y gusto por los interfaces y la construcción de producto.
+![Fondo.png](/img/user/Blog/Media/Fondo.png)
+
+Construyo software que resuelve problemas reales, con una formación fullstack y gusto por las interfaces y la construcción de producto.
 
 ### ✍ Últimos posts
 - [[Blog/Articulos/2026-10-14-tu-trabajo-es-aprender/Con la IA tu trabajo es aprender\|Con la IA tu trabajo es aprender]]
@@ -16,8 +17,6 @@ Construyo software que resuelve problemas reales, con una formación fullstack y
 - [[Blog/Articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3 lenguajes de programación para SIG\|3 lenguajes de programación para SIG]]
 
 { .block-language-dataview}
-
-[[Blog/Posts\|Blog]]
 
 ### ✉️ Contacto
 Si me quieres contactar, este es mi correo **victor.velarde@gmail.com** y estos mis perfiles sociales en [linkedin](https://www.linkedin.com/in/victorvelarde/) y [github](https://github.com/VictorVelarde/)

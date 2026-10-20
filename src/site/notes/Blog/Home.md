@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"Home.md","permalink":"/home/","dg-note-properties":{"lang":"en"}}
 ---
 
-> [[Blog/Inicio\|🇪🇸 ES]]
-
 ![Fondo.png](/img/user/Blog/Media/Fondo.png)
 ### 👋 Hi, I'm Víctor Velarde. Product Engineer building AI-powered features
 
@@ -12,6 +10,8 @@ I'm interested in building software that solves real problems, applying artifici
 If you want to contact me, this is my email address: **victor.velarde at gmail dot com** and these are my main social profiles
 - [github](https://github.com/VictorVelarde/)
 - [linkedin](https://www.linkedin.com/in/victorvelarde/)
+
+> [[Blog/Inicio\|🇪🇸 ES]]
 
 ---
 ### ✍ Blog
@@ -24,7 +24,7 @@ Here are some of my posts (in Spanish):
 
 { .block-language-dataview}
 
-All my [[Blog/Publicaciones\|posts]]
+All my [[Blog/Posts\|posts]]
 
 ---
 ### 🧔‍♂ About me

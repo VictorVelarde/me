@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"Inicio.md","permalink":"/inicio/","title":"velardev","tags":["gardenEntry"],"dg-note-properties":{"title":"velardev"}}
 ---
 
-> [[Blog/Home\|🇬🇧 EN]]
-
 ![Fondo.png](/img/user/Blog/Media/Fondo.png)
 ### 👋 Hola soy Víctor Velarde. Product Engineer construyendo con IA
 
@@ -12,6 +10,8 @@ Me interesa construir software que resuelva problemas reales, aplicando intelige
 Si me quieres contactar, este es mi correo electrónico: **victor.velarde at gmail punto com** y estos mis perfiles sociales
 - [github](https://github.com/VictorVelarde/)
 - [linkedin](https://www.linkedin.com/in/victorvelarde/)
+
+> [[Blog/Home\|🇬🇧 EN]]
 
 ---
 ### ✍ Blog
@@ -24,7 +24,7 @@ Estos son algunos de mis posts:
 
 { .block-language-dataview}
 
-Todos los [[Blog/Publicaciones\|posts]]
+Todos los [[Blog/Posts\|posts]]
 
 ---
 ###  🧔‍♂ Sobre mí

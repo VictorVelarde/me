@@ -1,0 +1,35 @@
+---
+{"dg-publish":true,"dg-path":"Home - backup.md","permalink":"/home-backup/","dg-note-properties":{"lang":"en"}}
+---
+
+![Fondo.png](/img/user/Blog/Media/Fondo.png)
+### 👋 Hi, I'm Víctor Velarde. Product Engineer building AI-powered features
+
+I'm interested in building software that solves real problems, applying artificial intelligence to add value to the product and the user. I come from a background in Geographic Information Systems (GIS) and full-stack development and more recently I've focused on applied AI, frontend architecture and product thinking. On a personal level, I seek to spend time with my family, read, and practice sports whenever I can.
+
+If you want to contact me, this is my email **victor.velarde@gmail.com** and these are my main social profiles
+- [github](https://github.com/VictorVelarde/)
+- [linkedin](https://www.linkedin.com/in/victorvelarde/)
+
+> [[Blog/Inicio\|🇪🇸 ES]]
+
+---
+### ✍ Blog
+Here are some of my posts (in Spanish):
+- [[Blog/Articulos/2026-10-14-tu-trabajo-es-aprender/Con la IA tu trabajo es aprender\|Con la IA tu trabajo es aprender]]
+- [[Blog/Articulos/2026-04-13-programadores-en-simcity/Con la IA los programadores ya vivimos en SimCity\|Con la IA los programadores ya vivimos en SimCity]]
+- [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 01 - El arranque del proyecto\|Promptly 01 - El arranque del proyecto]]
+- [[Blog/Articulos/2025-02-19-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital\|Obsidian como herramienta para un cerebro digital]]
+- [[Blog/Articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3 lenguajes de programación para SIG\|3 lenguajes de programación para SIG]]
+
+{ .block-language-dataview}
+
+All my [[Blog/Posts\|posts]]
+
+---
+### 🧔‍♂ About me
+I currently live in Santander (Spain) and work remotely as a _Senior Software Engineer_ at [MOGU](https://www.moguplatform.com/), where I'm building a SaaS platform for the travel industry from the ground up.
+
+My day-to-day combines TypeScript, React, and cloud architecture with applied AI exploration (MCP, agents, LLMs). Previously, I worked at CARTO and Tinybird as Tech Lead and Engineering Manager, leading teams on internationally-focused data products.
+
+If you want to learn more about my professional experience, you can take a look at these notes on my [[Blog/Career\|Career]]

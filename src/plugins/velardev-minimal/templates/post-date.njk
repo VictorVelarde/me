@@ -1,6 +1,3 @@
 {%- if noteProps and noteProps.date -%}
-{%- set meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"] -%}
-{%- set partes = (noteProps.date | string).split("-") -%}
-{%- set mes = partes[1] | int -%}
-<p class="post-date"><time datetime="{{ noteProps.date }}">{{ partes[2] | int }} de {{ meses[mes - 1] }} de {{ partes[0] }}</time></p>
+<p class="post-date"><time datetime="{{ noteProps.date }}">{{ noteProps.date }}</time></p>
 {%- endif -%}

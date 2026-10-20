@@ -35,9 +35,3 @@
 - [[Blog/Articulos/2009-02-02-shp2geojson/Cómo convertir un shapefile a geojson\|Cómo convertir un shapefile a geojson]]: 2009-02-02
 
 { .block-language-dataview}
-
----
-
-  - #ia · #nextjs · #postgresql · #supabase · #openlayers · #python · #qgis · #curso · #formacion · #geojson · #ikimap · #jquery · #popup · #productividad · #agentes · #analisis · #aprendizaje · #arcgisserver · #blog · #claude-code · #conferencia · #dojo · #gdal · #geoinquietos · #geoprocesos · #jqueryui · #menu · #mobile · #neogeografia · #netcdf · #nube · #ogc · #ogr2ogr · #osm · #raster · #refactoring · #shapefile · #tabs · #tests · #wcs · #web
-
-{ .block-language-dataview}

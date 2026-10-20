@@ -16,6 +16,7 @@
       "templates/nav.njk",
       "templates/toggle.njk"
     ],
+    "notes.header": "templates/post-date.njk",
     "common.afterContent": "templates/footer.njk"
   }
 }

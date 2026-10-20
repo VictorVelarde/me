@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Home.md","permalink":"/home/","dg-note-properties":{"lang":"en"}}
+{"dg-publish":true,"dg-path":"Home.md","permalink":"/home/","dg-note-properties":{"lang":"en","translation":"/"}}
 ---
 
 ### 👋 Hi, I'm Víctor Velarde
@@ -20,6 +20,3 @@ I build software that solves real problems, with a fullstack background and a st
 
 ### ✉️ Contact
 If you want to contact me, this is my email **victor.velarde@gmail.com** and these are my social profiles at [linkedin](https://www.linkedin.com/in/victorvelarde/) and [github](https://github.com/VictorVelarde/)
-
-
-> [[Blog/Inicio\|🇪🇸 ES]]

@@ -1,3 +1,4 @@
+{%- if noteProps and noteProps.translation %}<link rel="alternate" hreflang="{{ 'es' if noteProps.lang == 'en' else 'en' }}" href="{{ noteProps.translation }}">{% endif %}
 <link rel="preload" href="/plugins/velardev-minimal/assets/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <script>
 /* Pick light/dark before first paint: saved choice, else the system setting. */

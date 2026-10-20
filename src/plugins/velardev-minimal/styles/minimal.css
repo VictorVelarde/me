@@ -297,6 +297,10 @@ html[data-theme="light"] .content pre .token.atrule { color: #b4254f; }
   color: var(--vm-muted);
 }
 
+.site-footer .site-footer-mail { color: inherit; text-decoration: none; }
+.site-footer .site-footer-mail:hover,
+.site-footer .site-footer-mail:focus-visible { color: var(--vm-text); text-decoration: underline; text-underline-offset: 0.25em; }
+
 /* ---------- Tags and meta (UI font) ---------- */
 
 .content .header-meta,
@@ -390,6 +394,22 @@ html[data-theme] .navbar .search-keys code {
 .navbar-actions .nav-link[aria-current="page"] { color: var(--vm-text); }
 .navbar-actions .nav-link[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.3em; }
 .navbar-actions .nav-link:focus-visible { outline: 2px solid var(--vm-accent); outline-offset: 2px; }
+
+/* Discreet language switch (only on pages that have a translation) */
+.navbar-actions .lang-switch {
+  margin-right: 2px;
+  padding: 4px 8px;
+  color: var(--vm-muted);
+  font-family: var(--font-interface-override);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  border: 1px solid var(--vm-border);
+  border-radius: 999px;
+  transition: color 0.15s, border-color 0.15s;
+}
+.navbar-actions .lang-switch:hover { color: var(--vm-text); border-color: var(--vm-muted); }
+.navbar-actions .lang-switch:focus-visible { outline: 2px solid var(--vm-accent); outline-offset: 2px; }
 
 /* Publication date under the title of a post (from the note's `date` property) */
 .post-date {

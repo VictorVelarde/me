@@ -297,9 +297,15 @@ html[data-theme="light"] .content pre .token.atrule { color: #b4254f; }
   color: var(--vm-muted);
 }
 
-.site-footer .site-footer-mail { color: inherit; text-decoration: none; }
+.site-footer .site-footer-mail {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+  transition: color 0.15s;
+}
 .site-footer .site-footer-mail:hover,
-.site-footer .site-footer-mail:focus-visible { color: var(--vm-text); text-decoration: underline; text-underline-offset: 0.25em; }
+.site-footer .site-footer-mail:focus-visible { color: var(--vm-accent); }
 
 /* ---------- Tags and meta (UI font) ---------- */
 

@@ -1,0 +1,4 @@
+Newsreader is Copyright 2020 The Newsreader Project Authors
+(http://github.com/productiontype/Newsreader), licensed under the SIL Open
+Font License, Version 1.1: https://openfontlicense.org
+Files from the @fontsource-variable/newsreader package (latin subset).

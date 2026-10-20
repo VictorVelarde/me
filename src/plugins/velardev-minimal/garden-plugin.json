@@ -1,0 +1,13 @@
+{
+  "id": "velardev-minimal",
+  "name": "velardev minimal",
+  "version": "1.0.0",
+  "description": "Minimal editorial look: serif body text, one accent colour and a light/dark switch in the top bar.",
+  "author": "Víctor Velarde",
+  "styles": ["styles/minimal.css"],
+  "assets": ["assets/"],
+  "slots": {
+    "common.head": "templates/head.njk",
+    "navbar.actions": "templates/toggle.njk"
+  }
+}

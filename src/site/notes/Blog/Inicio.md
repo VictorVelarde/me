@@ -18,6 +18,7 @@ Construyo software que resuelve problemas reales, con una formación fullstack y
 - [[Blog/Articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3 lenguajes de programación para SIG\|3 lenguajes de programación para SIG]]
 
 { .block-language-dataview}
+
 [[Blog/Posts\|Blog]]
 
 ### ✉️ Contacto

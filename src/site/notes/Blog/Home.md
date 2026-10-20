@@ -10,7 +10,7 @@ I build software that solves real problems, with a fullstack background and a st
 
 > [[Blog/Inicio\|🇪🇸 ES]]
 
-### ✍ Latest posts 🇪🇸
+### ✍ Latest posts
 - [[Blog/Articulos/2026-10-14-tu-trabajo-es-aprender/Con la IA tu trabajo es aprender\|Con la IA tu trabajo es aprender]]
 - [[Blog/Articulos/2026-04-13-programadores-en-simcity/Con la IA los programadores ya vivimos en SimCity\|Con la IA los programadores ya vivimos en SimCity]]
 - [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 01 - El arranque del proyecto\|Promptly 01 - El arranque del proyecto]]
@@ -18,6 +18,7 @@ I build software that solves real problems, with a fullstack background and a st
 - [[Blog/Articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3 lenguajes de programación para SIG\|3 lenguajes de programación para SIG]]
 
 { .block-language-dataview}
+
 [[Blog/Posts\|Blog]]
 
 ### ✉️ Contact

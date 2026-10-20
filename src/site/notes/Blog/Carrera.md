@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Carrera.md","permalink":"/carrera/","dg-note-properties":{}}
+{"dg-publish":true,"dg-path":"Carrera.md","permalink":"/carrera/","dg-note-properties":{"lang":"es","translation":"/career/"}}
 ---
 
 Esto no es un Curriculum Vitae. Lo más parecido a eso es seguramente mi perfil en [LinkedIn](https://www.linkedin.com/in/victorvelarde/); si te interesa allí puedes ver la lista de empresas, fechas, proyectos y tecnologías. Esto de aquí son más bien algunas notas personales, incluyendo mis motivaciones en cada paso.
@@ -62,6 +62,3 @@ Actualmente estoy trabajando en MOGU Platform, construyendo desde cero una plata
 
 Saludos
 [@VictorVelarde](https://github.com/VictorVelarde)
-
-
-> [[Blog/Career\|🇬🇧 EN]]

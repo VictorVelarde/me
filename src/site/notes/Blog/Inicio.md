@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Inicio.md","permalink":"/inicio/","title":"Inicio","tags":["gardenEntry"],"dg-note-properties":{"title":"Inicio"}}
+{"dg-publish":true,"dg-path":"Inicio.md","permalink":"/inicio/","title":"Inicio","tags":["gardenEntry"],"dg-note-properties":{"title":"Inicio","lang":"es","translation":"/home/"}}
 ---
 
 ### 👋 Hola, soy Víctor Velarde
@@ -20,6 +20,3 @@ Construyo software que resuelve problemas reales, con una formación fullstack y
 
 ### ✉️ Contacto
 Si me quieres contactar, este es mi correo **victor.velarde@gmail.com** y estos mis perfiles sociales en [linkedin](https://www.linkedin.com/in/victorvelarde/) y [github](https://github.com/VictorVelarde/)
-
-
-> [[Blog/Home\|🇬🇧 EN]]

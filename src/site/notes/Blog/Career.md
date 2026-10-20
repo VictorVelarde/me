@@ -2,8 +2,6 @@
 {"dg-publish":true,"dg-path":"Career.md","permalink":"/career/","dg-note-properties":{"lang":"en"}}
 ---
 
-> [[Blog/Carrera\|🇪🇸 ES]]
-
 This is not a résumé. The closest thing to that is probably my [LinkedIn profile](https://www.linkedin.com/in/victorvelarde/); if you're interested, there you can find the list of companies, dates, projects, and technologies. What you’ll find here is more like a collection of personal notes, including my motivations at each step.
 
 ---
@@ -68,3 +66,6 @@ I’m currently working at MOGU Platform, building a SaaS product for the travel
 
 Best regards,  
 [@VictorVelarde](https://github.com/VictorVelarde)
+
+
+> [[Blog/Carrera\|🇪🇸 ES]]

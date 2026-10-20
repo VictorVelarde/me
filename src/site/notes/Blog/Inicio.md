@@ -8,8 +8,6 @@
 
 Construyo software que resuelve problemas reales, con una formación fullstack y gusto por los interfaces y la construcción de producto.
 
-> [[Blog/Home\|🇬🇧 EN]]
-
 ### ✍ Últimos posts
 - [[Blog/Articulos/2026-10-14-tu-trabajo-es-aprender/Con la IA tu trabajo es aprender\|Con la IA tu trabajo es aprender]]
 - [[Blog/Articulos/2026-04-13-programadores-en-simcity/Con la IA los programadores ya vivimos en SimCity\|Con la IA los programadores ya vivimos en SimCity]]
@@ -23,3 +21,6 @@ Construyo software que resuelve problemas reales, con una formación fullstack y
 
 ### ✉️ Contacto
 Si me quieres contactar, este es mi correo **victor.velarde@gmail.com** y estos mis perfiles sociales en [linkedin](https://www.linkedin.com/in/victorvelarde/) y [github](https://github.com/VictorVelarde/)
+
+
+> [[Blog/Home\|🇬🇧 EN]]

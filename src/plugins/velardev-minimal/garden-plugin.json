@@ -15,6 +15,7 @@
     "navbar.actions": [
       "templates/nav.njk",
       "templates/toggle.njk"
-    ]
+    ],
+    "common.afterContent": "templates/footer.njk"
   }
 }

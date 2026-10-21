@@ -112,7 +112,8 @@ body.no-filetree .content {
   max-width: calc(var(--dg-content-max-width) + 48px);
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 112px;
+  /* the base template adds ~68px above this (margin-top 60px + 8px), so the visible gap under the bar is padding-top + ~15px */
+  padding-top: 56px;
   padding-bottom: 96px;
   font-family: var(--font-text-override);
   font-size: var(--dg-content-font-size);
@@ -120,7 +121,7 @@ body.no-filetree .content {
 }
 @media (max-width: 800px) {
   body.no-filetree .content {
-    padding-top: 88px;
+    padding-top: 48px;
     font-size: 1.18rem;
   }
 }
@@ -463,7 +464,7 @@ html[data-theme="light"] .theme-toggle .icon-sun { display: none; }
   /* 4px navbar padding + 5px + 10px link padding = 19px, same as the brand text (4px + 15px margin) */
   .navbar-actions .nav-link:first-of-type { margin-left: 5px; }
   /* the second row makes the fixed bar ~40px taller */
-  body.no-filetree .content { padding-top: 128px; }
+  body.no-filetree .content { padding-top: 80px; }
 }
 
 ::selection { background: color-mix(in srgb, var(--vm-accent) 28%, transparent); }

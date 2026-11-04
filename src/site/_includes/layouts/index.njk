@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}" style="color-scheme: only {{ meta.baseTheme }}">
   <head>
-    <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
+    <title>{% if page.url == "/" or page.url == "/inicio/" or page.url == "/home/" %}Víctor Velarde — Product Engineer{% elif title %}{{ title }} · Víctor Velarde{% else %}{{ page.fileSlug }} · Víctor Velarde{% endif %}</title>
     {%include "components/pageheader.njk"%}
     {% set slotName = "common.head" %}{% include "components/pluginSlot.njk" %}
     {% set slotName = "index.head" %}{% include "components/pluginSlot.njk" %}

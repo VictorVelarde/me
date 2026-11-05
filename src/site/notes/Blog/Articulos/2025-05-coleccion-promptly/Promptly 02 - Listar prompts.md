@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 02 - Listar prompts.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-02-listar-prompts/","title":"Promptly 02 - Listar prompts","tags":["nextjs","supabase","postgresql","ia"],"dg-note-properties":{"title":"Promptly 02 - Listar prompts","date":"2025-05-15","categories":["programacion"],"tags":["nextjs","supabase","postgresql","ia"],"review":true,"starred":null,"descripcion":"Promptly 02 - Listar prompts"}}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 02 - Listar prompts.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-02-listar-prompts/","title":"Promptly 02 - Listar prompts","tags":["nextjs","supabase","postgresql","ia"],"dg-note-properties":{"title":"Promptly 02 - Listar prompts","date":"2025-05-15","categories":["programacion"],"tags":["nextjs","supabase","postgresql","ia"],"review":true,"starred":null,"descripcion":"Promptly 02 - Listar prompts","description":"Sesión 2 de Promptly: registro y acceso de usuarios, persistencia y una primera interfaz para listar prompts."}}
 ---
 
 

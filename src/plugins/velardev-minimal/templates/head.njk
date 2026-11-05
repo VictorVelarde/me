@@ -1,4 +1,13 @@
-{%- if noteProps and noteProps.translation %}<link rel="alternate" hreflang="{{ 'es' if noteProps.lang == 'en' else 'en' }}" href="{{ noteProps.translation }}">{% endif %}
+{#- Idiomas: cada versión se enlaza a sí misma y a la otra con URL absolutas; x-default = la versión en español. -#}
+{%- set _enPage = noteProps and noteProps.lang == "en" -%}
+{%- set _baseLang = meta.siteBaseUrl.replace(r/\/+$/, "") -%}
+{%- if noteProps and noteProps.translation -%}
+{%- set _selfUrl = _baseLang + page.url -%}
+{%- set _otherUrl = _baseLang + noteProps.translation -%}
+<link rel="alternate" hreflang="{{ 'en' if _enPage else 'es' }}" href="{{ _selfUrl }}">
+<link rel="alternate" hreflang="{{ 'es' if _enPage else 'en' }}" href="{{ _otherUrl }}">
+<link rel="alternate" hreflang="x-default" href="{{ _otherUrl if _enPage else _selfUrl }}">
+{% endif -%}
 <link rel="preload" href="/plugins/velardev-minimal/assets/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <script>
 /* Pick light/dark before first paint: saved choice, else the system setting. */
@@ -35,7 +44,7 @@
   {%- set _desc = "Product Engineer building AI-powered products. I build software that solves real problems, with a fullstack background and a strong interest in designing interfaces and building products." if _en else "Product Engineer construyendo productos con IA. Construyo software que resuelve problemas reales, con una formación fullstack y gusto por las interfaces y la construcción de producto." -%}
 {%- else -%}
   {%- set _titulo = (title or page.fileSlug) + " · Víctor Velarde" -%}
-  {%- set _desc = noteProps.description if (noteProps and noteProps.description) else (content | striptags | replace(r/\[\[([^\]|]*\|)?([^\]]*)\]\]/g, "$2") | trim | truncate(155, true, "…")) -%}
+  {%- set _desc = noteProps.description if (noteProps and noteProps.description) else (content | striptags | replace(r/\[\[([^\]|]*\|)?([^\]]*)\]\]/g, "$2") | trim | truncate(155, false, "…")) -%}
 {%- endif -%}
 {%- set _img = (content | velardevFirstImage) if not _home else "" -%}
 {%- if not _img -%}{%- set _img = "/img/user/Blog/Media/Fondo.png" -%}{%- endif -%}
@@ -45,6 +54,7 @@
 <meta name="description" content="{{ _desc | escape }}">
 <link rel="canonical" href="{{ _url }}">
 <meta property="og:site_name" content="Víctor Velarde">
+<meta property="og:locale" content="{{ 'en_US' if _en else 'es_ES' }}">
 <meta property="og:type" content="{{ 'website' if _home else 'article' }}">
 <meta property="og:title" content="{{ _titulo | escape }}">
 <meta property="og:description" content="{{ _desc | escape }}">

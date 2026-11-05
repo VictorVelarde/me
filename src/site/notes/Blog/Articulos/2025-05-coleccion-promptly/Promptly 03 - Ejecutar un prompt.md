@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 03 - Ejecutar un prompt.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-03-ejecutar-un-prompt/","title":"Promptly 03 - Ejecutar un prompt","tags":["nextjs","supabase","postgresql","ia"],"dg-note-properties":{"title":"Promptly 03 - Ejecutar un prompt","date":"2025-05-16","categories":["programacion"],"tags":["nextjs","supabase","postgresql","ia"],"review":true,"starred":null,"descripcion":"Promptly 03 - Ejecutar un prompt"}}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 03 - Ejecutar un prompt.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-03-ejecutar-un-prompt/","title":"Promptly 03 - Ejecutar un prompt","tags":["nextjs","supabase","postgresql","ia"],"dg-note-properties":{"title":"Promptly 03 - Ejecutar un prompt","date":"2025-05-16","categories":["programacion"],"tags":["nextjs","supabase","postgresql","ia"],"review":true,"starred":null,"descripcion":"Promptly 03 - Ejecutar un prompt","description":"Sesión 3 de Promptly: pensar en los usuarios del producto y construir la acción de ejecutar o copiar un prompt."}}
 ---
 
 

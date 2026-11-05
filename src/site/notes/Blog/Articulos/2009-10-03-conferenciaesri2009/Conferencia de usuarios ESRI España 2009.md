@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2009-10-03-conferenciaesri2009/Conferencia de usuarios ESRI España 2009.md","permalink":"/articulos/2009-10-03-conferenciaesri2009/conferencia-de-usuarios-esri-espana-2009/","title":"Conferencia de usuarios ESRI España 2009","tags":["conferencia"],"dg-note-properties":{"title":"Conferencia de usuarios ESRI España 2009","date":"2009-10-03","categories":["esri","gis"],"tags":["conferencia"],"review":true}}
+{"dg-publish":true,"dg-path":"Articulos/2009-10-03-conferenciaesri2009/Conferencia de usuarios ESRI España 2009.md","permalink":"/articulos/2009-10-03-conferenciaesri2009/conferencia-de-usuarios-esri-espana-2009/","title":"Conferencia de usuarios ESRI España 2009","tags":["conferencia"],"dg-note-properties":{"title":"Conferencia de usuarios ESRI España 2009","date":"2009-10-03","categories":["esri","gis"],"tags":["conferencia"],"review":true,"description":"Crónica de la conferencia de usuarios de ESRI España 2009 en Madrid y del póster Geolics, sobre geoprocesos con ArcGIS Server en el IHCantabria."}}
 ---
 
 

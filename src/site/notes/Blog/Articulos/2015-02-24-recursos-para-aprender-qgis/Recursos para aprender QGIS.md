@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2015-02-24-recursos-para-aprender-qgis/Recursos para aprender QGIS.md","permalink":"/articulos/2015-02-24-recursos-para-aprender-qgis/recursos-para-aprender-qgis/","title":"Recursos para aprender QGIS","tags":["qgis"],"dg-note-properties":{"title":"Recursos para aprender QGIS","date":"2015-02-24","categories":["gis"],"tags":["qgis"],"coverImage":"logoqgis.png","review":true}}
+{"dg-publish":true,"dg-path":"Articulos/2015-02-24-recursos-para-aprender-qgis/Recursos para aprender QGIS.md","permalink":"/articulos/2015-02-24-recursos-para-aprender-qgis/recursos-para-aprender-qgis/","title":"Recursos para aprender QGIS","tags":["qgis"],"dg-note-properties":{"title":"Recursos para aprender QGIS","date":"2015-02-24","categories":["gis"],"tags":["qgis"],"coverImage":"logoqgis.png","review":true,"description":"Recopilación de enlaces básicos y tutoriales gratuitos para aprender QGIS, el SIG de escritorio libre y ampliable con plugins."}}
 ---
 
 

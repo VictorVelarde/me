@@ -427,7 +427,7 @@ html[data-theme] .navbar .search-keys code {
 
 /* Publication date under the title of a post (from the note's `date` property) */
 .post-date {
-  margin: 0.2rem 0 1.2rem;
+  margin: 0.2rem 0 0.9rem;
   color: var(--vm-muted);
   font-family: var(--font-interface-override);
   font-size: 0.78rem;
@@ -516,3 +516,12 @@ html[data-theme="light"] .theme-toggle .icon-sun { display: none; }
   transform: scale(1.22);
   transform-origin: 50% 100%;
 }
+
+/* Typography: no single word alone on the last line of a paragraph, and balanced headings */
+.content p,
+.content li,
+.content blockquote { text-wrap: pretty; }
+.content h1,
+.content h2,
+.content h3,
+.content h4 { text-wrap: balance; }

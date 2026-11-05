@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const { isHome, isEnglish } = require("./_home");
+const { fechaCorta } = require("./_fecha");
 
 // Portada: a cada enlace de "Últimos posts" se le añade, debajo, una línea de
 // gancho y la fecha en formato corto ("30 OCT 2026", según el idioma).
@@ -73,18 +74,6 @@ function leerPosts() {
   return posts;
 }
 
-const MESES = {
-  es: ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"],
-  en: ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"],
-};
-
-// "2026-10-30" -> "30 oct 2026" / "30 oct 2026" (en mayúsculas por CSS).
-function fechaCorta(iso, en) {
-  const [y, m, d] = iso.split("-").map(Number);
-  if (!y || !m || !d) return iso;
-  return `${d} ${MESES[en ? "en" : "es"][m - 1]} ${y}`;
-}
-
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 const ESTILOS = `<style>
@@ -132,5 +121,4 @@ module.exports = {
   leerPosts,
   gancho,
   enriquecerLista,
-  fechaCorta,
 };

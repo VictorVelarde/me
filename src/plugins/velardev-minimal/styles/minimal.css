@@ -431,6 +431,17 @@ html[data-theme] .navbar .search-keys code {
   text-transform: uppercase;
 }
 
+/* Date after each link in the /posts/ list */
+.post-list-date {
+  margin-left: 0.6em;
+  color: var(--vm-muted);
+  font-family: var(--font-interface-override);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
 .theme-toggle,
 html[data-theme] .navbar .theme-toggle {
   display: inline-flex;

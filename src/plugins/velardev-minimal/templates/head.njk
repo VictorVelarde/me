@@ -26,3 +26,28 @@
   } catch (e) {}
 })();
 </script>
+
+{#- Metadatos para buscadores y vistas previas al compartir (LinkedIn, etc.). -#}
+{%- set _en = noteProps and noteProps.lang == "en" -%}
+{%- set _home = page.url == "/" or page.url == "/inicio/" or page.url == "/home/" -%}
+{%- if _home -%}
+  {%- set _titulo = "Víctor Velarde — Product Engineer" -%}
+  {%- set _desc = "Product Engineer building AI-powered products. I build software that solves real problems, with a fullstack background and a strong interest in designing interfaces and building products." if _en else "Product Engineer construyendo productos con IA. Construyo software que resuelve problemas reales, con una formación fullstack y gusto por las interfaces y la construcción de producto." -%}
+{%- else -%}
+  {%- set _titulo = (title or page.fileSlug) + " · Víctor Velarde" -%}
+  {%- set _desc = noteProps.description if (noteProps and noteProps.description) else (content | striptags | replace(r/\[\[([^\]|]*\|)?([^\]]*)\]\]/g, "$2") | trim | truncate(155, true, "…")) -%}
+{%- endif -%}
+{%- set _img = (content | velardevFirstImage) if not _home else "" -%}
+{%- if not _img -%}{%- set _img = "/img/user/Blog/Media/Fondo.png" -%}{%- endif -%}
+{%- set _base = meta.siteBaseUrl.replace(r/\/+$/, "") -%}
+{%- set _imgUrl = (_base + _img) if _img.startsWith("/") else _img -%}
+{%- set _url = _base + page.url -%}
+<meta name="description" content="{{ _desc | escape }}">
+<link rel="canonical" href="{{ _url }}">
+<meta property="og:site_name" content="Víctor Velarde">
+<meta property="og:type" content="{{ 'website' if _home else 'article' }}">
+<meta property="og:title" content="{{ _titulo | escape }}">
+<meta property="og:description" content="{{ _desc | escape }}">
+<meta property="og:url" content="{{ _url }}">
+<meta property="og:image" content="{{ _imgUrl }}">
+<meta name="twitter:card" content="summary_large_image">

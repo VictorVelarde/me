@@ -140,12 +140,12 @@ body.no-filetree .content {
   letter-spacing: -0.012em;
   line-height: 1.18;
 }
-.content header h1 { font-size: 2.6rem; font-weight: 650; letter-spacing: -0.02em; margin: 0 0 0.35em; }
+.content h1 { font-size: 2.6rem; font-weight: 650; letter-spacing: -0.02em; margin: 0 0 0.35em; }
 .content h2 { font-size: 1.75rem; margin: 2.1em 0 0.55em; border-bottom: 0; padding-bottom: 0; }
 .content h3 { font-size: 1.35rem; margin: 1.8em 0 0.45em; }
 .content h4 { font-size: 1.1rem; margin: 1.6em 0 0.4em; }
 @media (max-width: 800px) {
-  .content header h1 { font-size: 2.1rem; }
+  .content h1 { font-size: 2.1rem; }
   .content h2 { font-size: 1.5rem; }
 }
 
@@ -357,7 +357,8 @@ html[data-theme] .navbar {
   box-sizing: border-box;
   font-family: var(--font-interface-override);
 }
-html[data-theme] .navbar .navbar-inner h1 {
+html[data-theme] .navbar .navbar-inner h1,
+html[data-theme] .navbar .navbar-inner .navbar-brand {
   font-family: var(--font-text-override);
   font-size: 1.35rem;
   font-weight: 650;
@@ -365,6 +366,8 @@ html[data-theme] .navbar .navbar-inner h1 {
   color: var(--vm-text);
   padding: 0;
 }
+/* la portada pinta la marca como <div> (un único h1 por página): mismo aspecto que el h1 */
+html[data-theme] .navbar .navbar-inner .navbar-brand { line-height: 1.2; }
 .navbar-actions { gap: 8px; }
 html[data-theme] .navbar .search-button {
   margin: 0;

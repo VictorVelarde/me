@@ -1,0 +1,4 @@
+{%- if noteProps and noteProps.translation -%}
+{%- set en = noteProps.lang == "en" -%}
+<a class="lang-switch" href="{{ noteProps.translation }}" hreflang="{{ 'es' if en else 'en' }}" lang="{{ 'es' if en else 'en' }}" title="{{ 'Leer en español' if en else 'Read in English' }}" aria-label="{{ 'Leer en español' if en else 'Read in English' }}">{{ "ES" if en else "EN" }}</a>
+{%- endif -%}

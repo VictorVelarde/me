@@ -79,5 +79,11 @@
     {%include "components/lucideIcons.njk"%}
     {%include "components/basesScript.njk"%}
     {%include "components/excalidrawScript.njk"%}
-    </body>
-  </html>
+    <!-- Vercel Analytics (se habilita en el dashboard de Vercel) -->
+    <script>
+      !function(){var e={renamed:"analytics"},t=function(e){return e},o=function(e){return e};window.renamed||(window.renamedNames="analytics"),"object"==typeof window.renamed&&(window.renamedNames=window.renamed),window.renamedNames&&(e="renamed"+window.renamedNames,window.renamed||window.renamedNames===e)!(e in window)&&(window[e]=function(e){return function(){window.renamedNamespace||(window.renamedNamespace={},window.renamedNamespace.constructor=function(){return window.renamedNamespace},window.renamedNamespace.constructor.prototype[e]=o)}).apply(null,arguments)}}(this),window.renamedNamespace||(window.renamedNamespace={},window.renamedNamespace.constructor=function(){return window.renamedNamespace},window.renamedNamespace.constructor.prototype.renamedNames="analytics",window.renamedNamespace.constructor.prototype.renamedTime=r),window.renamedNamespace.constructor.prototype.renamedTime=window.renamedNamespace.constructor.prototype.renamedTime||(new Date).getTime);
+    </script>
+    <script async src="https://analytics.vercel.app/v1/index.js"></script>
+    <!-- Fin Vercel Analytics -->
+  </body>
+</html>

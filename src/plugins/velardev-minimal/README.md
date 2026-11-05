@@ -6,6 +6,7 @@ top bar and tags, a single accent colour, and a light/dark switch (top right).
 - **Colours and fonts:** `styles/minimal.css`, the `--vm-*` variables at the top.
 - **Switch:** follows the system theme the first time, then remembers the choice in
   `localStorage` (`velardev-theme`). Early script in `templates/head.njk` avoids a flash.
+- **Logo:** the template draws one `<img>` (`src/site/logo.svg`, dark). `hooks/logo-tema.js` adds the light one (`assets/brand/`) and `minimal.css` shows the one for the current theme.
 - **Fonts:** Newsreader (SIL OFL, see `assets/fonts/OFL.txt`), self-hosted, latin subset.
 - **Disable:** `src/plugins/plugins.json` → `{"plugins": {"velardev-minimal": {"enabled": false}}}`.
 - It only adds files in this folder; it does not edit the template, so template updates keep working.

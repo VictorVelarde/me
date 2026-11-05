@@ -61,3 +61,29 @@
 <meta property="og:url" content="{{ _url }}">
 <meta property="og:image" content="{{ _imgUrl }}">
 <meta name="twitter:card" content="summary_large_image">
+{#- Datos estructurados (schema.org) solo en la portada: quién soy y cómo se llama el sitio. Los enlaces son los del contacto de Inicio.md / Home.md. -#}
+{%- if _home -%}
+{%- set _ld = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": _base + "/#persona",
+      "name": "Víctor Velarde",
+      "url": _base + "/",
+      "jobTitle": "Product Engineer",
+      "description": _desc,
+      "sameAs": ["https://www.linkedin.com/in/victorvelarde/", "https://github.com/VictorVelarde/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": _base + "/#sitio",
+      "url": _base + "/",
+      "name": "Víctor Velarde",
+      "alternateName": "velardev",
+      "publisher": { "@id": _base + "/#persona" }
+    }
+  ]
+} -%}
+<script type="application/ld+json">{{ _ld | dump | safe }}</script>
+{%- endif %}

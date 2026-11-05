@@ -475,3 +475,23 @@ html[data-theme="light"] .theme-toggle .icon-sun { display: none; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* Portada: imagen del mapa de viento (Fondo.png).
+   El propio PNG trae una franja vacía arriba (~17 %) y márgenes a los lados
+   (~6 %), así que dentro de su marco parecía una imagen sin recortar. Se
+   amplía un 22 % anclada abajo y el marco recorta lo sobrante, sin tocar el
+   fichero (que gestiona Digital Garden). Si algún día se reexporta la imagen
+   sin márgenes, basta con borrar este bloque. */
+.content p:has(> img[src$="/Fondo.png"]) {
+  overflow: hidden;
+  border-radius: 10px;
+  line-height: 0;
+}
+.content img[src$="/Fondo.png"] {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  transform: scale(1.22);
+  transform-origin: 50% 100%;
+}

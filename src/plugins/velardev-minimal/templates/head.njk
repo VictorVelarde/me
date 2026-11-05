@@ -70,9 +70,12 @@
       "@type": "Person",
       "@id": _base + "/#persona",
       "name": "Víctor Velarde",
+      "alternateName": "Víctor Velarde Gutiérrez",
       "url": _base + "/",
-      "jobTitle": "Product Engineer",
+      "jobTitle": "Senior Software Engineer",
+      "worksFor": { "@type": "Organization", "name": "MOGU", "url": "https://www.moguplatform.com/" },
       "description": _desc,
+      "knowsAbout": (["Applied AI", "LLMs", "AI agents", "Model Context Protocol (MCP)", "TypeScript", "React", "Cloud architecture", "Geographic information systems (GIS)"] if _en else ["IA aplicada a producto", "LLMs", "Agentes de IA", "Model Context Protocol (MCP)", "TypeScript", "React", "Arquitectura cloud", "Sistemas de información geográfica (SIG)"]),
       "sameAs": ["https://www.linkedin.com/in/victorvelarde/", "https://github.com/VictorVelarde/"]
     },
     {
@@ -85,5 +88,24 @@
     }
   ]
 } -%}
-<script type="application/ld+json">{{ _ld | dump | safe }}</script>
+<script type="application/ld+json">{{ _ld | velardevJsonLd | safe }}</script>
+{%- endif %}
+{#- Cada post: BlogPosting atado a la misma persona (@id) que la portada. Solo con datos que el post ya tiene: sin dateModified porque ningún post lleva fecha de revisión. -#}
+{%- if not _home and noteProps and noteProps.date -%}
+{%- set _post = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": _url + "#articulo",
+  "mainEntityOfPage": { "@type": "WebPage", "@id": _url },
+  "headline": (title or page.fileSlug),
+  "description": _desc,
+  "datePublished": noteProps.date,
+  "inLanguage": ("en" if _en else "es"),
+  "image": _imgUrl,
+  "keywords": ((noteProps.tags | join(", ")) if noteProps.tags else ""),
+  "author": { "@type": "Person", "@id": _base + "/#persona", "name": "Víctor Velarde", "url": _base + "/" },
+  "publisher": { "@type": "Person", "@id": _base + "/#persona", "name": "Víctor Velarde", "url": _base + "/" },
+  "isPartOf": { "@type": "WebSite", "@id": _base + "/#sitio", "url": _base + "/", "name": "Víctor Velarde" }
+} -%}
+<script type="application/ld+json">{{ _post | velardevJsonLd | safe }}</script>
 {%- endif %}

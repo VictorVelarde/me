@@ -15,7 +15,7 @@ const ESTILOS = `<style>
   text-decoration: none; border: 1px solid var(--vm-accent);
 }
 .home-cta .home-cta-primary { background: var(--vm-accent); color: var(--vm-bg); }
-.home-cta .home-cta-primary:hover { background: var(--vm-accent-hover); border-color: var(--vm-accent-hover); }
+.home-cta .home-cta-primary:hover { background: var(--vm-accent-hover); border-color: var(--vm-accent-hover); color: var(--vm-bg); }
 .home-cta .home-cta-secondary { color: var(--vm-accent); }
 .home-cta .home-cta-secondary:hover { color: var(--vm-accent-hover); border-color: var(--vm-accent-hover); }
 </style>`;

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3 lenguajes de programación para SIG.md","permalink":"/articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3-lenguajes-de-programacion-para-sig/","title":"3 lenguajes de programación para SIG","tags":["formacion"],"dg-note-properties":{"title":"3 lenguajes de programación para SIG","date":"2015-01-07","categories":["gis"],"tags":["formacion"],"starred":false,"review":true}}
+{"dg-publish":true,"dg-path":"Articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3 lenguajes de programación para SIG.md","permalink":"/articulos/2015-01-07-3-lenguajes-de-programacion-para-sig/3-lenguajes-de-programacion-para-sig/","title":"3 lenguajes de programación para SIG","tags":["formacion"],"dg-note-properties":{"title":"3 lenguajes de programación para SIG","date":"2015-01-07","categories":["gis"],"tags":["formacion"],"starred":false,"review":true,"description":"Qué aprender para trabajar en SIG (SQL, Python y JavaScript) y cómo combinarlos para montar tu propio mix de tecnologías."}}
 ---
 
 

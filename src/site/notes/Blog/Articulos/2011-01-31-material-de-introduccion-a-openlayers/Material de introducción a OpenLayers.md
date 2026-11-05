@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2011-01-31-material-de-introduccion-a-openlayers/Material de introducción a OpenLayers.md","permalink":"/articulos/2011-01-31-material-de-introduccion-a-openlayers/material-de-introduccion-a-open-layers/","title":"Material de introducción a OpenLayers","tags":["curso","openlayers"],"dg-note-properties":{"title":"Material de introducción a OpenLayers","date":"2011-01-31","categories":["gis","opensource"],"tags":["curso","openlayers"],"review":true}}
+{"dg-publish":true,"dg-path":"Articulos/2011-01-31-material-de-introduccion-a-openlayers/Material de introducción a OpenLayers.md","permalink":"/articulos/2011-01-31-material-de-introduccion-a-openlayers/material-de-introduccion-a-open-layers/","title":"Material de introducción a OpenLayers","tags":["curso","openlayers"],"dg-note-properties":{"title":"Material de introducción a OpenLayers","date":"2011-01-31","categories":["gis","opensource"],"tags":["curso","openlayers"],"review":true,"description":"Apuntes de introducción a OpenLayers del curso de Experto en Desarrollo y Gestión de SIG de la Universidad de Cantabria, para quien no programa."}}
 ---
 
 

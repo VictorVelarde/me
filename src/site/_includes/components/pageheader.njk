@@ -1,14 +1,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-{% if metatags %}
-    {% for name, content in metatags %}
-        {% if name.includes("og:") %}
-          <meta property="{{ name }}" content="{{ content }}">
-        {% else %}
-          <meta name="{{ name }}" content="{{ content }}">
-        {% endif %}
-    {% endfor %}
+{% if meta.metatags %}
+{%- if meta.jsonLdString %}
+<script type="application/ld+json">{{ meta.jsonLdString | safe }}</script>
+{% endif -%}
+    {%- for name, content in meta.metatags %}
+        {%- if content is not none and content != '' %}
+          {%- if name.includes("og:") %}
+            <meta property="{{ name }}" content="{{ content }}">
+          {% else %}
+            <meta name="{{ name }}" content="{{ content }}">
+          {% endif %}
+        {%- endif %}
+    {%- endfor %}
 {% endif %}
 
 <script type="importmap">

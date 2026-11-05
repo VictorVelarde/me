@@ -107,6 +107,26 @@ module.exports = async (data) => {
     canvasResetHint: process.env.UI_CANVAS_RESET_HINT || "Double-click to reset",
   };
 
+  const jsonLdData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Víctor Velarde Gutiérrez",
+    url: baseUrl,
+    jobTitle: "Senior Software Engineer",
+    worksFor: {
+      "@type": "Organization",
+      name: "MOGU",
+      url: "https://www.moguplatform.com/",
+    },
+    sameAs: (function () {
+      try {
+        return process.env.SITE_SAMEAS ? JSON.parse(process.env.SITE_SAMEAS) : [];
+      } catch (e) {
+        return [];
+      }
+    })(),
+  };
+
   const meta = {
     env: process.env.ELEVENTY_ENV,
     theme: process.env.THEME,
@@ -122,6 +142,34 @@ module.exports = async (data) => {
     siteBaseUrl: baseUrl,
     styleSettingsCss,
     uiStrings,
+    // --- SEO / IA-crawler meta tags (repo: /me) ---
+    title: process.env.SITE_NAME_HEADER || "Digital Garden",
+    description:
+      process.env.SITE_DESCRIPTION ||
+      "Víctor Velarde — Ingeniero informático senior. IA aplicada a productos, SIG, full-stack y interfaces de producto.",
+    author: process.env.SITE_AUTHOR || "Víctor Velarde Gutiérrez",
+    keywords:
+      process.env.SITE_KEYWORDS ||
+      "IA, genial AI, product, SIG, geografía, full-stack, Next.js, React, SEO",
+    metatags: {
+      "og:title": process.env.SITE_OG_TITLE || process.env.SITE_NAME_HEADER || "Digital Garden",
+      "og:description": process.env.SITE_OG_DESCRIPTION || null,
+      "og:type": "website",
+      "og:url": baseUrl,
+      "og:image": baseUrl,
+      "og:locale": process.env.SITE_OG_LOCALE || (process.env.SITE_MAIN_LANGUAGE === "en" ? "en_US" : "es_ES"),
+      "twitter:card": "summary",
+      "twitter:site": process.env.SITE_NAME_HEADER || "Digital Garden",
+      "twitter:image": baseUrl,
+      "author": process.env.SITE_AUTHOR || "Víctor Velarde Gutiérrez",
+      "keywords": process.env.SITE_KEYWORDS ||
+        "IA, genial AI, product, SIG, geografía, full-stack, Next.js, React, SEO",
+      "robots": "index,follow",
+      "generator": "Eleventy",
+      "theme-color": "#121212",
+    },
+    jsonLd: jsonLdData,
+    jsonLdString: JSON.stringify(jsonLdData),
     buildDate: new Date(),
   };
 

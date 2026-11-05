@@ -9,6 +9,8 @@ eleventyExcludeFromCollections: true
         <url>
             <loc>{{ meta.siteBaseUrl }}{{ page.url | url }}</loc>
             <lastmod>{%if page.data.updated %}{{ page.data.updated | dateToZulu }}{%else%}{{ page.date | dateToZulu }}{%endif%}</lastmod>
+            <priority>{{ page.data.seoPriority | default('0.7') }}</priority>
+            <changefreq>{{ page.data.seoChangefreq | default('weekly') }}</changefreq>
         </url>
         {% endif %}
     {% endfor %}

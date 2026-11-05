@@ -1,0 +1,22 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+User-agent: *
+Allow: /
+
+{% if meta.siteBaseUrl %}Sitemap: {{ meta.siteBaseUrl }}sitemap.xml{% endif %}
+
+# Crawlers de IA / LLM (incluidos indexadores de modelos) — acceso permitido
+User-agent: GPTBot
+Allow: /
+User-agent: ollama
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Bingbot
+Allow: /

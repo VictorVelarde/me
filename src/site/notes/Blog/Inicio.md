@@ -2,14 +2,14 @@
 {"dg-publish":true,"dg-path":"Inicio.md","permalink":"/inicio/","title":"Inicio","tags":["gardenEntry"],"dg-note-properties":{"title":"Inicio","lang":"es","translation":"/home/"}}
 ---
 
-### 👋 Hola, soy Víctor Velarde
+# Hola, soy Víctor Velarde
 **Product Engineer construyendo productos con IA**
 
 ![Fondo.png](/img/user/Blog/Media/Fondo.png)
 
 Construyo software que resuelve problemas reales, con una formación fullstack y gusto por las interfaces y la construcción de producto.
 
-### ✍ Últimos posts
+## Últimos posts
 - [[Blog/Articulos/2026-10-14-tu-trabajo-es-aprender/Con la IA tu trabajo es aprender\|Con la IA tu trabajo es aprender]]
 - [[Blog/Articulos/2026-04-13-programadores-en-simcity/Con la IA los programadores ya vivimos en SimCity\|Con la IA los programadores ya vivimos en SimCity]]
 - [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 01 - El arranque del proyecto\|Promptly 01 - El arranque del proyecto]]
@@ -18,5 +18,5 @@ Construyo software que resuelve problemas reales, con una formación fullstack y
 
 { .block-language-dataview}
 
-### ✉️ Contacto
+## Contacto
 Si me quieres contactar, este es mi correo **victor.velarde@gmail.com** y estos mis perfiles sociales en [linkedin](https://www.linkedin.com/in/victorvelarde/) y [github](https://github.com/VictorVelarde/)

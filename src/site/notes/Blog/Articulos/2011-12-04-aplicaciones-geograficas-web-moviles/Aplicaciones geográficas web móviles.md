@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2011-12-04-aplicaciones-geograficas-web-moviles/Aplicaciones geográficas web móviles.md","permalink":"/articulos/2011-12-04-aplicaciones-geograficas-web-moviles/aplicaciones-geograficas-web-moviles/","title":"Aplicaciones geográficas web móviles","tags":["geoinquietos","jquery","mobile","web"],"dg-note-properties":{"title":"Aplicaciones geográficas web móviles","date":"2011-12-04","categories":["gis","javascript"],"tags":["geoinquietos","jquery","mobile","web"],"review":true,"description":"El desarrollo de aplicaciones web geográficas pensadas para móviles y tablets: presentación para Geoinquietos Cantabria y herramientas."}}
+{"dg-publish":true,"dg-path":"Articulos/2011-12-04-aplicaciones-geograficas-web-moviles/Aplicaciones geográficas web móviles.md","permalink":"/articulos/2011-12-04-aplicaciones-geograficas-web-moviles/aplicaciones-geograficas-web-moviles/","title":"Aplicaciones geográficas web móviles","tags":["geoinquietos","jquery","mobile","web"],"dg-note-properties":{"title":"Aplicaciones geográficas web móviles","date":"2011-12-04","categories":["gis","javascript"],"tags":["geoinquietos","jquery","mobile","web"],"review":true}}
 ---
 
 

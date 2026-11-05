@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 05 - Importación de prompts.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-05-importacion-de-prompts/","title":"Promptly 05 - Importación de prompts","tags":["nextjs","supabase","postgresql","ia"],"dg-note-properties":{"title":"Promptly 05 - Importación de prompts","date":"2025-05-18","categories":["programacion"],"tags":["nextjs","supabase","postgresql","ia"],"review":true,"starred":null,"descripcion":"Promptly 05 - Importación de prompts","description":"Sesión 5 de Promptly: importar prompts desde otras fuentes y configurar el dominio propio del proyecto."}}
+{"dg-publish":true,"dg-path":"Articulos/2025-05-coleccion-promptly/Promptly 05 - Importación de prompts.md","permalink":"/articulos/2025-05-coleccion-promptly/promptly-05-importacion-de-prompts/","title":"Promptly 05 - Importación de prompts","tags":["nextjs","supabase","postgresql","ia"],"dg-note-properties":{"title":"Promptly 05 - Importación de prompts","date":"2025-05-18","categories":["programacion"],"tags":["nextjs","supabase","postgresql","ia"],"review":true,"starred":null,"descripcion":"Promptly 05 - Importación de prompts"}}
 ---
 
 

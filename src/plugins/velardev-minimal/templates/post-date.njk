@@ -1,3 +1,4 @@
 {%- if noteProps and noteProps.date -%}
-<p class="post-date"><time datetime="{{ noteProps.date }}">{{ noteProps.date | velardevFechaCorta(noteProps.lang == "en") }}</time></p>
+{%- set _en = noteProps.lang == "en" -%}
+<p class="post-date"><time datetime="{{ noteProps.date }}">{{ noteProps.date | velardevFechaCorta(_en) }}</time> · {{ "By" if _en else "Por" }} <a href="{{ '/about/' if _en else '/acerca/' }}" rel="author">Víctor Velarde</a></p>
 {%- endif -%}

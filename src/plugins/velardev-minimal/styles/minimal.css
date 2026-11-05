@@ -439,6 +439,8 @@ html[data-theme] .navbar .search-keys code {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.post-date a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.25em; }
+.post-date a:hover { color: var(--vm-text); }
 
 /* The /posts/ list: no bullets and no indent, so titles use the full column width (mostly on phones) */
 .content ul.posts-list { list-style: none; margin: 0.4rem 0 1.6rem; padding: 0; padding-inline-start: 0; }

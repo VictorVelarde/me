@@ -1,0 +1,14 @@
+{% if latestPosts %}
+<section class="latest-posts-section">
+  <h3 class="latest-posts-heading">✍ Últimos posts</h3>
+  <ul class="latest-posts">
+    {% for post in latestPosts %}
+    <li>
+      <a class="latest-posts-title" href="{{ post.url }}">{{ post.title }}</a>
+      <time class="latest-posts-date">{{ post.date }}</time>
+      <p class="latest-posts-excerpt">{{ post.excerpt }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

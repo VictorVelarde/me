@@ -1,13 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <rect width="32" height="32" rx="7" fill="#0a0a0a"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b4254f"/>
+      <stop offset="100%" stop-color="#ff86a5"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="#121211"/>
+  <rect width="32" height="32" rx="7" fill="#fbfaf7" opacity="0"/>
+  <!-- V en el color de acento de tu web (rosa/morado) -->
   <path
     d="M16 6 L25 25 L7 25 Z"
     fill="none"
-    stroke="#00d4ff"
-    stroke-width="3.2"
+    stroke="url(#g)"
+    stroke-width="2.8"
     stroke-linecap="round"
     stroke-linejoin="round"
   />
-  <circle cx="16" cy="10" r="2.4" fill="#f59e0b"/>
-  <circle cx="16" cy="10" r="1.6" fill="#00d4ff"/>
+  <!-- Punto de nodriza (red neuronal / UI dot) -->
+  <circle cx="16" cy="6" r="1.6" fill="#121211"/>
+  <circle cx="16" cy="6" r="1.0" fill="#b4254f"/>
 </svg>

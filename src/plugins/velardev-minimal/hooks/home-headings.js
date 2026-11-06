@@ -42,8 +42,15 @@ function bajarEncabezadosDelCuerpo(html) {
   return html.slice(0, ini) + bajado + html.slice(fin);
 }
 
+// Quitado el título del fichero, el <header> de la portada se queda con el bloque de
+// metadatos (etiquetas) vacío, que ocupa alto POR ENCIMA del <h1> del cuerpo; en el
+// resto de páginas ese bloque va debajo del título. Si está vacío se quita entero para
+// que el titular de la portada arranque a la misma altura que el de las demás.
+const HEADER_VACIO = /<header>\s*<div class="header-meta">\s*<div class="header-tags">\s*<\/div>\s*<\/div>\s*<\/header>/;
+
 function arreglarEncabezados(html) {
   html = html.replace(/(<header>\s*)<h1(?:\s[^>]*)?>[^<]*<\/h1>/, "$1");
+  html = html.replace(HEADER_VACIO, "");
   return arreglarMarca(html);
 }
 

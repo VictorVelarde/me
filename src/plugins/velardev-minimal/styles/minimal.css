@@ -377,6 +377,10 @@ html[data-theme="light"] .navbar .site-logo-dark,
 html[data-theme="dark"] .navbar .site-logo-light { display: none; }
 /* el tema da sombra y esquinas redondeadas a toda <img> en claro; el logo va limpio */
 html[data-theme] .navbar .site-logo { box-shadow: none; border-radius: 0; background: none; }
+/* en móvil el logo (32px por defecto) se queda corto frente al hero y al hueco libre de la barra: +25 % */
+@media (max-width: 800px) {
+  html[data-theme] .navbar .site-logo { height: 40px; }
+}
 .navbar-actions { gap: 8px; }
 html[data-theme] .navbar .search-button {
   margin: 0;

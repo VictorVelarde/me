@@ -546,6 +546,18 @@ html[data-theme="light"] .theme-toggle .icon-sun { display: none; }
   transform-origin: 50% 100%;
 }
 
+/* Portada: la misma imagen con una variante por tema (hooks/home-hero.js sustituye
+   el <img> de Fondo.png por este <p> vacío). Mismo recorte que arriba: la imagen
+   mide 1168x373 y se amplía un 22 % anclada abajo; el marco recorta lo sobrante. */
+.content p.hero-tema {
+  aspect-ratio: 1168 / 373;
+  border-radius: 10px;
+  background: #242426 url("/plugins/velardev-minimal/assets/hero/hero-claro.png") 50% 100% / 122% auto no-repeat;
+}
+html[data-theme="dark"] .content p.hero-tema {
+  background-image: url("/plugins/velardev-minimal/assets/hero/hero-oscuro.png");
+}
+
 /* Typography: no single word alone on the last line of a paragraph, and balanced headings */
 .content p,
 .content li,

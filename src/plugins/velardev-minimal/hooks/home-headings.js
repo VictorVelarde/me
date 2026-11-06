@@ -14,9 +14,14 @@ const { isHome } = require("./_home");
 // dgShowInlineTitle=true es un ajuste global, sin opción por nota. Ese se borra
 // solo en la portada.
 // Va como transform para que sobreviva a las publicaciones desde Obsidian.
+//
+// Solo se toca un <h1> que esté DENTRO de la barra (antes de </nav>). Con el logo
+// en imagen/SVG la barra no lleva <h1>; sin esa guarda el patrón seguía buscando
+// hacia abajo y convertía en <div> el título de la propia página (página sin <h1>
+// y con el título al tamaño del texto).
 function arreglarMarca(html) {
   return html.replace(
-    /(<div class="navbar-inner">[\s\S]*?)<h1((?:\s[^>]*)?)>([^<]*)<\/h1>/,
+    /(<div class="navbar-inner">(?:(?!<\/nav>)[\s\S])*?)<h1((?:\s[^>]*)?)>([^<]*)<\/h1>/,
     '$1<div class="navbar-brand"$2>$3</div>'
   );
 }
@@ -37,8 +42,15 @@ function bajarEncabezadosDelCuerpo(html) {
   return html.slice(0, ini) + bajado + html.slice(fin);
 }
 
+// Quitado el título del fichero, el <header> de la portada se queda con el bloque de
+// metadatos (etiquetas) vacío, que ocupa alto POR ENCIMA del <h1> del cuerpo; en el
+// resto de páginas ese bloque va debajo del título. Si está vacío se quita entero para
+// que el titular de la portada arranque a la misma altura que el de las demás.
+const HEADER_VACIO = /<header>\s*<div class="header-meta">\s*<div class="header-tags">\s*<\/div>\s*<\/div>\s*<\/header>/;
+
 function arreglarEncabezados(html) {
   html = html.replace(/(<header>\s*)<h1(?:\s[^>]*)?>[^<]*<\/h1>/, "$1");
+  html = html.replace(HEADER_VACIO, "");
   return arreglarMarca(html);
 }
 

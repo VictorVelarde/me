@@ -380,7 +380,21 @@ html[data-theme] .navbar .navbar-inner .navbar-brand { line-height: 1; }
 html[data-theme] .navbar .site-logo { box-shadow: none; border-radius: 0; background: none; aspect-ratio: 7775 / 2775; }
 .site-logo .logo-tinta { fill: var(--vm-logo-tinta); }
 .site-logo .logo-acento { fill: var(--vm-logo-acento); }
-.site-logo .logo-subrayado { stroke: var(--vm-logo-acento); }
+/* el subrayado es una caja HTML (no un trazo del SVG): el navegador la ajusta a píxeles enteros y sale nítida.
+   Medidas en % del SVG (viewBox 7775x2775): de x=4438 a 7605, centrada en y=2290, grosor 80 */
+.site-logo-wrap { position: relative; display: inline-block; line-height: 0; vertical-align: top; }
+.site-logo-wrap { margin: var(--dg-logo-margin); }
+/* el margen de la plantilla va en el contenedor: si se queda en el SVG, los % del subrayado se descuadran */
+html[data-theme] .navbar .site-logo-wrap .site-logo { display: block; margin: 0; }
+.site-logo-wrap .logo-subrayado {
+  position: absolute;
+  left: 57.08%;
+  width: 40.73%;
+  top: 81.08%;
+  height: 2.88%;
+  min-height: 1px;
+  background: var(--vm-logo-acento);
+}
 /* en móvil el logo (32px por defecto) se queda corto frente al hero y al hueco libre de la barra: +25 % */
 @media (max-width: 800px) {
   html[data-theme] .navbar .site-logo { height: 40px; }

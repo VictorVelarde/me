@@ -14,9 +14,14 @@ const { isHome } = require("./_home");
 // dgShowInlineTitle=true es un ajuste global, sin opción por nota. Ese se borra
 // solo en la portada.
 // Va como transform para que sobreviva a las publicaciones desde Obsidian.
+//
+// Solo se toca un <h1> que esté DENTRO de la barra (antes de </nav>). Con el logo
+// en imagen/SVG la barra no lleva <h1>; sin esa guarda el patrón seguía buscando
+// hacia abajo y convertía en <div> el título de la propia página (página sin <h1>
+// y con el título al tamaño del texto).
 function arreglarMarca(html) {
   return html.replace(
-    /(<div class="navbar-inner">[\s\S]*?)<h1((?:\s[^>]*)?)>([^<]*)<\/h1>/,
+    /(<div class="navbar-inner">(?:(?!<\/nav>)[\s\S])*?)<h1((?:\s[^>]*)?)>([^<]*)<\/h1>/,
     '$1<div class="navbar-brand"$2>$3</div>'
   );
 }

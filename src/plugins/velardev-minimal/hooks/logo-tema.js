@@ -1,21 +1,40 @@
-// Logo de la barra superior: una variante por tema.
+// Logo de la barra superior: SVG en línea, un solo dibujo para los dos temas.
 //
-// La plantilla pinta un único <img class="site-logo" src="/logo.svg"> (el logo
-// oscuro, que es el de src/site/logo.svg). El selector de tema solo cambia
-// data-theme en <html>, y un <img> no puede reaccionar a eso, así que aquí se
-// duplica: el logo oscuro (/logo.svg) y el claro (assets/brand/). Un par de
-// reglas de minimal.css muestran el que toca (.site-logo-dark / .site-logo-light).
-const LOGO_CLARO = "/plugins/velardev-minimal/assets/brand/velardev-logo-claro.svg";
+// La plantilla pinta un <img class="site-logo" src="/logo.svg">. Como <img> el
+// navegador lo rasteriza (en Safari/iOS se ve dentado) y además no puede reaccionar
+// al tema, que solo cambia data-theme en <html>. Aquí se sustituye por el mismo
+// SVG pegado en el HTML: se renderiza como vector y sus colores salen de
+// --vm-logo-tinta / --vm-logo-acento (minimal.css), que cambian con el tema.
+//
+// La fuente del dibujo es assets/brand/velardev-logo-claro.svg; sus dos colores
+// se sustituyen por clases (.logo-tinta, .logo-acento, .logo-subrayado).
+const fs = require("fs");
+const path = require("path");
 
-const IMG_LOGO = /<img class="site-logo" src="([^"]+)" alt="([^"]*)"\s*\/?>/;
+const SVG_FUENTE = path.join(__dirname, "..", "assets", "brand", "velardev-logo-claro.svg");
+const TINTA = "#181715";
+const ACENTO = "#b52550";
+
+const IMG_LOGO = /<img class="site-logo" src="[^"]+" alt="([^"]*)"\s*\/?>/;
+
+let svgBase;
+function svgEnLinea() {
+  if (svgBase) return svgBase;
+  svgBase = fs
+    .readFileSync(SVG_FUENTE, "utf8")
+    .trim()
+    // se dimensiona por CSS; el título y la descripción pasan a aria-label (sus id se repetirían)
+    .replace(/<svg[^>]*>/, '<svg class="site-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7775 2775" role="img" aria-label="__ALT__">')
+    .replace(/<title[\s\S]*?<\/title>/, "")
+    .replace(/<desc[\s\S]*?<\/desc>/, "")
+    .replace(new RegExp(`stroke="${ACENTO}"`, "g"), 'class="logo-subrayado"')
+    .replace(new RegExp(`fill="${ACENTO}"`, "g"), 'class="logo-acento"')
+    .replace(new RegExp(`fill="${TINTA}"`, "g"), 'class="logo-tinta"');
+  return svgBase;
+}
 
 function logoPorTema(html) {
-  return html.replace(
-    IMG_LOGO,
-    (_, src, alt) =>
-      `<img class="site-logo site-logo-dark" src="${src}" alt="${alt}">` +
-      `<img class="site-logo site-logo-light" src="${LOGO_CLARO}" alt="${alt}">`
-  );
+  return html.replace(IMG_LOGO, (_, alt) => svgEnLinea().replace("__ALT__", alt));
 }
 
 module.exports = {

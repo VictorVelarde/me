@@ -27,6 +27,8 @@ html[data-theme="light"] body.theme-light {
   --vm-border: #e3dfd4;
   --vm-accent: #b4254f;
   --vm-accent-hover: #8f1c3e;
+  --vm-logo-tinta: #181715;
+  --vm-logo-acento: #b52550;
 }
 html[data-theme="dark"] body.theme-dark {
   --vm-bg: #121211;
@@ -36,6 +38,8 @@ html[data-theme="dark"] body.theme-dark {
   --vm-border: #2b2a27;
   --vm-accent: #ff86a5;
   --vm-accent-hover: #ffb0c4;
+  --vm-logo-tinta: #e9e6df;
+  --vm-logo-acento: #ff86a5;
 }
 
 html[data-theme="light"] { background: #fbfaf7; }
@@ -372,11 +376,11 @@ html[data-theme] .navbar .navbar-inner .navbar-brand { line-height: 1; }
 @media (max-width: 800px) {
   html[data-theme] .navbar .navbar-inner .navbar-brand { font-size: var(--dg-navbar-title-size-mobile, 18px); }
 }
-/* un logo por tema (los pinta hooks/logo-tema.js) */
-html[data-theme="light"] .navbar .site-logo-dark,
-html[data-theme="dark"] .navbar .site-logo-light { display: none; }
-/* el tema da sombra y esquinas redondeadas a toda <img> en claro; el logo va limpio */
-html[data-theme] .navbar .site-logo { box-shadow: none; border-radius: 0; background: none; }
+/* el logo es un SVG en línea (lo pinta hooks/logo-tema.js): sus colores siguen al tema */
+html[data-theme] .navbar .site-logo { box-shadow: none; border-radius: 0; background: none; aspect-ratio: 7775 / 2775; }
+.site-logo .logo-tinta { fill: var(--vm-logo-tinta); }
+.site-logo .logo-acento { fill: var(--vm-logo-acento); }
+.site-logo .logo-subrayado { stroke: var(--vm-logo-acento); }
 /* en móvil el logo (32px por defecto) se queda corto frente al hero y al hueco libre de la barra: +25 % */
 @media (max-width: 800px) {
   html[data-theme] .navbar .site-logo { height: 40px; }

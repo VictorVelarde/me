@@ -129,6 +129,16 @@ body.no-filetree .content {
     font-size: 1.18rem;
   }
 }
+/* En el móvil la plantilla base ya pone 24px de margen lateral en el body
+   (--file-margins), así que los 24px de .content se sumaban: 48px por lado y
+   una columna de solo 279px en un móvil de 375px. Aquí basta con el del body,
+   que además deja el texto alineado con el logo y el menú. */
+@media (max-width: 600px) {
+  body.no-filetree .content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
 /* ---------- Headings ---------- */
 

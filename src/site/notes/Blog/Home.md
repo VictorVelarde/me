@@ -10,11 +10,11 @@
 I build software that solves real problems, with a fullstack background and a strong interest in designing interfaces and building products.
 
 ## Latest posts
+- [[Blog/Articulos/2026-11-11-la-muerte-de-la-interfaz/La muerte de la interfaz a manos de la IA\|La muerte de la interfaz a manos de la IA]]
 - [[Blog/Articulos/2026-10-14-tu-trabajo-es-aprender/Con la IA tu trabajo es aprender\|Con la IA tu trabajo es aprender]]
 - [[Blog/Articulos/2026-04-13-programadores-en-simcity/Con la IA los programadores ya vivimos en SimCity\|Con la IA los programadores ya vivimos en SimCity]]
 - [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 01 - El arranque del proyecto\|Promptly 01 - El arranque del proyecto]]
 - [[Blog/Articulos/2025-02-19-herramientas-gestion-conocimiento/Obsidian como herramienta para un cerebro digital\|Obsidian como herramienta para un cerebro digital]]
-- [[Blog/Articulos/2026-11-11-la-muerte-de-la-interfaz/La muerte de la interfaz a manos de la IA\|La muerte de la interfaz a manos de la IA]]
 
 { .block-language-dataview}
 

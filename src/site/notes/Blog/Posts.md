@@ -2,6 +2,7 @@
 {"dg-publish":true,"dg-path":"Posts.md","permalink":"/posts/","dg-note-properties":{}}
 ---
 
+- [[Blog/Articulos/2026-11-11-la-muerte-de-la-interfaz/La muerte de la interfaz a manos de la IA\|La muerte de la interfaz a manos de la IA]]: 2026-11-11
 - [[Blog/Articulos/2026-10-14-tu-trabajo-es-aprender/Con la IA tu trabajo es aprender\|Con la IA tu trabajo es aprender]]: 2026-10-14
 - [[Blog/Articulos/2026-04-13-programadores-en-simcity/Con la IA los programadores ya vivimos en SimCity\|Con la IA los programadores ya vivimos en SimCity]]: 2026-04-13
 - [[Blog/Articulos/2025-05-coleccion-promptly/Promptly 07 - Perfil y licencia\|Promptly 07 - Perfil y licencia]]: 2025-05-20
@@ -33,6 +34,5 @@
 - [[Blog/Articulos/2009-11-09-descarga-de-ficheros-desde-web-coverage-service-wcs/Descarga de ficheros desde Web Coverage Service (WCS)\|Descarga de ficheros desde Web Coverage Service (WCS)]]: 2009-11-09
 - [[Blog/Articulos/2009-10-03-conferenciaesri2009/Conferencia de usuarios ESRI España 2009\|Conferencia de usuarios ESRI España 2009]]: 2009-10-03
 - [[Blog/Articulos/2009-02-02-shp2geojson/Cómo convertir un shapefile a geojson\|Cómo convertir un shapefile a geojson]]: 2009-02-02
-- [[Blog/Articulos/2026-11-11-la-muerte-de-la-interfaz/La muerte de la interfaz a manos de la IA\|La muerte de la interfaz a manos de la IA]]: \-
 
 { .block-language-dataview}

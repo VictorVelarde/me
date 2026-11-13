@@ -108,4 +108,15 @@
   "isPartOf": { "@type": "WebSite", "@id": _base + "/#sitio", "url": _base + "/", "name": "Víctor Velarde" }
 } -%}
 <script type="application/ld+json">{{ _post | velardevJsonLd | safe }}</script>
+{#- Migas de pan del post (Inicio > Posts > título), con las URL reales de la portada y del índice. -#}
+{%- set _crumbs = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": _base + "/" },
+    { "@type": "ListItem", "position": 2, "name": "Posts", "item": _base + "/posts/" },
+    { "@type": "ListItem", "position": 3, "name": (title or page.fileSlug), "item": _url }
+  ]
+} -%}
+<script type="application/ld+json">{{ _crumbs | velardevJsonLd | safe }}</script>
 {%- endif %}

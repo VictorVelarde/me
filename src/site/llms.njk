@@ -1,0 +1,35 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+{%- set _base = meta.siteBaseUrl.replace(r/\/+$/, "") -%}
+{%- set _posts = [] -%}
+{%- for p in collections.all -%}
+{%- if p.url.startsWith("/articulos/") and not p.data.hide and p.data.noteProps and p.data.noteProps.date -%}
+{%- set _posts = (_posts.push(p), _posts) -%}
+{%- endif -%}
+{%- endfor -%}
+# Víctor Velarde
+
+> Product Engineer construyendo productos con IA. Senior Software Engineer en MOGU, en remoto desde Santander (España). Este sitio es mi blog personal: IA aplicada a producto, agentes, sistemas de información geográfica (SIG) y desarrollo full-stack.
+
+Contenido en español; la presentación, «Acerca de» y la carrera tienen versión en inglés.
+
+## Sobre mí
+
+- [Inicio]({{ _base }}/): quién soy y en qué trabajo
+- [Acerca de]({{ _base }}/acerca/): biografía y contexto actual
+- [Carrera]({{ _base }}/carrera/): trayectoria profesional (no es un CV; el perfil completo está en LinkedIn)
+
+## Artículos
+
+{% for p in _posts | sort(true, false, "data.noteProps.date") -%}
+- [{{ p.data.title }}]({{ _base }}{{ p.url }}): {{ p.data.noteProps.date }}
+{% endfor %}
+## Optional
+
+- [Índice de posts]({{ _base }}/posts/)
+- [Home]({{ _base }}/home/), [About]({{ _base }}/about/), [Career]({{ _base }}/career/): versión en inglés
+- [Feed Atom]({{ _base }}/feed.xml)
+- [Sitemap]({{ _base }}/sitemap.xml)
+- [LinkedIn](https://www.linkedin.com/in/victorvelarde/) · [GitHub](https://github.com/VictorVelarde/)

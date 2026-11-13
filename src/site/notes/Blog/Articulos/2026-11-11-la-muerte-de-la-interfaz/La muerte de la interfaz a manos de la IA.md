@@ -9,7 +9,7 @@ Es lo que mucha gente proclama: la muerte del «caso de uso», la muerte de la i
 
 Como en casi todo lo importante, depende del contexto, y no hay una respuesta universal. Pero creo que sí tengo una respuesta corta: el chat es un buen punto de partida y un mal punto de llegada. En muchos casos se quedará corto. 
 
-En este artículo explico cuáles son para mí las claves y hablo de los cinco niveles o tipos de interfaz que observo en el contexto de aplicaciones IA.
+En este artículo explico cuáles son para mí las claves y hablo de cinco niveles o tipos de interfaz que observo en el contexto de aplicaciones IA.
 
 
 ## Lo que tiene de cierto

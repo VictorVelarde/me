@@ -4,6 +4,7 @@
     "buildCommand": "npm run build",
     "devCommand": "npm run start",
     "routes": [
+        { "src": "/articulos/2026-04-13-programadores-en-simcity/con-la-ia-los-programadores-ya-vivimos-en-sim-city/?", "status": 302, "headers": { "Location": "/articulos/programadores-simcity/" } },
         { "handle": "filesystem" },
         { "src": "/(.*)", "status": 404, "dest": "/404" }
       ]

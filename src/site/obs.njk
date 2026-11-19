@@ -7,23 +7,34 @@ eleventyExcludeFromCollections: true
 <html lang="es">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
 <title>Abriendo Obsidian…</title>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; gap: 20px; text-align: center; padding: 0 20px; }
+  #link { display: inline-block; padding: 14px 28px; background: #7c3aed; color: #fff; border-radius: 10px; text-decoration: none; font-size: 1.1em; }
+  #nota { color: #666; font-size: .9em; word-break: break-word; }
+</style>
+</head>
+<body>
+<p>Abriendo Obsidian…</p>
+<a id="link" href="#">Abrir en Obsidian</a>
+<p id="nota"></p>
 <script>
   var p = new URLSearchParams(window.location.search);
   var file = p.get('file');
   var vault = p.get('vault') || 'VVG';
   if (file) {
-    window.location = 'obsidian://open?vault=' + encodeURIComponent(vault) + '&file=' + decodeURIComponent(file);
-  }
-</script>
-</head>
-<body>
-<p>Abriendo Obsidian… Si no se abre, <a id="link">haz clic aquí</a>.</p>
-<script>
-  if (file) {
-    document.getElementById('link').href =
-      'obsidian://open?vault=' + encodeURIComponent(vault) + '&file=' + decodeURIComponent(file);
+    // p.get() ya devuelve el valor decodificado: se vuelve a codificar entero
+    // (espacios, paréntesis, &, #, %) para que el URI sea válido.
+    var uri = 'obsidian://open?vault=' + encodeURIComponent(vault) + '&file=' + encodeURIComponent(file);
+    document.getElementById('link').href = uri;
+    document.getElementById('nota').textContent = file;
+    // Intento automático; Chrome lo bloquea a veces sin un clic previo, por eso el botón.
+    window.location.href = uri;
+  } else {
+    document.getElementById('link').style.display = 'none';
+    document.getElementById('nota').textContent = 'Falta el parámetro file.';
   }
 </script>
 </body>
